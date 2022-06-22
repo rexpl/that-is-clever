@@ -1,0 +1,2291 @@
+2022-05-09 15:56:45 pid:1258 Workerman[clever.php] start in DEBUG mode
+2022-05-09 15:58:26 pid:1258 Workerman[clever.php] stopping ...
+2022-05-09 15:58:26 pid:1258 Workerman[clever.php] has been stopped
+2022-05-09 15:58:29 pid:1266 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:00:29 pid:1266 Workerman[clever.php] stopping ...
+2022-05-09 16:00:30 pid:1266 Workerman[clever.php] has been stopped
+2022-05-09 16:00:33 pid:1292 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:02:35 pid:1292 Workerman[clever.php] stopping ...
+2022-05-09 16:02:35 pid:1292 Workerman[clever.php] has been stopped
+2022-05-09 16:02:44 pid:1297 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:03:17 pid:1299 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:05:47 pid:1307 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:07:58 pid:1307 Workerman[clever.php] stopping ...
+2022-05-09 16:07:58 pid:1307 Workerman[clever.php] has been stopped
+2022-05-09 16:09:42 pid:1451 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:10:45 pid:1451 Workerman[clever.php] stopping ...
+2022-05-09 16:10:45 pid:1451 Workerman[clever.php] has been stopped
+2022-05-09 16:10:46 pid:1458 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:11:13 pid:1458 Workerman[clever.php] stopping ...
+2022-05-09 16:11:13 pid:1458 Workerman[clever.php] has been stopped
+2022-05-09 16:11:19 pid:1462 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:12:39 pid:1462 Workerman[clever.php] stopping ...
+2022-05-09 16:12:39 pid:1462 Workerman[clever.php] has been stopped
+2022-05-09 16:26:20 pid:1493 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:35:50 pid:1493 Workerman[clever.php] stopping ...
+2022-05-09 16:35:50 pid:1493 Workerman[clever.php] has been stopped
+2022-05-09 16:37:23 pid:1530 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:37:28 pid:1530 Workerman[clever.php] stopping ...
+2022-05-09 16:37:28 pid:1530 Workerman[clever.php] has been stopped
+2022-05-09 16:37:43 pid:1546 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:39:12 pid:1546 Workerman[clever.php] stopping ...
+2022-05-09 16:39:12 pid:1546 Workerman[clever.php] has been stopped
+2022-05-09 16:39:14 pid:1624 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:39:48 pid:1624 Workerman[clever.php] stopping ...
+2022-05-09 16:39:48 pid:1624 Workerman[clever.php] has been stopped
+2022-05-09 16:40:00 pid:1630 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:42:45 pid:1630 Workerman[clever.php] stopping ...
+2022-05-09 16:42:45 pid:1630 Workerman[clever.php] has been stopped
+2022-05-09 16:42:48 pid:1636 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:43:11 pid:1636 Workerman[clever.php] stopping ...
+2022-05-09 16:43:11 pid:1636 Workerman[clever.php] has been stopped
+2022-05-09 16:43:13 pid:1641 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:54:17 pid:1641 Workerman[clever.php] stopping ...
+2022-05-09 16:54:17 pid:1641 Workerman[clever.php] has been stopped
+2022-05-09 16:54:20 pid:1678 Workerman[clever.php] start in DEBUG mode
+2022-05-09 16:59:47 pid:1678 Workerman[clever.php] stopping ...
+2022-05-09 16:59:47 pid:1678 Workerman[clever.php] has been stopped
+2022-05-09 16:59:51 pid:1690 Workerman[clever.php] start in DEBUG mode
+2022-05-09 17:08:06 pid:1690 Workerman[clever.php] stopping ...
+2022-05-09 17:08:06 pid:1690 Workerman[clever.php] has been stopped
+2022-05-09 17:10:56 pid:1793 Workerman[clever.php] start in DEBUG mode
+2022-05-09 17:11:40 pid:1793 Workerman[clever.php] stopping ...
+2022-05-09 17:11:40 pid:1793 Workerman[clever.php] has been stopped
+2022-05-09 17:11:41 pid:1799 Workerman[clever.php] start in DEBUG mode
+2022-05-09 17:12:44 pid:1799 Workerman[clever.php] stopping ...
+2022-05-09 17:12:44 pid:1799 Workerman[clever.php] has been stopped
+2022-05-09 17:12:46 pid:1806 Workerman[clever.php] start in DEBUG mode
+2022-05-09 17:13:10 pid:1806 Workerman[clever.php] stopping ...
+2022-05-09 17:13:10 pid:1806 Workerman[clever.php] has been stopped
+2022-05-09 17:13:11 pid:1810 Workerman[clever.php] start in DEBUG mode
+2022-05-09 17:13:22 pid:1810 Workerman[clever.php] stopping ...
+2022-05-09 17:13:22 pid:1810 Workerman[clever.php] has been stopped
+2022-05-09 17:13:37 pid:1814 Workerman[clever.php] start in DEBUG mode
+2022-05-09 17:13:52 pid:1814 Workerman[clever.php] stopping ...
+2022-05-09 17:13:52 pid:1814 Workerman[clever.php] has been stopped
+2022-05-09 17:13:53 pid:1817 Workerman[clever.php] start in DEBUG mode
+2022-05-09 17:15:05 pid:1817 Workerman[clever.php] stopping ...
+2022-05-09 17:15:05 pid:1817 Workerman[clever.php] has been stopped
+2022-05-09 17:15:11 pid:1821 Workerman[clever.php] start in DEBUG mode
+2022-05-09 17:15:50 pid:1821 Workerman[clever.php] stopping ...
+2022-05-09 17:15:50 pid:1821 Workerman[clever.php] has been stopped
+2022-05-09 17:15:52 pid:1829 Workerman[clever.php] start in DEBUG mode
+2022-05-09 17:15:53 pid:1829 Workerman[clever.php] stopping ...
+2022-05-09 17:15:53 pid:1829 Workerman[clever.php] has been stopped
+2022-05-09 17:32:42 pid:1892 Workerman[clever.php] start in DEBUG mode
+2022-05-09 18:26:27 pid:1893 Error: Call to a member function send() on null in /project/clever/clever.php:53
+Stack trace:
+#0 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#1 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#2 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#3 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /project/clever/clever.php(62): Workerman\Worker::runAll()
+#8 {main}
+2022-05-09 18:26:27 pid:1892 worker[none:1893] exit with status 64000
+2022-05-09 18:26:35 pid:1892 Workerman[clever.php] stopping ...
+2022-05-09 18:26:35 pid:1892 Workerman[clever.php] has been stopped
+2022-05-09 18:27:52 pid:2105 Workerman[clever.php] start in DEBUG mode
+2022-05-09 18:28:30 pid:2106 Error: Call to a member function send() on null in /project/clever/clever.php:53
+Stack trace:
+#0 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#1 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#2 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#3 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /project/clever/clever.php(62): Workerman\Worker::runAll()
+#8 {main}
+2022-05-09 18:28:30 pid:2105 worker[none:2106] exit with status 64000
+2022-05-09 18:28:35 pid:2105 Workerman[clever.php] stopping ...
+2022-05-09 18:28:35 pid:2105 Workerman[clever.php] has been stopped
+2022-05-10 13:51:56 pid:5350 Workerman[clever.php] start in DEBUG mode
+2022-05-10 13:52:07 pid:5350 Workerman[clever.php] stopping ...
+2022-05-10 13:52:07 pid:5350 Workerman[clever.php] has been stopped
+2022-05-10 13:54:41 pid:5360 Workerman[clever.php] start in DEBUG mode
+2022-05-10 13:54:47 pid:5360 Workerman[clever.php] stopping ...
+2022-05-10 13:54:47 pid:5360 Workerman[clever.php] has been stopped
+2022-05-10 13:55:03 pid:5362 Workerman[clever.php] start in DEBUG mode
+2022-05-10 14:33:40 pid:5362 Workerman[clever.php] stopping ...
+2022-05-10 14:33:40 pid:5362 Workerman[clever.php] has been stopped
+2022-05-10 15:05:59 pid:5621 Workerman[clever.php] start in DEBUG mode
+2022-05-10 15:07:27 pid:5629 Workerman[clever.php] start in DEBUG mode
+2022-05-10 15:07:45 pid:5630 Workerman[clever.php] stop 
+2022-05-10 15:07:45 pid:5630 Workerman[clever.php] not run
+2022-05-10 15:07:49 pid:5631 Workerman[clever.php] start in DEBUG mode
+2022-05-10 15:08:39 pid:5633 Workerman[clever.php] start in DEBUG mode
+2022-05-10 15:08:48 pid:5622 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:39
+Stack trace:
+#0 /project/clever/clever.php(39): PDOStatement->execute()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#10 /project/clever/clever.php(90): Workerman\Worker::runAll()
+#11 {main}
+2022-05-10 15:09:04 pid:5636 Workerman[clever.php] start in DEBUG mode
+2022-05-10 15:10:01 pid:5636 Workerman[clever.php] stopping ...
+2022-05-10 15:10:01 pid:5636 Workerman[clever.php] has been stopped
+2022-05-10 15:10:20 pid:5719 Workerman[clever.php] start in DEBUG mode
+2022-05-10 15:14:27 pid:5719 Workerman[clever.php] stopping ...
+2022-05-10 15:14:27 pid:5719 Workerman[clever.php] has been stopped
+2022-05-10 15:14:41 pid:5755 Workerman[clever.php] start in DEBUG mode
+2022-05-10 17:32:55 pid:5755 Workerman[clever.php] stopping ...
+2022-05-10 17:32:55 pid:5755 Workerman[clever.php] has been stopped
+2022-05-10 17:32:57 pid:5953 Workerman[clever.php] start in DEBUG mode
+2022-05-10 17:36:16 pid:5953 Workerman[clever.php] stopping ...
+2022-05-10 17:36:16 pid:5953 Workerman[clever.php] has been stopped
+2022-05-10 17:36:17 pid:5962 Workerman[clever.php] start in DEBUG mode
+2022-05-10 18:07:43 pid:5962 Workerman[clever.php] stopping ...
+2022-05-10 18:07:43 pid:5962 Workerman[clever.php] has been stopped
+2022-05-10 18:08:06 pid:6071 Workerman[clever.php] start in DEBUG mode
+2022-05-10 20:42:01 pid:6071 Workerman[clever.php] stopping ...
+2022-05-10 20:42:01 pid:6071 Workerman[clever.php] has been stopped
+2022-05-11 06:47:11 pid:7377 Workerman[clever.php] start in DEBUG mode
+2022-05-11 07:01:59 pid:7377 Workerman[clever.php] stopping ...
+2022-05-11 07:01:59 pid:7377 Workerman[clever.php] has been stopped
+2022-05-11 07:02:00 pid:7410 Workerman[clever.php] start in DEBUG mode
+2022-05-11 07:02:04 pid:7411 Error: Call to a member function fetch() on bool in /project/clever/clever.php:48
+Stack trace:
+#0 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#2 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#3 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#4 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#9 /project/clever/clever.php(120): Workerman\Worker::runAll()
+#10 {main}
+2022-05-11 07:02:04 pid:7410 worker[none:7411] exit with status 64000
+2022-05-11 07:09:25 pid:7410 Workerman[clever.php] stopping ...
+2022-05-11 07:09:25 pid:7410 Workerman[clever.php] has been stopped
+2022-05-11 07:09:45 pid:7501 Workerman[clever.php] start in DEBUG mode
+2022-05-11 07:11:33 pid:7501 Workerman[clever.php] stopping ...
+2022-05-11 07:11:33 pid:7501 Workerman[clever.php] has been stopped
+2022-05-11 12:14:51 pid:8884 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:17:09 pid:8884 Workerman[clever.php] stopping ...
+2022-05-11 12:17:09 pid:8884 Workerman[clever.php] has been stopped
+2022-05-11 12:17:10 pid:8898 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:17:34 pid:8898 Workerman[clever.php] stopping ...
+2022-05-11 12:17:34 pid:8898 Workerman[clever.php] has been stopped
+2022-05-11 12:17:38 pid:8902 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:17:55 pid:8902 Workerman[clever.php] stopping ...
+2022-05-11 12:17:55 pid:8902 Workerman[clever.php] has been stopped
+2022-05-11 12:18:01 pid:8907 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:20:20 pid:8907 Workerman[clever.php] stopping ...
+2022-05-11 12:20:20 pid:8907 Workerman[clever.php] has been stopped
+2022-05-11 12:20:26 pid:8918 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:21:05 pid:8918 Workerman[clever.php] stopping ...
+2022-05-11 12:21:05 pid:8918 Workerman[clever.php] has been stopped
+2022-05-11 12:21:17 pid:8926 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:23:02 pid:8926 Workerman[clever.php] stopping ...
+2022-05-11 12:23:02 pid:8926 Workerman[clever.php] has been stopped
+2022-05-11 12:23:03 pid:8933 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:26:08 pid:8933 Workerman[clever.php] stopping ...
+2022-05-11 12:26:08 pid:8933 Workerman[clever.php] has been stopped
+2022-05-11 12:26:10 pid:8941 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:26:58 pid:8941 Workerman[clever.php] stopping ...
+2022-05-11 12:26:58 pid:8941 Workerman[clever.php] has been stopped
+2022-05-11 12:27:12 pid:8947 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:32:21 pid:8947 Workerman[clever.php] stopping ...
+2022-05-11 12:32:21 pid:8947 Workerman[clever.php] has been stopped
+2022-05-11 12:32:29 pid:8967 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:35:23 pid:9430 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:35:23 pid:9430 Workerman[clever.php] already running
+2022-05-11 12:35:29 pid:8967 Workerman[clever.php] stopping ...
+2022-05-11 12:35:29 pid:8967 Workerman[clever.php] has been stopped
+2022-05-11 12:36:07 pid:9432 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:42:04 pid:9432 Workerman[clever.php] stopping ...
+2022-05-11 12:42:04 pid:9432 Workerman[clever.php] has been stopped
+2022-05-11 12:42:08 pid:9566 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:42:12 pid:9566 Workerman[clever.php] stopping ...
+2022-05-11 12:42:12 pid:9566 Workerman[clever.php] has been stopped
+2022-05-11 12:42:30 pid:9569 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:43:59 pid:9569 Workerman[clever.php] stopping ...
+2022-05-11 12:43:59 pid:9569 Workerman[clever.php] has been stopped
+2022-05-11 12:44:01 pid:9579 Workerman[clever.php] start in DEBUG mode
+2022-05-11 12:46:52 pid:9579 Workerman[clever.php] stopping ...
+2022-05-11 12:46:52 pid:9579 Workerman[clever.php] has been stopped
+2022-05-11 14:12:24 pid:9767 Workerman[clever.php] start in DEBUG mode
+2022-05-11 14:34:39 pid:9767 Workerman[clever.php] stopping ...
+2022-05-11 14:34:39 pid:9767 Workerman[clever.php] has been stopped
+2022-05-11 14:34:47 pid:9835 Workerman[clever.php] start in DEBUG mode
+2022-05-11 15:21:17 pid:9835 Workerman[clever.php] stopping ...
+2022-05-11 15:21:17 pid:9835 Workerman[clever.php] has been stopped
+2022-05-11 15:21:18 pid:10102 Workerman[clever.php] start in DEBUG mode
+2022-05-11 18:20:32 pid:10102 Workerman[clever.php] stopping ...
+2022-05-11 18:20:32 pid:10102 worker[none:10103] exit with status 65280
+2022-05-11 18:20:32 pid:10102 Workerman[clever.php] has been stopped
+2022-05-12 06:36:53 pid:11769 Workerman[clever.php] start in DEBUG mode
+2022-05-12 06:54:46 pid:11769 Workerman[clever.php] stopping ...
+2022-05-12 06:54:46 pid:11769 Workerman[clever.php] has been stopped
+2022-05-12 06:54:46 pid:23048 Workerman[clever.php] start in DEBUG mode
+2022-05-12 07:08:30 pid:23048 Workerman[clever.php] stopping ...
+2022-05-12 07:08:30 pid:23048 Workerman[clever.php] stopping ...
+2022-05-12 07:08:30 pid:23048 worker[none:23049] exit with status 65280
+2022-05-12 07:08:30 pid:23048 Workerman[clever.php] has been stopped
+2022-05-12 09:35:52 pid:1592 Workerman[clever.php] start in DEBUG mode
+2022-05-12 12:26:19 pid:1592 Workerman[clever.php] stopping ...
+2022-05-12 12:26:19 pid:1592 Workerman[clever.php] has been stopped
+2022-05-12 12:26:20 pid:2279 Workerman[clever.php] start in DEBUG mode
+2022-05-12 14:07:05 pid:2279 Workerman[clever.php] stopping ...
+2022-05-12 14:07:05 pid:2279 Workerman[clever.php] has been stopped
+2022-05-12 14:07:06 pid:2738 Workerman[clever.php] start in DEBUG mode
+2022-05-12 16:07:22 pid:2738 Workerman[clever.php] stopping ...
+2022-05-12 16:07:22 pid:2738 Workerman[clever.php] has been stopped
+2022-05-12 16:46:09 pid:3607 Workerman[clever.php] start in DEBUG mode
+2022-05-13 07:51:15 pid:3607 Workerman[clever.php] stopping ...
+2022-05-13 07:51:15 pid:3607 Workerman[clever.php] has been stopped
+2022-05-13 08:10:32 pid:5240 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:11:22 pid:5240 Workerman[clever.php] stopping ...
+2022-05-13 08:11:22 pid:5240 Workerman[clever.php] has been stopped
+2022-05-13 08:11:22 pid:5245 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:12:03 pid:5245 Workerman[clever.php] stopping ...
+2022-05-13 08:12:03 pid:5245 Workerman[clever.php] has been stopped
+2022-05-13 08:12:04 pid:5248 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:12:41 pid:5248 Workerman[clever.php] stopping ...
+2022-05-13 08:12:41 pid:5248 Workerman[clever.php] has been stopped
+2022-05-13 08:13:30 pid:5254 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:14:14 pid:5254 Workerman[clever.php] stopping ...
+2022-05-13 08:14:14 pid:5254 Workerman[clever.php] has been stopped
+2022-05-13 08:14:15 pid:5258 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:14:53 pid:5258 Workerman[clever.php] stopping ...
+2022-05-13 08:14:53 pid:5258 Workerman[clever.php] has been stopped
+2022-05-13 08:14:54 pid:5263 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:15:04 pid:5263 Workerman[clever.php] stopping ...
+2022-05-13 08:15:04 pid:5263 Workerman[clever.php] has been stopped
+2022-05-13 08:15:16 pid:5267 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:16:17 pid:5267 Workerman[clever.php] stopping ...
+2022-05-13 08:16:17 pid:5267 Workerman[clever.php] has been stopped
+2022-05-13 08:16:18 pid:5272 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:16:46 pid:5272 Workerman[clever.php] stopping ...
+2022-05-13 08:16:46 pid:5272 Workerman[clever.php] has been stopped
+2022-05-13 08:16:47 pid:5277 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:17:07 pid:5277 Workerman[clever.php] stopping ...
+2022-05-13 08:17:07 pid:5277 Workerman[clever.php] has been stopped
+2022-05-13 08:17:07 pid:5284 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:18:24 pid:5284 Workerman[clever.php] stopping ...
+2022-05-13 08:18:24 pid:5284 Workerman[clever.php] has been stopped
+2022-05-13 08:18:29 pid:5291 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:18:33 pid:5292 ParseError: syntax error, unexpected '$color' (T_VARIABLE) in /project/clever/include/classes/clever.php:37
+Stack trace:
+#0 /project/clever/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /project/clever/clever.php(209): spl_autoload_call()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#10 /project/clever/clever.php(279): Workerman\Worker::runAll()
+#11 {main}
+2022-05-13 08:18:33 pid:5291 worker[none:5292] exit with status 64000
+2022-05-13 08:19:05 pid:5291 Workerman[clever.php] stopping ...
+2022-05-13 08:19:05 pid:5291 Workerman[clever.php] has been stopped
+2022-05-13 08:19:25 pid:5296 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:19:31 pid:5297 ParseError: syntax error, unexpected '11' (T_LNUMBER) in /project/clever/include/classes/clever.php:63
+Stack trace:
+#0 /project/clever/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /project/clever/clever.php(209): spl_autoload_call()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#10 /project/clever/clever.php(279): Workerman\Worker::runAll()
+#11 {main}
+2022-05-13 08:19:31 pid:5296 worker[none:5297] exit with status 64000
+2022-05-13 08:19:47 pid:5296 Workerman[clever.php] stopping ...
+2022-05-13 08:19:47 pid:5296 Workerman[clever.php] has been stopped
+2022-05-13 08:19:47 pid:5301 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:19:54 pid:5302 ParseError: syntax error, unexpected '=', expecting ')' in /project/clever/include/classes/clever.php:84
+Stack trace:
+#0 /project/clever/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /project/clever/clever.php(209): spl_autoload_call()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#10 /project/clever/clever.php(279): Workerman\Worker::runAll()
+#11 {main}
+2022-05-13 08:19:54 pid:5301 worker[none:5302] exit with status 64000
+2022-05-13 08:20:06 pid:5301 Workerman[clever.php] stopping ...
+2022-05-13 08:20:06 pid:5301 Workerman[clever.php] has been stopped
+2022-05-13 08:21:10 pid:5313 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:22:49 pid:5313 Workerman[clever.php] stopping ...
+2022-05-13 08:22:49 pid:5313 Workerman[clever.php] has been stopped
+2022-05-13 08:22:50 pid:5323 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:23:13 pid:5323 Workerman[clever.php] stopping ...
+2022-05-13 08:23:13 pid:5323 Workerman[clever.php] has been stopped
+2022-05-13 08:23:14 pid:5327 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:24:07 pid:5327 Workerman[clever.php] stopping ...
+2022-05-13 08:24:07 pid:5327 Workerman[clever.php] has been stopped
+2022-05-13 08:24:08 pid:5332 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:26:16 pid:5332 Workerman[clever.php] stopping ...
+2022-05-13 08:26:16 pid:5332 Workerman[clever.php] has been stopped
+2022-05-13 08:26:18 pid:5338 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:26:53 pid:5338 Workerman[clever.php] stopping ...
+2022-05-13 08:26:53 pid:5338 Workerman[clever.php] has been stopped
+2022-05-13 08:26:54 pid:5343 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:27:21 pid:5343 Workerman[clever.php] stopping ...
+2022-05-13 08:27:21 pid:5343 Workerman[clever.php] has been stopped
+2022-05-13 08:27:21 pid:5347 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:28:25 pid:5347 Workerman[clever.php] stopping ...
+2022-05-13 08:28:25 pid:5347 Workerman[clever.php] has been stopped
+2022-05-13 08:28:26 pid:5353 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:29:15 pid:5353 Workerman[clever.php] stopping ...
+2022-05-13 08:29:15 pid:5353 Workerman[clever.php] has been stopped
+2022-05-13 08:29:17 pid:5359 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:30:50 pid:5359 Workerman[clever.php] stopping ...
+2022-05-13 08:30:50 pid:5359 Workerman[clever.php] has been stopped
+2022-05-13 08:30:53 pid:5364 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:31:45 pid:5364 Workerman[clever.php] stopping ...
+2022-05-13 08:31:45 pid:5364 Workerman[clever.php] has been stopped
+2022-05-13 08:33:23 pid:5377 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:34:41 pid:5377 Workerman[clever.php] stopping ...
+2022-05-13 08:34:41 pid:5377 Workerman[clever.php] has been stopped
+2022-05-13 08:34:42 pid:5383 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:35:26 pid:5383 Workerman[clever.php] stopping ...
+2022-05-13 08:35:26 pid:5383 Workerman[clever.php] has been stopped
+2022-05-13 08:35:26 pid:5388 Workerman[clever.php] start in DEBUG mode
+2022-05-13 08:38:34 pid:5388 Workerman[clever.php] stopping ...
+2022-05-13 08:38:34 pid:5388 Workerman[clever.php] has been stopped
+2022-05-13 08:38:35 pid:5397 Workerman[clever.php] start in DEBUG mode
+2022-05-13 10:50:03 pid:5397 Workerman[clever.php] stopping ...
+2022-05-13 10:50:03 pid:5397 Workerman[clever.php] has been stopped
+2022-05-13 11:10:59 pid:6055 Workerman[clever.php] start in DEBUG mode
+2022-05-13 11:11:03 pid:6056 Error: Call to protected method Clever::verify_play() from context '' in /project/clever/clever.php:206
+Stack trace:
+#0 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#1 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#2 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#3 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /project/clever/clever.php(278): Workerman\Worker::runAll()
+#8 {main}
+2022-05-13 11:11:03 pid:6055 worker[none:6056] exit with status 64000
+2022-05-13 11:11:15 pid:6055 Workerman[clever.php] stopping ...
+2022-05-13 11:11:15 pid:6055 Workerman[clever.php] has been stopped
+2022-05-13 11:11:26 pid:6061 Workerman[clever.php] start in DEBUG mode
+2022-05-13 11:11:31 pid:6062 Error: Call to protected method Clever::verify_play() from context '' in /project/clever/clever.php:205
+Stack trace:
+#0 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#1 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#2 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#3 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /project/clever/clever.php(277): Workerman\Worker::runAll()
+#8 {main}
+2022-05-13 11:11:31 pid:6061 worker[none:6062] exit with status 64000
+2022-05-13 11:11:50 pid:6063 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:104
+Stack trace:
+#0 /project/clever/clever.php(104): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#12 /project/clever/clever.php(277): Workerman\Worker::runAll()
+#13 {main}
+2022-05-13 11:11:50 pid:6061 worker[none:6063] exit with status 64000
+2022-05-13 11:11:53 pid:6061 Workerman[clever.php] stopping ...
+2022-05-13 11:11:53 pid:6061 Workerman[clever.php] has been stopped
+2022-05-13 11:11:54 pid:6067 Workerman[clever.php] start in DEBUG mode
+2022-05-13 11:16:49 pid:6067 Workerman[clever.php] stopping ...
+2022-05-13 11:16:49 pid:6067 Workerman[clever.php] has been stopped
+2022-05-13 11:16:51 pid:6085 Workerman[clever.php] start in DEBUG mode
+2022-05-13 12:56:01 pid:6086 Error: Using $this when not in object context in /project/clever/include/classes/clever.php:297
+Stack trace:
+#0 /project/clever/clever.php(207): Clever::verify_play()
+#1 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#3 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#4 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#8 /project/clever/clever.php(282): Workerman\Worker::runAll()
+#9 {main}
+2022-05-13 12:56:01 pid:6085 worker[none:6086] exit with status 64000
+2022-05-13 14:02:30 pid:6085 Workerman[clever.php] stopping ...
+2022-05-13 14:02:30 pid:6085 Workerman[clever.php] has been stopped
+2022-05-13 14:02:31 pid:6613 Workerman[clever.php] start in DEBUG mode
+2022-05-13 15:04:01 pid:6613 Workerman[clever.php] stopping ...
+2022-05-13 15:04:01 pid:6613 Workerman[clever.php] has been stopped
+2022-05-13 15:04:06 pid:6882 Workerman[clever.php] start in DEBUG mode
+2022-05-13 15:04:08 pid:6882 Workerman[clever.php] stopping ...
+2022-05-13 15:04:08 pid:6882 Workerman[clever.php] has been stopped
+2022-05-13 15:06:47 pid:6890 Workerman[clever.php] start in DEBUG mode
+2022-05-13 15:07:23 pid:6890 Workerman[clever.php] stopping ...
+2022-05-13 15:07:23 pid:6890 Workerman[clever.php] has been stopped
+2022-05-13 15:07:24 pid:6896 Workerman[clever.php] start in DEBUG mode
+2022-05-13 15:10:19 pid:6896 Workerman[clever.php] stopping ...
+2022-05-13 15:10:19 pid:6896 Workerman[clever.php] has been stopped
+2022-05-13 15:10:20 pid:6985 Workerman[clever.php] start in DEBUG mode
+2022-05-13 15:13:47 pid:6985 Workerman[clever.php] stopping ...
+2022-05-13 15:13:47 pid:6985 Workerman[clever.php] has been stopped
+2022-05-13 15:13:47 pid:6992 Workerman[clever.php] start in DEBUG mode
+2022-05-13 15:15:35 pid:6992 Workerman[clever.php] stopping ...
+2022-05-13 15:15:35 pid:6992 Workerman[clever.php] has been stopped
+2022-05-13 15:15:42 pid:6999 Workerman[clever.php] start in DEBUG mode
+2022-05-13 15:17:01 pid:6999 Workerman[clever.php] stopping ...
+2022-05-13 15:17:01 pid:6999 Workerman[clever.php] has been stopped
+2022-05-13 15:17:01 pid:7005 Workerman[clever.php] start in DEBUG mode
+2022-05-13 15:17:44 pid:7005 Workerman[clever.php] stopping ...
+2022-05-13 15:17:44 pid:7005 Workerman[clever.php] has been stopped
+2022-05-13 15:17:51 pid:7012 Workerman[clever.php] start in DEBUG mode
+2022-05-13 15:19:40 pid:7012 Workerman[clever.php] stopping ...
+2022-05-13 15:19:40 pid:7012 Workerman[clever.php] has been stopped
+2022-05-13 15:19:44 pid:7021 Workerman[clever.php] start in DEBUG mode
+2022-05-13 15:20:32 pid:7021 Workerman[clever.php] stopping ...
+2022-05-13 15:20:32 pid:7021 Workerman[clever.php] has been stopped
+2022-05-13 15:20:32 pid:7026 Workerman[clever.php] start in DEBUG mode
+2022-05-13 15:22:05 pid:7026 Workerman[clever.php] stopping ...
+2022-05-13 15:22:05 pid:7026 Workerman[clever.php] has been stopped
+2022-05-13 15:22:06 pid:7031 Workerman[clever.php] start in DEBUG mode
+2022-05-13 15:23:49 pid:7031 Workerman[clever.php] stopping ...
+2022-05-13 15:23:49 pid:7031 Workerman[clever.php] has been stopped
+2022-05-13 15:23:51 pid:7036 Workerman[clever.php] start in DEBUG mode
+2022-05-13 19:57:06 pid:7036 Workerman[clever.php] stopping ...
+2022-05-13 19:57:06 pid:7036 Workerman[clever.php] stopping ...
+2022-05-13 19:57:06 pid:7036 Workerman[clever.php] has been stopped
+2022-05-14 08:01:17 pid:8254 Workerman[clever.php] start in DEBUG mode
+2022-05-14 08:04:10 pid:8254 Workerman[clever.php] stopping ...
+2022-05-14 08:04:10 pid:8254 Workerman[clever.php] has been stopped
+2022-05-14 08:04:10 pid:8264 Workerman[clever.php] start in DEBUG mode
+2022-05-14 08:41:51 pid:8264 Workerman[clever.php] stopping ...
+2022-05-14 08:41:51 pid:8264 Workerman[clever.php] has been stopped
+2022-05-14 08:41:51 pid:8523 Workerman[clever.php] start in DEBUG mode
+2022-05-14 08:42:53 pid:8524 Error: Using $this when not in object context in /project/clever/include/classes/clever.php:297
+Stack trace:
+#0 /project/clever/include/classes/game.php(45): Clever::verify_play()
+#1 /project/clever/clever.php(181): Game::solo()
+#2 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#3 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#4 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#9 /project/clever/clever.php(195): Workerman\Worker::runAll()
+#10 {main}
+2022-05-14 08:42:53 pid:8523 worker[none:8524] exit with status 64000
+2022-05-14 08:44:47 pid:8523 Workerman[clever.php] stopping ...
+2022-05-14 08:44:47 pid:8523 Workerman[clever.php] has been stopped
+2022-05-14 08:44:48 pid:8537 Workerman[clever.php] start in DEBUG mode
+2022-05-14 08:56:08 pid:8537 Workerman[clever.php] stopping ...
+2022-05-14 08:56:08 pid:8537 Workerman[clever.php] has been stopped
+2022-05-14 08:56:09 pid:8551 Workerman[clever.php] start in DEBUG mode
+2022-05-14 09:01:08 pid:8551 Workerman[clever.php] stopping ...
+2022-05-14 09:01:08 pid:8551 Workerman[clever.php] has been stopped
+2022-05-14 09:01:08 pid:8565 Workerman[clever.php] start in DEBUG mode
+2022-05-14 09:03:15 pid:8565 Workerman[clever.php] stopping ...
+2022-05-14 09:03:15 pid:8565 Workerman[clever.php] has been stopped
+2022-05-14 09:03:16 pid:8573 Workerman[clever.php] start in DEBUG mode
+2022-05-14 10:49:53 pid:8573 Workerman[clever.php] stopping ...
+2022-05-14 10:49:53 pid:8573 Workerman[clever.php] has been stopped
+2022-05-14 14:03:54 pid:9418 Workerman[clever.php] start in DEBUG mode
+2022-05-14 14:04:07 pid:9419 ParseError: syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /project/clever/include/classes/game.php:50
+Stack trace:
+#0 /project/clever/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /project/clever/clever.php(181): spl_autoload_call()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#10 /project/clever/clever.php(195): Workerman\Worker::runAll()
+#11 {main}
+2022-05-14 14:04:07 pid:9418 worker[none:9419] exit with status 64000
+2022-05-14 14:04:15 pid:9418 Workerman[clever.php] stopping ...
+2022-05-14 14:04:15 pid:9418 Workerman[clever.php] has been stopped
+2022-05-14 14:04:16 pid:9421 Workerman[clever.php] start in DEBUG mode
+2022-05-14 14:04:21 pid:9422 ParseError: syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /project/clever/include/classes/game.php:50
+Stack trace:
+#0 /project/clever/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /project/clever/clever.php(181): spl_autoload_call()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#10 /project/clever/clever.php(195): Workerman\Worker::runAll()
+#11 {main}
+2022-05-14 14:04:21 pid:9421 worker[none:9422] exit with status 64000
+2022-05-14 14:04:48 pid:9421 Workerman[clever.php] stopping ...
+2022-05-14 14:04:48 pid:9421 Workerman[clever.php] has been stopped
+2022-05-14 14:04:49 pid:9426 Workerman[clever.php] start in DEBUG mode
+2022-05-14 14:07:06 pid:9426 Workerman[clever.php] stopping ...
+2022-05-14 14:07:06 pid:9426 Workerman[clever.php] has been stopped
+2022-05-15 12:12:51 pid:12121 Workerman[clever.php] start in DEBUG mode
+2022-05-15 12:12:52 pid:12121 Workerman[clever.php] stopping ...
+2022-05-15 12:12:52 pid:12121 Workerman[clever.php] has been stopped
+2022-05-15 12:14:13 pid:12146 Workerman[clever.php] start in DEBUG mode
+2022-05-15 12:14:49 pid:12146 Workerman[clever.php] stopping ...
+2022-05-15 12:14:49 pid:12146 Workerman[clever.php] has been stopped
+2022-05-15 12:28:41 pid:12179 Workerman[clever.php] start in DEBUG mode
+2022-05-15 12:30:45 pid:12179 Workerman[clever.php] stopping ...
+2022-05-15 12:30:46 pid:12179 Workerman[clever.php] has been stopped
+2022-05-15 12:30:46 pid:12187 Workerman[clever.php] start in DEBUG mode
+2022-05-15 12:31:12 pid:12187 Workerman[clever.php] stopping ...
+2022-05-15 12:31:12 pid:12187 Workerman[clever.php] has been stopped
+2022-05-15 12:31:12 pid:12190 Workerman[clever.php] start in DEBUG mode
+2022-05-15 12:31:55 pid:12190 Workerman[clever.php] stopping ...
+2022-05-15 12:31:55 pid:12190 Workerman[clever.php] has been stopped
+2022-05-15 12:31:56 pid:12195 Workerman[clever.php] start in DEBUG mode
+2022-05-15 12:33:16 pid:12195 Workerman[clever.php] stopping ...
+2022-05-15 12:33:16 pid:12195 Workerman[clever.php] has been stopped
+2022-05-15 12:33:18 pid:12202 Workerman[clever.php] start in DEBUG mode
+2022-05-15 12:34:24 pid:12202 Workerman[clever.php] stopping ...
+2022-05-15 12:34:24 pid:12202 Workerman[clever.php] has been stopped
+2022-05-15 12:34:25 pid:12216 Workerman[clever.php] start in DEBUG mode
+2022-05-15 12:35:24 pid:12216 Workerman[clever.php] stopping ...
+2022-05-15 12:35:24 pid:12216 Workerman[clever.php] has been stopped
+2022-05-15 12:35:26 pid:12222 Workerman[clever.php] start in DEBUG mode
+2022-05-15 12:37:03 pid:12222 Workerman[clever.php] stopping ...
+2022-05-15 12:37:03 pid:12222 Workerman[clever.php] has been stopped
+2022-05-15 12:37:05 pid:12226 Workerman[clever.php] start in DEBUG mode
+2022-05-15 12:37:43 pid:12226 Workerman[clever.php] stopping ...
+2022-05-15 12:37:43 pid:12226 Workerman[clever.php] has been stopped
+2022-05-15 12:37:43 pid:12230 Workerman[clever.php] start in DEBUG mode
+2022-05-15 12:39:30 pid:12230 Workerman[clever.php] stopping ...
+2022-05-15 12:39:30 pid:12230 Workerman[clever.php] has been stopped
+2022-05-15 12:39:31 pid:12311 Workerman[clever.php] start in DEBUG mode
+2022-05-15 12:40:58 pid:12311 Workerman[clever.php] stopping ...
+2022-05-15 12:40:58 pid:12311 Workerman[clever.php] has been stopped
+2022-05-15 12:40:58 pid:12317 Workerman[clever.php] start in DEBUG mode
+2022-05-15 12:43:15 pid:12317 Workerman[clever.php] stopping ...
+2022-05-15 12:43:15 pid:12317 Workerman[clever.php] has been stopped
+2022-05-15 12:43:17 pid:12323 Workerman[clever.php] start in DEBUG mode
+2022-05-15 13:41:02 pid:12323 Workerman[clever.php] stopping ...
+2022-05-15 13:41:02 pid:12323 Workerman[clever.php] has been stopped
+2022-05-15 13:41:03 pid:12513 Workerman[clever.php] start in DEBUG mode
+2022-05-15 13:47:53 pid:12513 Workerman[clever.php] stopping ...
+2022-05-15 13:47:53 pid:12513 Workerman[clever.php] has been stopped
+2022-05-15 13:47:54 pid:12524 Workerman[clever.php] start in DEBUG mode
+2022-05-15 13:48:25 pid:12524 Workerman[clever.php] stopping ...
+2022-05-15 13:48:25 pid:12524 Workerman[clever.php] has been stopped
+2022-05-15 13:48:26 pid:12528 Workerman[clever.php] start in DEBUG mode
+2022-05-15 13:49:53 pid:12528 Workerman[clever.php] stopping ...
+2022-05-15 13:49:53 pid:12528 Workerman[clever.php] has been stopped
+2022-05-15 13:49:53 pid:12536 Workerman[clever.php] start in DEBUG mode
+2022-05-15 14:05:17 pid:12536 Workerman[clever.php] stopping ...
+2022-05-15 14:05:17 pid:12536 Workerman[clever.php] has been stopped
+2022-05-15 14:05:18 pid:12558 Workerman[clever.php] start in DEBUG mode
+2022-05-15 14:05:22 pid:12559 TypeError: Argument 1 passed to Solo::dice() must be of the type array, null given, called in /project/clever/include/classes/solo.php on line 74 and defined in /project/clever/include/classes/solo.php:29
+Stack trace:
+#0 /project/clever/include/classes/solo.php(74): Solo->dice()
+#1 /project/clever/include/classes/solo.php(204): Solo->first_round()
+#2 /project/clever/clever.php(167): Solo->response()
+#3 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#5 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#6 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#12 /project/clever/clever.php(204): Workerman\Worker::runAll()
+#13 {main}
+2022-05-15 14:05:22 pid:12558 worker[none:12559] exit with status 64000
+2022-05-15 14:06:07 pid:12558 Workerman[clever.php] stopping ...
+2022-05-15 14:06:07 pid:12558 Workerman[clever.php] has been stopped
+2022-05-15 14:06:07 pid:12564 Workerman[clever.php] start in DEBUG mode
+2022-05-15 14:10:18 pid:12564 Workerman[clever.php] stopping ...
+2022-05-15 14:10:18 pid:12564 Workerman[clever.php] has been stopped
+2022-05-15 14:10:19 pid:12648 Workerman[clever.php] start in DEBUG mode
+2022-05-15 15:14:03 pid:12648 Workerman[clever.php] stopping ...
+2022-05-15 15:14:03 pid:12648 Workerman[clever.php] has been stopped
+2022-05-15 15:14:03 pid:12910 Workerman[clever.php] start in DEBUG mode
+2022-05-15 15:15:20 pid:12910 Workerman[clever.php] stopping ...
+2022-05-15 15:15:20 pid:12910 Workerman[clever.php] has been stopped
+2022-05-15 15:15:25 pid:12918 Workerman[clever.php] start in DEBUG mode
+2022-05-15 15:17:08 pid:12918 Workerman[clever.php] stopping ...
+2022-05-15 15:17:08 pid:12918 Workerman[clever.php] has been stopped
+2022-05-15 15:17:15 pid:12927 Workerman[clever.php] start in DEBUG mode
+2022-05-15 15:18:04 pid:12927 Workerman[clever.php] stopping ...
+2022-05-15 15:18:04 pid:12927 Workerman[clever.php] has been stopped
+2022-05-15 15:18:05 pid:12932 Workerman[clever.php] start in DEBUG mode
+2022-05-15 15:23:40 pid:12932 Workerman[clever.php] stopping ...
+2022-05-15 15:23:40 pid:12932 Workerman[clever.php] has been stopped
+2022-05-15 15:23:40 pid:12943 Workerman[clever.php] start in DEBUG mode
+2022-05-15 15:25:21 pid:12943 Workerman[clever.php] stopping ...
+2022-05-15 15:25:21 pid:12943 Workerman[clever.php] has been stopped
+2022-05-15 15:25:22 pid:12948 Workerman[clever.php] start in DEBUG mode
+2022-05-15 15:27:56 pid:12948 Workerman[clever.php] stopping ...
+2022-05-15 15:27:56 pid:12948 Workerman[clever.php] has been stopped
+2022-05-15 15:27:57 pid:12958 Workerman[clever.php] start in DEBUG mode
+2022-05-15 15:30:22 pid:12958 Workerman[clever.php] stopping ...
+2022-05-15 15:30:22 pid:12958 Workerman[clever.php] has been stopped
+2022-05-15 15:30:22 pid:12967 Workerman[clever.php] start in DEBUG mode
+2022-05-15 15:31:21 pid:12967 Workerman[clever.php] stopping ...
+2022-05-15 15:31:21 pid:12967 Workerman[clever.php] has been stopped
+2022-05-15 15:31:22 pid:12971 Workerman[clever.php] start in DEBUG mode
+2022-05-15 15:32:31 pid:12971 Workerman[clever.php] stopping ...
+2022-05-15 15:32:31 pid:12971 Workerman[clever.php] has been stopped
+2022-05-15 15:32:32 pid:12978 Workerman[clever.php] start in DEBUG mode
+2022-05-15 20:20:42 pid:12978 Workerman[clever.php] stopping ...
+2022-05-15 20:20:42 pid:12978 Workerman[clever.php] stopping ...
+2022-05-15 20:20:42 pid:12978 Workerman[clever.php] has been stopped
+2022-05-16 06:55:21 pid:13909 Workerman[clever.php] start in DEBUG mode
+2022-05-16 07:02:27 pid:13909 Workerman[clever.php] stopping ...
+2022-05-16 07:02:27 pid:13909 Workerman[clever.php] has been stopped
+2022-05-16 07:02:28 pid:14018 Workerman[clever.php] start in DEBUG mode
+2022-05-16 08:19:49 pid:14018 Workerman[clever.php] stopping ...
+2022-05-16 08:19:49 pid:14018 Workerman[clever.php] has been stopped
+2022-05-16 08:19:49 pid:14335 Workerman[clever.php] start in DEBUG mode
+2022-05-16 08:32:28 pid:14335 Workerman[clever.php] stopping ...
+2022-05-16 08:32:28 pid:14335 Workerman[clever.php] has been stopped
+2022-05-16 08:32:29 pid:14360 Workerman[clever.php] start in DEBUG mode
+2022-05-16 08:35:35 pid:14360 Workerman[clever.php] stopping ...
+2022-05-16 08:35:35 pid:14360 Workerman[clever.php] has been stopped
+2022-05-16 12:44:34 pid:15258 Workerman[clever.php] start in DEBUG mode
+2022-05-16 13:23:47 pid:15258 Workerman[clever.php] stopping ...
+2022-05-16 13:23:47 pid:15258 Workerman[clever.php] has been stopped
+2022-05-16 16:49:50 pid:16440 Workerman[clever.php] start in DEBUG mode
+2022-05-16 20:21:48 pid:16440 Workerman[clever.php] stopping ...
+2022-05-16 20:21:48 pid:16440 Workerman[clever.php] has been stopped
+2022-05-16 20:21:48 pid:17154 Workerman[clever.php] start in DEBUG mode
+2022-05-16 20:26:54 pid:17154 Workerman[clever.php] stopping ...
+2022-05-16 20:26:54 pid:17154 Workerman[clever.php] has been stopped
+2022-05-16 20:26:55 pid:17164 Workerman[clever.php] start in DEBUG mode
+2022-05-16 20:29:55 pid:17164 Workerman[clever.php] stopping ...
+2022-05-16 20:29:55 pid:17164 Workerman[clever.php] has been stopped
+2022-05-16 20:29:56 pid:17198 Workerman[clever.php] start in DEBUG mode
+2022-05-16 20:31:02 pid:17198 Workerman[clever.php] stopping ...
+2022-05-16 20:31:02 pid:17198 Workerman[clever.php] has been stopped
+2022-05-16 20:31:03 pid:17205 Workerman[clever.php] start in DEBUG mode
+2022-05-16 20:36:56 pid:17205 Workerman[clever.php] stopping ...
+2022-05-16 20:36:56 pid:17205 Workerman[clever.php] has been stopped
+2022-05-16 20:36:56 pid:17219 Workerman[clever.php] start in DEBUG mode
+2022-05-16 20:57:01 pid:17219 Workerman[clever.php] stopping ...
+2022-05-16 20:57:01 pid:17219 Workerman[clever.php] stopping ...
+2022-05-16 20:57:01 pid:17219 Workerman[clever.php] has been stopped
+2022-05-17 07:24:46 pid:17939 Workerman[clever.php] start in DAEMON mode
+2022-05-17 07:25:01 pid:17944 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:106
+Stack trace:
+#0 /project/clever/clever.php(106): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#10 /project/clever/clever.php(203): Workerman\Worker::runAll()
+#11 {main}
+2022-05-17 07:25:01 pid:17943 worker[none:17944] exit with status 64000
+2022-05-17 07:25:06 pid:17945 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:106
+Stack trace:
+#0 /project/clever/clever.php(106): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#12 /project/clever/clever.php(203): Workerman\Worker::runAll()
+#13 {main}
+2022-05-17 07:25:06 pid:17943 worker[none:17945] exit with status 64000
+2022-05-17 07:25:33 pid:17948 Workerman[clever.php] start in DAEMON mode
+2022-05-17 07:25:33 pid:17948 Workerman[clever.php] already running
+2022-05-17 07:25:37 pid:17946 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:106
+Stack trace:
+#0 /project/clever/clever.php(106): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#12 /project/clever/clever.php(203): Workerman\Worker::runAll()
+#13 {main}
+2022-05-17 07:25:37 pid:17943 worker[none:17946] exit with status 64000
+2022-05-17 07:25:47 pid:17950 Workerman[clever.php] reload 
+2022-05-17 07:25:47 pid:17943 Workerman[clever.php] reloading
+2022-05-17 07:25:49 pid:17951 worker[17951] remains 0 connection(s)
+2022-05-17 07:25:49 pid:17952 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:106
+Stack trace:
+#0 /project/clever/clever.php(106): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#12 /project/clever/clever.php(203): Workerman\Worker::runAll()
+#13 {main}
+2022-05-17 07:25:53 pid:17952 worker[17952] remains 0 connection(s)
+2022-05-17 07:25:54 pid:17953 worker[17953] remains 0 connection(s)
+2022-05-17 07:25:54 pid:17954 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:106
+Stack trace:
+#0 /project/clever/clever.php(106): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#12 /project/clever/clever.php(203): Workerman\Worker::runAll()
+#13 {main}
+2022-05-17 07:26:36 pid:17958 Workerman[clever.php] connections 
+2022-05-17 07:27:08 pid:17954 worker[17954] remains 0 connection(s)
+2022-05-17 07:27:11 pid:17962 Workerman[clever.php] connections 
+2022-05-17 07:27:14 pid:17961 worker[17961] remains 0 connection(s)
+2022-05-17 07:27:14 pid:17963 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:106
+Stack trace:
+#0 /project/clever/clever.php(106): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#12 /project/clever/clever.php(203): Workerman\Worker::runAll()
+#13 {main}
+2022-05-17 07:27:27 pid:17964 Workerman[clever.php] reload 
+2022-05-17 07:27:27 pid:17943 Workerman[clever.php] reloading
+2022-05-17 07:27:29 pid:17963 worker[17963] remains 0 connection(s)
+2022-05-17 07:27:29 pid:17965 worker[17965] remains 0 connection(s)
+2022-05-17 07:27:29 pid:17966 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:106
+Stack trace:
+#0 /project/clever/clever.php(106): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#12 /project/clever/clever.php(203): Workerman\Worker::runAll()
+#13 {main}
+2022-05-17 07:42:27 pid:18049 Workerman[clever.php] stop 
+2022-05-17 07:42:27 pid:18049 Workerman[clever.php] is stopping ...
+2022-05-17 07:42:27 pid:17943 Workerman[clever.php] stopping ...
+2022-05-17 07:42:27 pid:17943 Workerman[clever.php] has been stopped
+2022-05-17 07:42:27 pid:18049 Workerman[clever.php] stop success
+2022-05-17 07:42:33 pid:18050 Workerman[clever.php] start in DEBUG mode
+2022-05-17 08:04:38 pid:18050 Workerman[clever.php] stopping ...
+2022-05-17 08:04:38 pid:18050 Workerman[clever.php] has been stopped
+2022-05-17 08:04:38 pid:18065 Workerman[clever.php] start in DEBUG mode
+2022-05-17 08:20:37 pid:18065 Workerman[clever.php] stopping ...
+2022-05-17 08:20:37 pid:18065 Workerman[clever.php] has been stopped
+2022-05-17 08:20:40 pid:18162 Workerman[clever.php] start in DEBUG mode
+2022-05-17 08:28:27 pid:18162 Workerman[clever.php] stopping ...
+2022-05-17 08:28:27 pid:18162 Workerman[clever.php] has been stopped
+2022-05-17 08:28:28 pid:18175 Workerman[clever.php] start in DEBUG mode
+2022-05-17 10:24:34 pid:18175 Workerman[clever.php] stopping ...
+2022-05-17 10:24:34 pid:18175 Workerman[clever.php] has been stopped
+2022-05-17 10:24:34 pid:18705 Workerman[clever.php] start in DEBUG mode
+2022-05-17 11:36:39 pid:18705 Workerman[clever.php] stopping ...
+2022-05-17 11:36:39 pid:18705 Workerman[clever.php] has been stopped
+2022-05-17 11:36:44 pid:18918 Workerman[clever.php] start in DAEMON mode
+2022-05-17 11:36:49 pid:18921 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:43
+Stack trace:
+#0 /project/clever/clever.php(43): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#10 /project/clever/clever.php(131): Workerman\Worker::runAll()
+#11 {main}
+2022-05-17 11:36:49 pid:18920 worker[none:18921] exit with status 64000
+2022-05-17 11:38:10 pid:18927 Workerman[clever.php] reload 
+2022-05-17 11:38:10 pid:18920 Workerman[clever.php] reloading
+2022-05-17 11:38:14 pid:18928 worker[18928] remains 0 connection(s)
+2022-05-17 11:38:14 pid:18929 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:43
+Stack trace:
+#0 /project/clever/clever.php(43): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#12 /project/clever/clever.php(131): Workerman\Worker::runAll()
+#13 {main}
+2022-05-17 11:49:26 pid:18929 worker[18929] remains 0 connection(s)
+2022-05-17 13:01:31 pid:19738 Workerman[clever.php] stop 
+2022-05-17 13:01:31 pid:19738 Workerman[clever.php] is stopping ...
+2022-05-17 13:01:31 pid:18920 Workerman[clever.php] stopping ...
+2022-05-17 13:01:31 pid:18920 Workerman[clever.php] has been stopped
+2022-05-17 13:01:31 pid:19738 Workerman[clever.php] stop success
+2022-05-17 13:01:37 pid:19741 Workerman[clever.php] start in DEBUG mode
+2022-05-17 13:19:28 pid:19741 Workerman[clever.php] stopping ...
+2022-05-17 13:19:28 pid:19741 Workerman[clever.php] has been stopped
+2022-05-17 13:19:29 pid:19884 Workerman[clever.php] start in DEBUG mode
+2022-05-17 13:19:37 pid:19885 Error: Call to undefined function DetectBonusGreenOrangePurple() in /project/clever/include/classes/clever.php:293
+Stack trace:
+#0 /project/clever/include/classes/solo.php(136): Clever::verify_play()
+#1 /project/clever/include/classes/solo.php(252): Solo->gameplay()
+#2 /project/clever/clever.php(116): Solo->response()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#10 /project/clever/clever.php(131): Workerman\Worker::runAll()
+#11 {main}
+2022-05-17 13:19:37 pid:19884 worker[none:19885] exit with status 64000
+2022-05-17 13:20:10 pid:19884 Workerman[clever.php] stopping ...
+2022-05-17 13:20:10 pid:19884 Workerman[clever.php] has been stopped
+2022-05-17 13:20:10 pid:19890 Workerman[clever.php] start in DEBUG mode
+2022-05-17 13:28:48 pid:19890 Workerman[clever.php] stopping ...
+2022-05-17 13:28:48 pid:19890 Workerman[clever.php] has been stopped
+2022-05-17 13:28:48 pid:19899 Workerman[clever.php] start in DEBUG mode
+2022-05-17 15:13:56 pid:19899 Workerman[clever.php] stopping ...
+2022-05-17 15:13:56 pid:19899 Workerman[clever.php] has been stopped
+2022-05-17 15:13:57 pid:20291 Workerman[clever.php] start in DEBUG mode
+2022-05-17 15:16:59 pid:20291 Workerman[clever.php] stopping ...
+2022-05-17 15:16:59 pid:20291 Workerman[clever.php] has been stopped
+2022-05-17 15:17:00 pid:20302 Workerman[clever.php] start in DEBUG mode
+2022-05-17 15:18:46 pid:20302 Workerman[clever.php] stopping ...
+2022-05-17 15:18:46 pid:20302 Workerman[clever.php] has been stopped
+2022-05-17 15:18:46 pid:20316 Workerman[clever.php] start in DEBUG mode
+2022-05-17 15:22:43 pid:20316 Workerman[clever.php] stopping ...
+2022-05-17 15:22:43 pid:20316 Workerman[clever.php] has been stopped
+2022-05-17 15:22:44 pid:20330 Workerman[clever.php] start in DEBUG mode
+2022-05-17 15:25:36 pid:20330 Workerman[clever.php] stopping ...
+2022-05-17 15:25:36 pid:20330 Workerman[clever.php] has been stopped
+2022-05-17 15:25:41 pid:20340 Workerman[clever.php] start in DEBUG mode
+2022-05-17 15:27:06 pid:20340 Workerman[clever.php] stopping ...
+2022-05-17 15:27:06 pid:20340 Workerman[clever.php] has been stopped
+2022-05-17 15:27:07 pid:20344 Workerman[clever.php] start in DEBUG mode
+2022-05-17 19:14:54 pid:20344 Workerman[clever.php] stopping ...
+2022-05-17 19:14:54 pid:20344 Workerman[clever.php] has been stopped
+2022-05-18 08:50:11 pid:24063 Workerman[clever.php] start in DEBUG mode
+2022-05-18 08:53:56 pid:24063 Workerman[clever.php] stopping ...
+2022-05-18 08:53:56 pid:24063 Workerman[clever.php] has been stopped
+2022-05-18 08:54:13 pid:24071 Workerman[clever.php] start in DEBUG mode
+2022-05-18 12:33:53 pid:24071 Workerman[clever.php] stopping ...
+2022-05-18 12:33:53 pid:24071 Workerman[clever.php] stopping ...
+2022-05-18 12:33:53 pid:24071 Workerman[clever.php] has been stopped
+2022-05-19 08:22:33 pid:25751 Workerman[clever.php] start in DEBUG mode
+2022-05-19 08:24:13 pid:25751 Workerman[clever.php] stopping ...
+2022-05-19 08:24:13 pid:25751 Workerman[clever.php] has been stopped
+2022-05-19 08:24:14 pid:25759 Workerman[clever.php] start in DEBUG mode
+2022-05-19 08:25:39 pid:25759 Workerman[clever.php] stopping ...
+2022-05-19 08:25:39 pid:25759 Workerman[clever.php] has been stopped
+2022-05-19 08:25:39 pid:25763 Workerman[clever.php] start in DEBUG mode
+2022-05-19 08:27:58 pid:25763 Workerman[clever.php] stopping ...
+2022-05-19 08:27:58 pid:25763 Workerman[clever.php] has been stopped
+2022-05-19 08:27:58 pid:25774 Workerman[clever.php] start in DEBUG mode
+2022-05-19 09:46:00 pid:25774 Workerman[clever.php] stopping ...
+2022-05-19 09:46:00 pid:25774 Workerman[clever.php] has been stopped
+2022-05-19 09:46:02 pid:26056 Workerman[clever.php] start in DEBUG mode
+2022-05-19 09:46:59 pid:26056 Workerman[clever.php] stopping ...
+2022-05-19 09:46:59 pid:26056 Workerman[clever.php] has been stopped
+2022-05-19 09:47:01 pid:26062 Workerman[clever.php] start in DEBUG mode
+2022-05-19 09:47:57 pid:26062 Workerman[clever.php] stopping ...
+2022-05-19 09:47:57 pid:26062 Workerman[clever.php] has been stopped
+2022-05-19 09:47:57 pid:26066 Workerman[clever.php] start in DEBUG mode
+2022-05-19 09:48:38 pid:26066 Workerman[clever.php] stopping ...
+2022-05-19 09:48:38 pid:26066 Workerman[clever.php] has been stopped
+2022-05-19 09:48:38 pid:26069 Workerman[clever.php] start in DEBUG mode
+2022-05-19 09:49:08 pid:26069 Workerman[clever.php] stopping ...
+2022-05-19 09:49:08 pid:26069 Workerman[clever.php] has been stopped
+2022-05-19 09:49:09 pid:26072 Workerman[clever.php] start in DEBUG mode
+2022-05-19 09:49:48 pid:26072 Workerman[clever.php] stopping ...
+2022-05-19 09:49:48 pid:26072 Workerman[clever.php] has been stopped
+2022-05-19 09:49:49 pid:26077 Workerman[clever.php] start in DEBUG mode
+2022-05-19 09:52:31 pid:26077 Workerman[clever.php] stopping ...
+2022-05-19 09:52:31 pid:26077 Workerman[clever.php] has been stopped
+2022-05-19 09:52:32 pid:26089 Workerman[clever.php] start in DEBUG mode
+2022-05-19 09:53:58 pid:26089 Workerman[clever.php] stopping ...
+2022-05-19 09:53:58 pid:26089 Workerman[clever.php] has been stopped
+2022-05-19 09:53:59 pid:26094 Workerman[clever.php] start in DEBUG mode
+2022-05-19 09:54:33 pid:26094 Workerman[clever.php] stopping ...
+2022-05-19 09:54:33 pid:26094 Workerman[clever.php] has been stopped
+2022-05-19 09:54:34 pid:26098 Workerman[clever.php] start in DEBUG mode
+2022-05-19 09:55:19 pid:26098 Workerman[clever.php] stopping ...
+2022-05-19 09:55:19 pid:26098 Workerman[clever.php] has been stopped
+2022-05-19 09:55:21 pid:26103 Workerman[clever.php] start in DEBUG mode
+2022-05-19 09:59:35 pid:26103 Workerman[clever.php] stopping ...
+2022-05-19 09:59:35 pid:26103 Workerman[clever.php] has been stopped
+2022-05-19 09:59:37 pid:26110 Workerman[clever.php] start in DEBUG mode
+2022-05-19 10:00:13 pid:26110 Workerman[clever.php] stopping ...
+2022-05-19 10:00:13 pid:26110 Workerman[clever.php] has been stopped
+2022-05-19 10:00:14 pid:26117 Workerman[clever.php] start in DEBUG mode
+2022-05-19 10:01:03 pid:26117 Workerman[clever.php] stopping ...
+2022-05-19 10:01:03 pid:26117 Workerman[clever.php] has been stopped
+2022-05-19 10:01:52 pid:26123 Workerman[clever.php] start in DEBUG mode
+2022-05-19 10:03:50 pid:26123 Workerman[clever.php] stopping ...
+2022-05-19 10:03:50 pid:26123 Workerman[clever.php] has been stopped
+2022-05-19 10:03:52 pid:26128 Workerman[clever.php] start in DEBUG mode
+2022-05-19 10:05:21 pid:26128 Workerman[clever.php] stopping ...
+2022-05-19 10:05:21 pid:26128 Workerman[clever.php] has been stopped
+2022-05-19 11:00:02 pid:26340 Workerman[clever.php] start in DEBUG mode
+2022-05-19 11:00:26 pid:26340 Workerman[clever.php] stopping ...
+2022-05-19 11:00:26 pid:26340 Workerman[clever.php] has been stopped
+2022-05-19 11:00:27 pid:26344 Workerman[clever.php] start in DEBUG mode
+2022-05-19 11:03:39 pid:26344 Workerman[clever.php] stopping ...
+2022-05-19 11:03:39 pid:26344 Workerman[clever.php] has been stopped
+2022-05-19 11:03:40 pid:26354 Workerman[clever.php] start in DEBUG mode
+2022-05-19 11:04:35 pid:26354 Workerman[clever.php] stopping ...
+2022-05-19 11:04:35 pid:26354 Workerman[clever.php] has been stopped
+2022-05-19 11:04:36 pid:26359 Workerman[clever.php] start in DEBUG mode
+2022-05-19 12:03:21 pid:26359 Workerman[clever.php] stopping ...
+2022-05-19 12:03:21 pid:26359 Workerman[clever.php] has been stopped
+2022-05-19 12:03:21 pid:26561 Workerman[clever.php] start in DEBUG mode
+2022-05-19 12:04:47 pid:26561 Workerman[clever.php] stopping ...
+2022-05-19 12:04:47 pid:26561 Workerman[clever.php] has been stopped
+2022-05-19 12:04:48 pid:26566 Workerman[clever.php] start in DEBUG mode
+2022-05-19 12:08:16 pid:26566 Workerman[clever.php] stopping ...
+2022-05-19 12:08:16 pid:26566 Workerman[clever.php] has been stopped
+2022-05-19 12:08:44 pid:26572 Workerman[clever.php] start in DEBUG mode
+2022-05-19 12:18:29 pid:26572 Workerman[clever.php] stopping ...
+2022-05-19 12:18:29 pid:26572 Workerman[clever.php] has been stopped
+2022-05-19 12:18:31 pid:26667 Workerman[clever.php] start in DEBUG mode
+2022-05-19 12:18:43 pid:26667 Workerman[clever.php] stopping ...
+2022-05-19 12:18:43 pid:26667 Workerman[clever.php] has been stopped
+2022-05-19 12:18:46 pid:26669 Workerman[clever.php] start in DEBUG mode
+2022-05-19 12:22:02 pid:26669 Workerman[clever.php] stopping ...
+2022-05-19 12:22:02 pid:26669 Workerman[clever.php] has been stopped
+2022-05-19 12:22:02 pid:26680 Workerman[clever.php] start in DEBUG mode
+2022-05-19 12:23:25 pid:26680 Workerman[clever.php] stopping ...
+2022-05-19 12:23:25 pid:26680 Workerman[clever.php] has been stopped
+2022-05-19 12:23:26 pid:26685 Workerman[clever.php] start in DEBUG mode
+2022-05-19 12:29:26 pid:26685 Workerman[clever.php] stopping ...
+2022-05-19 12:29:26 pid:26685 Workerman[clever.php] has been stopped
+2022-05-19 12:29:27 pid:26691 Workerman[clever.php] start in DEBUG mode
+2022-05-19 12:30:51 pid:26691 Workerman[clever.php] stopping ...
+2022-05-19 12:30:51 pid:26691 Workerman[clever.php] has been stopped
+2022-05-19 13:10:37 pid:27074 Workerman[clever.php] start in DEBUG mode
+2022-05-19 13:11:05 pid:27076 Error: Call to undefined method Solo::possiblity() in /project/clever/include/classes/solo.php:161
+Stack trace:
+#0 /project/clever/include/classes/solo.php(254): Solo->gameplay()
+#1 /project/clever/clever.php(116): Solo->response()
+#2 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#3 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#4 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#9 /project/clever/clever.php(131): Workerman\Worker::runAll()
+#10 {main}
+2022-05-19 13:11:05 pid:27074 worker[none:27076] exit with status 64000
+2022-05-19 13:12:17 pid:27074 Workerman[clever.php] stopping ...
+2022-05-19 13:12:17 pid:27074 Workerman[clever.php] has been stopped
+2022-05-19 13:12:17 pid:27084 Workerman[clever.php] start in DEBUG mode
+2022-05-19 13:12:28 pid:27085 TypeError: Argument 1 passed to Clever::possibility() must be of the type array, null given, called in /project/clever/include/classes/solo.php on line 161 and defined in /project/clever/include/classes/clever.php:320
+Stack trace:
+#0 /project/clever/include/classes/solo.php(161): Clever::possibility()
+#1 /project/clever/include/classes/solo.php(254): Solo->gameplay()
+#2 /project/clever/clever.php(116): Solo->response()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#10 /project/clever/clever.php(131): Workerman\Worker::runAll()
+#11 {main}
+2022-05-19 13:12:28 pid:27084 worker[none:27085] exit with status 64000
+2022-05-19 13:13:03 pid:27084 Workerman[clever.php] stopping ...
+2022-05-19 13:13:03 pid:27084 Workerman[clever.php] has been stopped
+2022-05-19 13:13:04 pid:27090 Workerman[clever.php] start in DEBUG mode
+2022-05-19 13:13:19 pid:27091 Error: Access to undeclared static property: Clever::$color in /project/clever/include/classes/clever.php:341
+Stack trace:
+#0 /project/clever/include/classes/solo.php(161): Clever::possibility()
+#1 /project/clever/include/classes/solo.php(254): Solo->gameplay()
+#2 /project/clever/clever.php(116): Solo->response()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#10 /project/clever/clever.php(131): Workerman\Worker::runAll()
+#11 {main}
+2022-05-19 13:13:19 pid:27090 worker[none:27091] exit with status 64000
+2022-05-19 13:14:40 pid:27090 Workerman[clever.php] stopping ...
+2022-05-19 13:14:40 pid:27090 Workerman[clever.php] has been stopped
+2022-05-19 13:14:40 pid:27099 Workerman[clever.php] start in DEBUG mode
+2022-05-19 13:14:58 pid:27100 Error: Access to undeclared static property: Clever::$color in /project/clever/include/classes/clever.php:343
+Stack trace:
+#0 /project/clever/include/classes/solo.php(161): Clever::possibility()
+#1 /project/clever/include/classes/solo.php(254): Solo->gameplay()
+#2 /project/clever/clever.php(116): Solo->response()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#10 /project/clever/clever.php(131): Workerman\Worker::runAll()
+#11 {main}
+2022-05-19 13:14:58 pid:27099 worker[none:27100] exit with status 64000
+2022-05-19 13:16:47 pid:27099 Workerman[clever.php] stopping ...
+2022-05-19 13:16:47 pid:27099 Workerman[clever.php] has been stopped
+2022-05-19 13:23:26 pid:27115 Workerman[clever.php] start in DEBUG mode
+2022-05-19 15:12:04 pid:27115 Workerman[clever.php] stopping ...
+2022-05-19 15:12:04 pid:27115 Workerman[clever.php] has been stopped
+2022-05-19 15:12:48 pid:27509 Workerman[clever.php] start in DEBUG mode
+2022-05-19 15:13:34 pid:27509 Workerman[clever.php] stopping ...
+2022-05-19 15:13:34 pid:27509 Workerman[clever.php] has been stopped
+2022-05-19 15:13:35 pid:27513 Workerman[clever.php] start in DEBUG mode
+2022-05-19 15:22:39 pid:27513 Workerman[clever.php] stopping ...
+2022-05-19 15:22:39 pid:27513 Workerman[clever.php] has been stopped
+2022-05-19 15:23:10 pid:27533 Workerman[clever.php] start in DEBUG mode
+2022-05-19 15:28:21 pid:27534 Error: Function name must be a string in /project/clever/include/classes/clever.php:346
+Stack trace:
+#0 /project/clever/include/classes/solo.php(188): Clever::possibility()
+#1 /project/clever/include/classes/solo.php(262): Solo->prepare_last_phase()
+#2 /project/clever/include/classes/solo.php(164): Solo->escape()
+#3 /project/clever/include/classes/solo.php(243): Solo->gameplay()
+#4 /project/clever/clever.php(116): Solo->response()
+#5 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#6 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#12 /project/clever/clever.php(131): Workerman\Worker::runAll()
+#13 {main}
+2022-05-19 15:28:21 pid:27533 worker[none:27534] exit with status 64000
+2022-05-19 15:32:31 pid:27533 Workerman[clever.php] stopping ...
+2022-05-19 15:32:31 pid:27533 Workerman[clever.php] has been stopped
+2022-05-19 15:32:31 pid:27549 Workerman[clever.php] start in DEBUG mode
+2022-05-19 15:36:57 pid:27549 Workerman[clever.php] stopping ...
+2022-05-19 15:36:57 pid:27549 Workerman[clever.php] has been stopped
+2022-05-19 15:37:09 pid:27555 Workerman[clever.php] start in DEBUG mode
+2022-05-20 07:56:51 pid:2348 Workerman[clever.php] start in DEBUG mode
+2022-05-20 08:04:01 pid:2348 Workerman[clever.php] stopping ...
+2022-05-20 08:04:01 pid:2348 Workerman[clever.php] has been stopped
+2022-05-20 08:04:02 pid:2375 Workerman[clever.php] start in DEBUG mode
+2022-05-20 08:04:05 pid:2376 Error: Call to private method Clever::consoleLog() from context 'Solo' in /project/clever/include/classes/solo.php:237
+Stack trace:
+#0 /project/clever/clever.php(95): Solo->response()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#10 /project/clever/clever.php(131): Workerman\Worker::runAll()
+#11 {main}
+2022-05-20 08:04:05 pid:2375 worker[none:2376] exit with status 64000
+2022-05-20 08:04:16 pid:2375 Workerman[clever.php] stopping ...
+2022-05-20 08:04:16 pid:2375 Workerman[clever.php] has been stopped
+2022-05-20 08:04:17 pid:2382 Workerman[clever.php] start in DEBUG mode
+2022-05-20 08:04:56 pid:2382 Workerman[clever.php] stopping ...
+2022-05-20 08:04:56 pid:2382 Workerman[clever.php] has been stopped
+2022-05-20 08:04:57 pid:2388 Workerman[clever.php] start in DEBUG mode
+2022-05-20 08:06:32 pid:2388 Workerman[clever.php] stopping ...
+2022-05-20 08:06:32 pid:2388 Workerman[clever.php] has been stopped
+2022-05-20 08:06:32 pid:2420 Workerman[clever.php] start in DEBUG mode
+2022-05-20 08:11:01 pid:2420 Workerman[clever.php] stopping ...
+2022-05-20 08:11:01 pid:2420 Workerman[clever.php] has been stopped
+2022-05-20 08:11:01 pid:2515 Workerman[clever.php] start in DEBUG mode
+2022-05-20 08:18:15 pid:2515 Workerman[clever.php] stopping ...
+2022-05-20 08:18:15 pid:2515 Workerman[clever.php] has been stopped
+2022-05-20 08:18:15 pid:2542 Workerman[clever.php] start in DEBUG mode
+2022-05-20 08:21:02 pid:2542 Workerman[clever.php] stopping ...
+2022-05-20 08:21:02 pid:2542 Workerman[clever.php] has been stopped
+2022-05-20 08:21:02 pid:2549 Workerman[clever.php] start in DEBUG mode
+2022-05-20 08:38:57 pid:2549 Workerman[clever.php] stopping ...
+2022-05-20 08:38:57 pid:2549 Workerman[clever.php] has been stopped
+2022-05-20 08:38:57 pid:2567 Workerman[clever.php] start in DEBUG mode
+2022-05-20 08:48:26 pid:2567 Workerman[clever.php] stopping ...
+2022-05-20 08:48:26 pid:2567 Workerman[clever.php] has been stopped
+2022-05-20 08:48:26 pid:2668 Workerman[clever.php] start in DEBUG mode
+2022-05-20 08:51:17 pid:2668 Workerman[clever.php] stopping ...
+2022-05-20 08:51:17 pid:2668 Workerman[clever.php] has been stopped
+2022-05-20 08:51:17 pid:2675 Workerman[clever.php] start in DEBUG mode
+2022-05-20 08:56:53 pid:2675 Workerman[clever.php] stopping ...
+2022-05-20 08:56:53 pid:2675 Workerman[clever.php] has been stopped
+2022-05-20 08:56:54 pid:2685 Workerman[clever.php] start in DEBUG mode
+2022-05-20 11:58:19 pid:2685 Workerman[clever.php] stopping ...
+2022-05-20 11:58:19 pid:2685 Workerman[clever.php] has been stopped
+2022-05-20 11:58:20 pid:3300 Workerman[clever.php] start in DEBUG mode
+2022-05-20 12:01:06 pid:3300 Workerman[clever.php] stopping ...
+2022-05-20 12:01:06 pid:3300 Workerman[clever.php] has been stopped
+2022-05-20 12:01:06 pid:3306 Workerman[clever.php] start in DEBUG mode
+2022-05-20 12:03:14 pid:3306 Workerman[clever.php] stopping ...
+2022-05-20 12:03:14 pid:3306 Workerman[clever.php] has been stopped
+2022-05-20 12:03:14 pid:3317 Workerman[clever.php] start in DEBUG mode
+2022-05-20 12:06:17 pid:3317 Workerman[clever.php] stopping ...
+2022-05-20 12:06:17 pid:3317 Workerman[clever.php] has been stopped
+2022-05-20 12:06:17 pid:3322 Workerman[clever.php] start in DEBUG mode
+2022-05-20 12:08:53 pid:3322 Workerman[clever.php] stopping ...
+2022-05-20 12:08:53 pid:3322 Workerman[clever.php] has been stopped
+2022-05-20 12:08:59 pid:3330 Workerman[clever.php] start in DEBUG mode
+2022-05-20 12:11:17 pid:3330 Workerman[clever.php] stopping ...
+2022-05-20 12:11:17 pid:3330 Workerman[clever.php] has been stopped
+2022-05-20 12:11:18 pid:3417 Workerman[clever.php] start in DEBUG mode
+2022-05-20 12:13:17 pid:3417 Workerman[clever.php] stopping ...
+2022-05-20 12:13:17 pid:3417 Workerman[clever.php] has been stopped
+2022-05-20 12:13:17 pid:3425 Workerman[clever.php] start in DEBUG mode
+2022-05-20 12:18:05 pid:3425 Workerman[clever.php] stopping ...
+2022-05-20 12:18:05 pid:3425 Workerman[clever.php] has been stopped
+2022-05-20 12:18:05 pid:3441 Workerman[clever.php] start in DEBUG mode
+2022-05-20 12:24:03 pid:3441 Workerman[clever.php] stopping ...
+2022-05-20 12:24:03 pid:3441 Workerman[clever.php] has been stopped
+2022-05-20 12:24:04 pid:3449 Workerman[clever.php] start in DEBUG mode
+2022-05-20 12:33:00 pid:3449 Workerman[clever.php] stopping ...
+2022-05-20 12:33:00 pid:3449 Workerman[clever.php] has been stopped
+2022-05-20 12:33:01 pid:3476 Workerman[clever.php] start in DEBUG mode
+2022-05-20 12:33:04 pid:3477 ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /project/clever/include/classes/solo.php:200
+Stack trace:
+#0 /project/clever/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /project/clever/clever.php(96): spl_autoload_call()
+#3 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#5 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#6 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#12 /project/clever/clever.php(133): Workerman\Worker::runAll()
+#13 {main}
+2022-05-20 12:33:04 pid:3476 worker[none:3477] exit with status 64000
+2022-05-20 12:33:18 pid:3476 Workerman[clever.php] stopping ...
+2022-05-20 12:33:18 pid:3476 Workerman[clever.php] has been stopped
+2022-05-20 12:33:19 pid:3481 Workerman[clever.php] start in DEBUG mode
+2022-05-20 12:33:21 pid:3482 ParseError: syntax error, unexpected 'return' (T_RETURN) in /project/clever/include/classes/solo.php:202
+Stack trace:
+#0 /project/clever/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /project/clever/clever.php(96): spl_autoload_call()
+#3 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#5 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#6 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#12 /project/clever/clever.php(133): Workerman\Worker::runAll()
+#13 {main}
+2022-05-20 12:33:21 pid:3481 worker[none:3482] exit with status 64000
+2022-05-20 12:33:29 pid:3481 Workerman[clever.php] stopping ...
+2022-05-20 12:33:29 pid:3481 Workerman[clever.php] has been stopped
+2022-05-20 12:33:33 pid:3487 Workerman[clever.php] start in DEBUG mode
+2022-05-20 15:46:00 pid:3487 Workerman[clever.php] stopping ...
+2022-05-20 15:46:00 pid:3487 Workerman[clever.php] has been stopped
+2022-05-20 15:52:08 pid:4238 Workerman[clever.php] start in DEBUG mode
+2022-05-20 15:55:54 pid:4238 Workerman[clever.php] stopping ...
+2022-05-20 15:55:54 pid:4238 Workerman[clever.php] has been stopped
+2022-05-20 18:08:11 pid:4681 Workerman[clever.php] start in DEBUG mode
+2022-05-20 18:10:24 pid:4681 Workerman[clever.php] stopping ...
+2022-05-20 18:10:24 pid:4681 Workerman[clever.php] has been stopped
+2022-05-20 18:10:25 pid:4768 Workerman[clever.php] start in DEBUG mode
+2022-05-22 08:35:02 pid:4768 Workerman[clever.php] stopping ...
+2022-05-22 08:35:02 pid:4768 Workerman[clever.php] stopping ...
+2022-05-22 08:35:02 pid:4768 Workerman[clever.php] has been stopped
+2022-05-31 16:10:22 pid:36774 Workerman[clever.php] start in DEBUG mode
+2022-05-31 16:11:16 pid:36776 Error: Call to undefined method Solo::last_phase() in /project/clever/include/classes/solo.php:258
+Stack trace:
+#0 /project/clever/clever.php(118): Solo->response()
+#1 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#3 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#4 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#8 /project/clever/clever.php(133): Workerman\Worker::runAll()
+#9 {main}
+2022-05-31 16:11:16 pid:36774 worker[none:36776] exit with status 64000
+2022-05-31 16:14:36 pid:36774 Workerman[clever.php] stopping ...
+2022-05-31 16:14:36 pid:36774 Workerman[clever.php] has been stopped
+2022-05-31 16:14:36 pid:36791 Workerman[clever.php] start in DEBUG mode
+2022-05-31 16:19:18 pid:36791 Workerman[clever.php] stopping ...
+2022-05-31 16:19:18 pid:36791 Workerman[clever.php] has been stopped
+2022-05-31 16:19:19 pid:36833 Workerman[clever.php] start in DEBUG mode
+2022-05-31 16:33:31 pid:36833 Workerman[clever.php] stopping ...
+2022-05-31 16:33:31 pid:36833 Workerman[clever.php] has been stopped
+2022-05-31 16:33:32 pid:36857 Workerman[clever.php] start in DEBUG mode
+2022-05-31 16:38:48 pid:36857 Workerman[clever.php] stopping ...
+2022-05-31 16:38:48 pid:36857 Workerman[clever.php] has been stopped
+2022-05-31 16:38:50 pid:36861 Workerman[clever.php] start in DEBUG mode
+2022-06-01 06:33:41 pid:36861 Workerman[clever.php] stopping ...
+2022-06-01 06:33:41 pid:36861 Workerman[clever.php] has been stopped
+2022-06-01 08:25:21 pid:39084 Workerman[clever.php] start in DEBUG mode
+2022-06-01 08:34:07 pid:39084 Workerman[clever.php] stopping ...
+2022-06-01 08:34:07 pid:39084 Workerman[clever.php] has been stopped
+2022-06-01 08:34:08 pid:39106 Workerman[clever.php] start in DEBUG mode
+2022-06-01 08:35:38 pid:39106 Workerman[clever.php] stopping ...
+2022-06-01 08:35:38 pid:39106 Workerman[clever.php] has been stopped
+2022-06-01 08:35:42 pid:39110 Workerman[clever.php] start in DEBUG mode
+2022-06-01 08:37:14 pid:39110 Workerman[clever.php] stopping ...
+2022-06-01 08:37:14 pid:39110 Workerman[clever.php] has been stopped
+2022-06-01 08:37:15 pid:39116 Workerman[clever.php] start in DEBUG mode
+2022-06-01 08:40:07 pid:39116 Workerman[clever.php] stopping ...
+2022-06-01 08:40:07 pid:39116 Workerman[clever.php] has been stopped
+2022-06-01 08:40:08 pid:39198 Workerman[clever.php] start in DEBUG mode
+2022-06-01 08:41:12 pid:39198 Workerman[clever.php] stopping ...
+2022-06-01 08:41:12 pid:39198 Workerman[clever.php] has been stopped
+2022-06-01 08:41:13 pid:39205 Workerman[clever.php] start in DEBUG mode
+2022-06-01 09:13:33 pid:39205 Workerman[clever.php] stopping ...
+2022-06-01 09:13:33 pid:39205 Workerman[clever.php] has been stopped
+2022-06-01 09:13:33 pid:39353 Workerman[clever.php] start in DEBUG mode
+2022-06-01 09:14:34 pid:39353 Workerman[clever.php] stopping ...
+2022-06-01 09:14:34 pid:39353 Workerman[clever.php] has been stopped
+2022-06-01 09:14:34 pid:39360 Workerman[clever.php] start in DEBUG mode
+2022-06-01 09:15:04 pid:39360 Workerman[clever.php] stopping ...
+2022-06-01 09:15:04 pid:39360 Workerman[clever.php] has been stopped
+2022-06-01 09:15:05 pid:39365 Workerman[clever.php] start in DEBUG mode
+2022-06-01 09:15:51 pid:39365 Workerman[clever.php] stopping ...
+2022-06-01 09:15:51 pid:39365 Workerman[clever.php] has been stopped
+2022-06-01 09:15:51 pid:39371 Workerman[clever.php] start in DEBUG mode
+2022-06-01 10:52:41 pid:39371 Workerman[clever.php] stopping ...
+2022-06-01 10:52:41 pid:39371 Workerman[clever.php] has been stopped
+2022-06-01 11:56:55 pid:39922 Workerman[clever.php] start in DEBUG mode
+2022-06-01 12:05:56 pid:39922 Workerman[clever.php] stopping ...
+2022-06-01 12:05:56 pid:39922 Workerman[clever.php] has been stopped
+2022-06-01 12:05:56 pid:39946 Workerman[clever.php] start in DEBUG mode
+2022-06-01 12:07:39 pid:39946 Workerman[clever.php] stopping ...
+2022-06-01 12:07:39 pid:39946 Workerman[clever.php] has been stopped
+2022-06-01 12:07:40 pid:39953 Workerman[clever.php] start in DEBUG mode
+2022-06-01 12:24:06 pid:39953 Workerman[clever.php] stopping ...
+2022-06-01 12:24:06 pid:39953 Workerman[clever.php] has been stopped
+2022-06-01 12:24:06 pid:40060 Workerman[clever.php] start in DEBUG mode
+2022-06-01 12:25:34 pid:40060 Workerman[clever.php] stopping ...
+2022-06-01 12:25:34 pid:40060 Workerman[clever.php] has been stopped
+2022-06-01 12:25:35 pid:40065 Workerman[clever.php] start in DEBUG mode
+2022-06-01 12:26:34 pid:40065 Workerman[clever.php] stopping ...
+2022-06-01 12:26:34 pid:40065 Workerman[clever.php] has been stopped
+2022-06-01 12:26:35 pid:40070 Workerman[clever.php] start in DEBUG mode
+2022-06-01 12:27:14 pid:40070 Workerman[clever.php] stopping ...
+2022-06-01 12:27:14 pid:40070 Workerman[clever.php] has been stopped
+2022-06-01 12:27:14 pid:40076 Workerman[clever.php] start in DEBUG mode
+2022-06-01 12:27:53 pid:40076 Workerman[clever.php] stopping ...
+2022-06-01 12:27:53 pid:40076 Workerman[clever.php] has been stopped
+2022-06-01 12:27:53 pid:40080 Workerman[clever.php] start in DEBUG mode
+2022-06-01 12:28:32 pid:40081 Error: Call to a member function send() on null in /project/clever/clever.php:122
+Stack trace:
+#0 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#1 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#2 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#3 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /project/clever/clever.php(133): Workerman\Worker::runAll()
+#8 {main}
+2022-06-01 12:28:32 pid:40080 worker[none:40081] exit with status 64000
+2022-06-01 12:29:12 pid:40080 Workerman[clever.php] stopping ...
+2022-06-01 12:29:12 pid:40080 Workerman[clever.php] has been stopped
+2022-06-01 12:29:13 pid:40086 Workerman[clever.php] start in DEBUG mode
+2022-06-01 12:29:25 pid:40086 Workerman[clever.php] stopping ...
+2022-06-01 12:29:25 pid:40086 Workerman[clever.php] has been stopped
+2022-06-01 12:29:27 pid:40090 Workerman[clever.php] start in DEBUG mode
+2022-06-01 12:29:32 pid:40091 Error: Call to a member function send() on null in /project/clever/clever.php:122
+Stack trace:
+#0 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#1 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#2 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#3 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /project/clever/clever.php(133): Workerman\Worker::runAll()
+#8 {main}
+2022-06-01 12:29:32 pid:40090 worker[none:40091] exit with status 64000
+2022-06-01 12:30:33 pid:40090 Workerman[clever.php] stopping ...
+2022-06-01 12:30:33 pid:40090 Workerman[clever.php] has been stopped
+2022-06-01 12:30:33 pid:40099 Workerman[clever.php] start in DEBUG mode
+2022-06-01 12:36:28 pid:40099 Workerman[clever.php] stopping ...
+2022-06-01 12:36:28 pid:40099 Workerman[clever.php] has been stopped
+2022-06-01 12:36:29 pid:40116 Workerman[clever.php] start in DEBUG mode
+2022-06-01 13:01:54 pid:40116 Workerman[clever.php] stopping ...
+2022-06-01 13:01:54 pid:40116 Workerman[clever.php] has been stopped
+2022-06-01 13:01:55 pid:40232 Workerman[clever.php] start in DEBUG mode
+2022-06-01 13:03:06 pid:40232 Workerman[clever.php] stopping ...
+2022-06-01 13:03:06 pid:40232 Workerman[clever.php] has been stopped
+2022-06-01 13:03:06 pid:40236 Workerman[clever.php] start in DEBUG mode
+2022-06-01 15:09:45 pid:40236 Workerman[clever.php] stopping ...
+2022-06-01 15:09:45 pid:40236 Workerman[clever.php] stopping ...
+2022-06-01 15:09:45 pid:40236 Workerman[clever.php] stopping ...
+2022-06-01 15:09:45 pid:40236 Workerman[clever.php] has been stopped
+2022-06-01 16:07:45 pid:1353 Workerman[clever.php] start in DEBUG mode
+2022-06-01 18:20:54 pid:1353 Workerman[clever.php] stopping ...
+2022-06-01 18:20:54 pid:1353 Workerman[clever.php] has been stopped
+2022-06-01 18:20:55 pid:1932 Workerman[clever.php] start in DEBUG mode
+2022-06-01 18:20:59 pid:1933 ParseError: syntax error, unexpected '$dice_value' (T_VARIABLE), expecting ']' in /project/clever/include/classes/clever.php:44
+Stack trace:
+#0 /project/clever/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /project/clever/include/classes/solo.php(3): spl_autoload_call()
+#3 /project/clever/vendor/composer/ClassLoader.php(571): include('/project/clever...')
+#4 /project/clever/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#5 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#6 /project/clever/clever.php(96): spl_autoload_call()
+#7 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#8 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#9 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#10 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#12 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#13 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#14 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#15 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#16 /project/clever/clever.php(133): Workerman\Worker::runAll()
+#17 {main}
+2022-06-01 18:20:59 pid:1932 worker[none:1933] exit with status 64000
+2022-06-01 18:21:37 pid:1932 Workerman[clever.php] stopping ...
+2022-06-01 18:21:37 pid:1932 Workerman[clever.php] has been stopped
+2022-06-01 18:21:37 pid:1939 Workerman[clever.php] start in DEBUG mode
+2022-06-01 18:27:50 pid:1939 Workerman[clever.php] stopping ...
+2022-06-01 18:27:50 pid:1939 Workerman[clever.php] has been stopped
+2022-06-01 18:27:51 pid:1951 Workerman[clever.php] start in DEBUG mode
+2022-06-01 18:34:22 pid:1951 Workerman[clever.php] stopping ...
+2022-06-01 18:34:22 pid:1951 Workerman[clever.php] has been stopped
+2022-06-01 18:34:32 pid:2020 Workerman[clever.php] start in DEBUG mode
+2022-06-02 03:07:20 pid:2020 Workerman[clever.php] stopping ...
+2022-06-02 03:07:20 pid:2020 Workerman[clever.php] has been stopped
+2022-06-02 09:31:02 pid:3437 Workerman[clever.php] start in DEBUG mode
+2022-06-02 09:51:59 pid:3437 Workerman[clever.php] stopping ...
+2022-06-02 09:51:59 pid:3437 Workerman[clever.php] has been stopped
+2022-06-02 09:52:00 pid:3563 Workerman[clever.php] start in DEBUG mode
+2022-06-02 10:01:16 pid:3564 Error: Maximum function nesting level of '256' reached, aborting! in /project/clever/include/classes/clever.php:25
+Stack trace:
+#0 /project/clever/include/classes/clever.php(25): date()
+#1 /project/clever/include/classes/solo.php(166): Clever::consoleLog()
+#2 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#3 /project/clever/include/classes/solo.php(269): Solo->escape()
+#4 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#5 /project/clever/include/classes/solo.php(173): Solo->escape()
+#6 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#7 /project/clever/include/classes/solo.php(269): Solo->escape()
+#8 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#9 /project/clever/include/classes/solo.php(173): Solo->escape()
+#10 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#11 /project/clever/include/classes/solo.php(269): Solo->escape()
+#12 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#13 /project/clever/include/classes/solo.php(173): Solo->escape()
+#14 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#15 /project/clever/include/classes/solo.php(269): Solo->escape()
+#16 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#17 /project/clever/include/classes/solo.php(173): Solo->escape()
+#18 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#19 /project/clever/include/classes/solo.php(269): Solo->escape()
+#20 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#21 /project/clever/include/classes/solo.php(173): Solo->escape()
+#22 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#23 /project/clever/include/classes/solo.php(269): Solo->escape()
+#24 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#25 /project/clever/include/classes/solo.php(173): Solo->escape()
+#26 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#27 /project/clever/include/classes/solo.php(269): Solo->escape()
+#28 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#29 /project/clever/include/classes/solo.php(173): Solo->escape()
+#30 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#31 /project/clever/include/classes/solo.php(269): Solo->escape()
+#32 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#33 /project/clever/include/classes/solo.php(173): Solo->escape()
+#34 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#35 /project/clever/include/classes/solo.php(269): Solo->escape()
+#36 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#37 /project/clever/include/classes/solo.php(173): Solo->escape()
+#38 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#39 /project/clever/include/classes/solo.php(269): Solo->escape()
+#40 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#41 /project/clever/include/classes/solo.php(173): Solo->escape()
+#42 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#43 /project/clever/include/classes/solo.php(269): Solo->escape()
+#44 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#45 /project/clever/include/classes/solo.php(173): Solo->escape()
+#46 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#47 /project/clever/include/classes/solo.php(269): Solo->escape()
+#48 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#49 /project/clever/include/classes/solo.php(173): Solo->escape()
+#50 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#51 /project/clever/include/classes/solo.php(269): Solo->escape()
+#52 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#53 /project/clever/include/classes/solo.php(173): Solo->escape()
+#54 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#55 /project/clever/include/classes/solo.php(269): Solo->escape()
+#56 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#57 /project/clever/include/classes/solo.php(173): Solo->escape()
+#58 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#59 /project/clever/include/classes/solo.php(269): Solo->escape()
+#60 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#61 /project/clever/include/classes/solo.php(173): Solo->escape()
+#62 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#63 /project/clever/include/classes/solo.php(269): Solo->escape()
+#64 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#65 /project/clever/include/classes/solo.php(173): Solo->escape()
+#66 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#67 /project/clever/include/classes/solo.php(269): Solo->escape()
+#68 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#69 /project/clever/include/classes/solo.php(173): Solo->escape()
+#70 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#71 /project/clever/include/classes/solo.php(269): Solo->escape()
+#72 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#73 /project/clever/include/classes/solo.php(173): Solo->escape()
+#74 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#75 /project/clever/include/classes/solo.php(269): Solo->escape()
+#76 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#77 /project/clever/include/classes/solo.php(173): Solo->escape()
+#78 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#79 /project/clever/include/classes/solo.php(269): Solo->escape()
+#80 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#81 /project/clever/include/classes/solo.php(173): Solo->escape()
+#82 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#83 /project/clever/include/classes/solo.php(269): Solo->escape()
+#84 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#85 /project/clever/include/classes/solo.php(173): Solo->escape()
+#86 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#87 /project/clever/include/classes/solo.php(269): Solo->escape()
+#88 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#89 /project/clever/include/classes/solo.php(173): Solo->escape()
+#90 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#91 /project/clever/include/classes/solo.php(269): Solo->escape()
+#92 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#93 /project/clever/include/classes/solo.php(173): Solo->escape()
+#94 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#95 /project/clever/include/classes/solo.php(269): Solo->escape()
+#96 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#97 /project/clever/include/classes/solo.php(173): Solo->escape()
+#98 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#99 /project/clever/include/classes/solo.php(269): Solo->escape()
+#100 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#101 /project/clever/include/classes/solo.php(173): Solo->escape()
+#102 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#103 /project/clever/include/classes/solo.php(269): Solo->escape()
+#104 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#105 /project/clever/include/classes/solo.php(173): Solo->escape()
+#106 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#107 /project/clever/include/classes/solo.php(269): Solo->escape()
+#108 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#109 /project/clever/include/classes/solo.php(173): Solo->escape()
+#110 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#111 /project/clever/include/classes/solo.php(269): Solo->escape()
+#112 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#113 /project/clever/include/classes/solo.php(173): Solo->escape()
+#114 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#115 /project/clever/include/classes/solo.php(269): Solo->escape()
+#116 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#117 /project/clever/include/classes/solo.php(173): Solo->escape()
+#118 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#119 /project/clever/include/classes/solo.php(269): Solo->escape()
+#120 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#121 /project/clever/include/classes/solo.php(173): Solo->escape()
+#122 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#123 /project/clever/include/classes/solo.php(269): Solo->escape()
+#124 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#125 /project/clever/include/classes/solo.php(173): Solo->escape()
+#126 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#127 /project/clever/include/classes/solo.php(269): Solo->escape()
+#128 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#129 /project/clever/include/classes/solo.php(173): Solo->escape()
+#130 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#131 /project/clever/include/classes/solo.php(269): Solo->escape()
+#132 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#133 /project/clever/include/classes/solo.php(173): Solo->escape()
+#134 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#135 /project/clever/include/classes/solo.php(269): Solo->escape()
+#136 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#137 /project/clever/include/classes/solo.php(173): Solo->escape()
+#138 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#139 /project/clever/include/classes/solo.php(269): Solo->escape()
+#140 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#141 /project/clever/include/classes/solo.php(173): Solo->escape()
+#142 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#143 /project/clever/include/classes/solo.php(269): Solo->escape()
+#144 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#145 /project/clever/include/classes/solo.php(173): Solo->escape()
+#146 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#147 /project/clever/include/classes/solo.php(269): Solo->escape()
+#148 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#149 /project/clever/include/classes/solo.php(173): Solo->escape()
+#150 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#151 /project/clever/include/classes/solo.php(269): Solo->escape()
+#152 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#153 /project/clever/include/classes/solo.php(173): Solo->escape()
+#154 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#155 /project/clever/include/classes/solo.php(269): Solo->escape()
+#156 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#157 /project/clever/include/classes/solo.php(173): Solo->escape()
+#158 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#159 /project/clever/include/classes/solo.php(269): Solo->escape()
+#160 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#161 /project/clever/include/classes/solo.php(173): Solo->escape()
+#162 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#163 /project/clever/include/classes/solo.php(269): Solo->escape()
+#164 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#165 /project/clever/include/classes/solo.php(173): Solo->escape()
+#166 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#167 /project/clever/include/classes/solo.php(269): Solo->escape()
+#168 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#169 /project/clever/include/classes/solo.php(173): Solo->escape()
+#170 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#171 /project/clever/include/classes/solo.php(269): Solo->escape()
+#172 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#173 /project/clever/include/classes/solo.php(173): Solo->escape()
+#174 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#175 /project/clever/include/classes/solo.php(269): Solo->escape()
+#176 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#177 /project/clever/include/classes/solo.php(173): Solo->escape()
+#178 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#179 /project/clever/include/classes/solo.php(269): Solo->escape()
+#180 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#181 /project/clever/include/classes/solo.php(173): Solo->escape()
+#182 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#183 /project/clever/include/classes/solo.php(269): Solo->escape()
+#184 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#185 /project/clever/include/classes/solo.php(173): Solo->escape()
+#186 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#187 /project/clever/include/classes/solo.php(269): Solo->escape()
+#188 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#189 /project/clever/include/classes/solo.php(173): Solo->escape()
+#190 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#191 /project/clever/include/classes/solo.php(269): Solo->escape()
+#192 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#193 /project/clever/include/classes/solo.php(173): Solo->escape()
+#194 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#195 /project/clever/include/classes/solo.php(269): Solo->escape()
+#196 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#197 /project/clever/include/classes/solo.php(173): Solo->escape()
+#198 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#199 /project/clever/include/classes/solo.php(269): Solo->escape()
+#200 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#201 /project/clever/include/classes/solo.php(173): Solo->escape()
+#202 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#203 /project/clever/include/classes/solo.php(269): Solo->escape()
+#204 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#205 /project/clever/include/classes/solo.php(173): Solo->escape()
+#206 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#207 /project/clever/include/classes/solo.php(269): Solo->escape()
+#208 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#209 /project/clever/include/classes/solo.php(173): Solo->escape()
+#210 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#211 /project/clever/include/classes/solo.php(269): Solo->escape()
+#212 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#213 /project/clever/include/classes/solo.php(173): Solo->escape()
+#214 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#215 /project/clever/include/classes/solo.php(269): Solo->escape()
+#216 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#217 /project/clever/include/classes/solo.php(173): Solo->escape()
+#218 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#219 /project/clever/include/classes/solo.php(269): Solo->escape()
+#220 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#221 /project/clever/include/classes/solo.php(173): Solo->escape()
+#222 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#223 /project/clever/include/classes/solo.php(269): Solo->escape()
+#224 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#225 /project/clever/include/classes/solo.php(173): Solo->escape()
+#226 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#227 /project/clever/include/classes/solo.php(269): Solo->escape()
+#228 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#229 /project/clever/include/classes/solo.php(173): Solo->escape()
+#230 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#231 /project/clever/include/classes/solo.php(269): Solo->escape()
+#232 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#233 /project/clever/include/classes/solo.php(173): Solo->escape()
+#234 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#235 /project/clever/include/classes/solo.php(269): Solo->escape()
+#236 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#237 /project/clever/include/classes/solo.php(173): Solo->escape()
+#238 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#239 /project/clever/include/classes/solo.php(269): Solo->escape()
+#240 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#241 /project/clever/include/classes/solo.php(173): Solo->escape()
+#242 /project/clever/include/classes/solo.php(414): Solo->first_phase()
+#243 /project/clever/include/classes/solo.php(269): Solo->escape()
+#244 /project/clever/include/classes/solo.php(419): Solo->prepare_last_phase()
+#245 /project/clever/include/classes/solo.php(240): Solo->escape()
+#246 /project/clever/include/classes/solo.php(451): Solo->gameplay()
+#247 /project/clever/clever.php(118): Solo->response()
+#248 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#249 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#250 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#251 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#252 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#253 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#254 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#255 /project/clever/clever.php(133): Workerman\Worker::runAll()
+#256 {main}
+2022-06-02 10:01:16 pid:3563 worker[none:3564] exit with status 64000
+2022-06-02 10:09:19 pid:3563 Workerman[clever.php] stopping ...
+2022-06-02 10:09:19 pid:3563 Workerman[clever.php] has been stopped
+2022-06-02 10:09:21 pid:3656 Workerman[clever.php] start in DEBUG mode
+2022-06-02 10:09:23 pid:3656 Workerman[clever.php] stopping ...
+2022-06-02 10:09:23 pid:3656 Workerman[clever.php] has been stopped
+2022-06-02 12:50:24 pid:4270 Workerman[clever.php] start in DEBUG mode
+2022-06-02 12:50:27 pid:4271 ParseError: syntax error, unexpected 'private' (T_PRIVATE), expecting ';' or ',' in /project/clever/include/classes/solo.php:75
+Stack trace:
+#0 /project/clever/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /project/clever/clever.php(96): spl_autoload_call()
+#3 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#5 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#6 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#12 /project/clever/clever.php(133): Workerman\Worker::runAll()
+#13 {main}
+2022-06-02 12:50:27 pid:4270 worker[none:4271] exit with status 64000
+2022-06-02 12:51:39 pid:4270 Workerman[clever.php] stopping ...
+2022-06-02 12:51:39 pid:4270 Workerman[clever.php] has been stopped
+2022-06-02 12:51:40 pid:4277 Workerman[clever.php] start in DEBUG mode
+2022-06-02 12:51:43 pid:4278 ParseError: syntax error, unexpected ')' in /project/clever/include/classes/solo.php:491
+Stack trace:
+#0 /project/clever/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /project/clever/clever.php(96): spl_autoload_call()
+#3 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#5 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#6 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#12 /project/clever/clever.php(133): Workerman\Worker::runAll()
+#13 {main}
+2022-06-02 12:51:43 pid:4277 worker[none:4278] exit with status 64000
+2022-06-02 12:52:07 pid:4277 Workerman[clever.php] stopping ...
+2022-06-02 12:52:07 pid:4277 Workerman[clever.php] has been stopped
+2022-06-02 12:52:07 pid:4283 Workerman[clever.php] start in DEBUG mode
+2022-06-02 12:54:55 pid:4283 Workerman[clever.php] stopping ...
+2022-06-02 12:54:55 pid:4283 Workerman[clever.php] has been stopped
+2022-06-02 12:54:57 pid:4290 Workerman[clever.php] start in DEBUG mode
+2022-06-02 13:58:37 pid:4290 Workerman[clever.php] stopping ...
+2022-06-02 13:58:37 pid:4290 Workerman[clever.php] has been stopped
+2022-06-02 13:58:37 pid:4622 Workerman[clever.php] start in DEBUG mode
+2022-06-02 13:58:40 pid:4623 Error: Call to a member function saveGameLog() on null in /project/clever/clever.php:130
+Stack trace:
+#0 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(920): {closure}()
+#1 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(750): Workerman\Connection\TcpConnection->destroy()
+#2 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(562): Workerman\Connection\TcpConnection->doSslHandshake()
+#3 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#4 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#9 /project/clever/clever.php(134): Workerman\Worker::runAll()
+#10 {main}
+2022-06-02 13:58:40 pid:4622 worker[none:4623] exit with status 64000
+2022-06-02 13:58:40 pid:4624 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:45
+Stack trace:
+#0 /project/clever/clever.php(45): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#12 /project/clever/clever.php(134): Workerman\Worker::runAll()
+#13 {main}
+2022-06-02 13:58:40 pid:4622 worker[none:4624] exit with status 64000
+2022-06-02 13:59:29 pid:4622 Workerman[clever.php] stopping ...
+2022-06-02 13:59:29 pid:4622 Workerman[clever.php] has been stopped
+2022-06-02 13:59:29 pid:4629 Workerman[clever.php] start in DEBUG mode
+2022-06-02 13:59:33 pid:4630 Error: Call to a member function saveGameLog() on null in /project/clever/clever.php:133
+Stack trace:
+#0 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(920): {closure}()
+#1 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(750): Workerman\Connection\TcpConnection->destroy()
+#2 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(562): Workerman\Connection\TcpConnection->doSslHandshake()
+#3 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#4 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#9 /project/clever/clever.php(137): Workerman\Worker::runAll()
+#10 {main}
+2022-06-02 13:59:33 pid:4629 worker[none:4630] exit with status 64000
+2022-06-02 13:59:33 pid:4631 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:45
+Stack trace:
+#0 /project/clever/clever.php(45): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#12 /project/clever/clever.php(137): Workerman\Worker::runAll()
+#13 {main}
+2022-06-02 13:59:33 pid:4629 worker[none:4631] exit with status 64000
+2022-06-02 14:00:29 pid:4629 Workerman[clever.php] stopping ...
+2022-06-02 14:00:29 pid:4629 Workerman[clever.php] has been stopped
+2022-06-02 14:00:30 pid:4635 Workerman[clever.php] start in DEBUG mode
+2022-06-02 14:00:33 pid:4636 Worker[4636] process terminated with ERROR: E_COMPILE_ERROR "Cannot make static method Clever::consoleLog() non static in class Solo in /project/clever/include/classes/solo.php on line 95"
+2022-06-02 14:00:33 pid:4635 worker[none:4636] exit with status 65280
+2022-06-02 14:00:58 pid:4635 Workerman[clever.php] stopping ...
+2022-06-02 14:00:58 pid:4635 Workerman[clever.php] has been stopped
+2022-06-02 14:00:58 pid:4641 Workerman[clever.php] start in DEBUG mode
+2022-06-02 14:11:23 pid:4641 Workerman[clever.php] stopping ...
+2022-06-02 14:11:23 pid:4641 Workerman[clever.php] has been stopped
+2022-06-02 14:11:23 pid:4740 Workerman[clever.php] start in DEBUG mode
+2022-06-02 15:19:51 pid:4740 Workerman[clever.php] stopping ...
+2022-06-02 15:19:51 pid:4740 Workerman[clever.php] has been stopped
+2022-06-02 15:19:52 pid:5024 Workerman[clever.php] start in DEBUG mode
+2022-06-02 15:23:32 pid:5024 Workerman[clever.php] stopping ...
+2022-06-02 15:23:32 pid:5024 Workerman[clever.php] has been stopped
+2022-06-02 15:23:33 pid:5034 Workerman[clever.php] start in DEBUG mode
+2022-06-02 15:25:20 pid:5034 Workerman[clever.php] stopping ...
+2022-06-02 15:25:20 pid:5034 Workerman[clever.php] has been stopped
+2022-06-02 15:25:20 pid:5041 Workerman[clever.php] start in DEBUG mode
+2022-06-02 15:27:24 pid:5041 Workerman[clever.php] stopping ...
+2022-06-02 15:27:24 pid:5041 Workerman[clever.php] has been stopped
+2022-06-02 15:27:24 pid:5051 Workerman[clever.php] start in DEBUG mode
+2022-06-02 15:32:53 pid:5051 Workerman[clever.php] stopping ...
+2022-06-02 15:32:53 pid:5051 Workerman[clever.php] has been stopped
+2022-06-02 15:34:46 pid:5061 Workerman[clever.php] start in DEBUG mode
+2022-06-02 15:34:49 pid:5062 ParseError: syntax error, unexpected 'if' (T_IF) in /project/clever/include/classes/solo.php:557
+Stack trace:
+#0 /project/clever/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#2 /project/clever/clever.php(96): spl_autoload_call()
+#3 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#4 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#5 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#6 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#12 /project/clever/clever.php(139): Workerman\Worker::runAll()
+#13 {main}
+2022-06-02 15:34:49 pid:5061 worker[none:5062] exit with status 64000
+2022-06-02 15:35:03 pid:5061 Workerman[clever.php] stopping ...
+2022-06-02 15:35:03 pid:5061 Workerman[clever.php] has been stopped
+2022-06-02 15:35:04 pid:5066 Workerman[clever.php] start in DEBUG mode
+2022-06-02 15:44:31 pid:5066 Workerman[clever.php] stopping ...
+2022-06-02 15:44:31 pid:5066 Workerman[clever.php] has been stopped
+2022-06-02 15:44:32 pid:5188 Workerman[clever.php] start in DEBUG mode
+2022-06-02 15:50:13 pid:5188 Workerman[clever.php] stopping ...
+2022-06-02 15:50:13 pid:5188 Workerman[clever.php] has been stopped
+2022-06-02 15:50:13 pid:5204 Workerman[clever.php] start in DEBUG mode
+2022-06-02 15:52:08 pid:5204 Workerman[clever.php] stopping ...
+2022-06-02 15:52:08 pid:5204 Workerman[clever.php] has been stopped
+2022-06-02 15:52:10 pid:5209 Workerman[clever.php] start in DEBUG mode
+2022-06-02 15:52:25 pid:5209 Workerman[clever.php] stopping ...
+2022-06-02 15:52:25 pid:5209 Workerman[clever.php] has been stopped
+2022-06-02 15:54:48 pid:5220 Workerman[clever.php] start in DEBUG mode
+2022-06-02 15:55:06 pid:5220 Workerman[clever.php] stopping ...
+2022-06-02 15:55:06 pid:5220 Workerman[clever.php] has been stopped
+2022-06-02 15:55:06 pid:5223 Workerman[clever.php] start in DEBUG mode
+2022-06-02 15:55:10 pid:5223 Workerman[clever.php] stopping ...
+2022-06-02 15:55:10 pid:5223 Workerman[clever.php] has been stopped
+2022-06-02 15:55:49 pid:5228 Workerman[clever.php] start in DEBUG mode
+2022-06-02 15:55:52 pid:5229 Worker[5229] process terminated
+2022-06-02 15:55:56 pid:5228 Workerman[clever.php] stopping ...
+2022-06-02 15:55:56 pid:5228 Workerman[clever.php] has been stopped
+2022-06-02 15:58:25 pid:1129 Workerman[clever.php] start in DEBUG mode
+2022-06-02 16:48:14 pid:1129 Workerman[clever.php] stopping ...
+2022-06-02 16:48:14 pid:1129 Workerman[clever.php] has been stopped
+2022-06-03 07:57:23 pid:2086 Workerman[clever.php] start in DEBUG mode
+2022-06-03 07:57:29 pid:2086 Workerman[clever.php] stopping ...
+2022-06-03 07:57:29 pid:2086 Workerman[clever.php] has been stopped
+2022-06-03 07:57:36 pid:2092 Workerman[clever.php] start in DEBUG mode
+2022-06-03 08:40:12 pid:2092 Workerman[clever.php] stopping ...
+2022-06-03 08:40:12 pid:2092 Workerman[clever.php] has been stopped
+2022-06-03 08:40:13 pid:2289 Workerman[clever.php] start in DEBUG mode
+2022-06-03 09:27:48 pid:2290 Error: Maximum function nesting level of '256' reached, aborting! in /project/clever/include/classes/solo.php:97
+Stack trace:
+#0 /project/clever/include/classes/solo.php(97): date()
+#1 /project/clever/include/classes/solo.php(168): Solo->consoleLog()
+#2 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#3 /project/clever/include/classes/solo.php(309): Solo->escape()
+#4 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#5 /project/clever/include/classes/solo.php(210): Solo->escape()
+#6 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#7 /project/clever/include/classes/solo.php(309): Solo->escape()
+#8 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#9 /project/clever/include/classes/solo.php(210): Solo->escape()
+#10 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#11 /project/clever/include/classes/solo.php(309): Solo->escape()
+#12 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#13 /project/clever/include/classes/solo.php(210): Solo->escape()
+#14 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#15 /project/clever/include/classes/solo.php(309): Solo->escape()
+#16 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#17 /project/clever/include/classes/solo.php(210): Solo->escape()
+#18 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#19 /project/clever/include/classes/solo.php(309): Solo->escape()
+#20 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#21 /project/clever/include/classes/solo.php(210): Solo->escape()
+#22 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#23 /project/clever/include/classes/solo.php(309): Solo->escape()
+#24 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#25 /project/clever/include/classes/solo.php(210): Solo->escape()
+#26 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#27 /project/clever/include/classes/solo.php(309): Solo->escape()
+#28 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#29 /project/clever/include/classes/solo.php(210): Solo->escape()
+#30 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#31 /project/clever/include/classes/solo.php(309): Solo->escape()
+#32 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#33 /project/clever/include/classes/solo.php(210): Solo->escape()
+#34 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#35 /project/clever/include/classes/solo.php(309): Solo->escape()
+#36 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#37 /project/clever/include/classes/solo.php(210): Solo->escape()
+#38 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#39 /project/clever/include/classes/solo.php(309): Solo->escape()
+#40 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#41 /project/clever/include/classes/solo.php(210): Solo->escape()
+#42 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#43 /project/clever/include/classes/solo.php(309): Solo->escape()
+#44 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#45 /project/clever/include/classes/solo.php(210): Solo->escape()
+#46 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#47 /project/clever/include/classes/solo.php(309): Solo->escape()
+#48 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#49 /project/clever/include/classes/solo.php(210): Solo->escape()
+#50 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#51 /project/clever/include/classes/solo.php(309): Solo->escape()
+#52 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#53 /project/clever/include/classes/solo.php(210): Solo->escape()
+#54 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#55 /project/clever/include/classes/solo.php(309): Solo->escape()
+#56 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#57 /project/clever/include/classes/solo.php(210): Solo->escape()
+#58 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#59 /project/clever/include/classes/solo.php(309): Solo->escape()
+#60 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#61 /project/clever/include/classes/solo.php(210): Solo->escape()
+#62 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#63 /project/clever/include/classes/solo.php(309): Solo->escape()
+#64 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#65 /project/clever/include/classes/solo.php(210): Solo->escape()
+#66 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#67 /project/clever/include/classes/solo.php(309): Solo->escape()
+#68 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#69 /project/clever/include/classes/solo.php(210): Solo->escape()
+#70 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#71 /project/clever/include/classes/solo.php(309): Solo->escape()
+#72 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#73 /project/clever/include/classes/solo.php(210): Solo->escape()
+#74 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#75 /project/clever/include/classes/solo.php(309): Solo->escape()
+#76 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#77 /project/clever/include/classes/solo.php(210): Solo->escape()
+#78 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#79 /project/clever/include/classes/solo.php(309): Solo->escape()
+#80 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#81 /project/clever/include/classes/solo.php(210): Solo->escape()
+#82 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#83 /project/clever/include/classes/solo.php(309): Solo->escape()
+#84 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#85 /project/clever/include/classes/solo.php(210): Solo->escape()
+#86 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#87 /project/clever/include/classes/solo.php(309): Solo->escape()
+#88 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#89 /project/clever/include/classes/solo.php(210): Solo->escape()
+#90 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#91 /project/clever/include/classes/solo.php(309): Solo->escape()
+#92 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#93 /project/clever/include/classes/solo.php(210): Solo->escape()
+#94 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#95 /project/clever/include/classes/solo.php(309): Solo->escape()
+#96 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#97 /project/clever/include/classes/solo.php(210): Solo->escape()
+#98 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#99 /project/clever/include/classes/solo.php(309): Solo->escape()
+#100 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#101 /project/clever/include/classes/solo.php(210): Solo->escape()
+#102 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#103 /project/clever/include/classes/solo.php(309): Solo->escape()
+#104 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#105 /project/clever/include/classes/solo.php(210): Solo->escape()
+#106 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#107 /project/clever/include/classes/solo.php(309): Solo->escape()
+#108 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#109 /project/clever/include/classes/solo.php(210): Solo->escape()
+#110 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#111 /project/clever/include/classes/solo.php(309): Solo->escape()
+#112 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#113 /project/clever/include/classes/solo.php(210): Solo->escape()
+#114 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#115 /project/clever/include/classes/solo.php(309): Solo->escape()
+#116 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#117 /project/clever/include/classes/solo.php(210): Solo->escape()
+#118 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#119 /project/clever/include/classes/solo.php(309): Solo->escape()
+#120 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#121 /project/clever/include/classes/solo.php(210): Solo->escape()
+#122 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#123 /project/clever/include/classes/solo.php(309): Solo->escape()
+#124 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#125 /project/clever/include/classes/solo.php(210): Solo->escape()
+#126 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#127 /project/clever/include/classes/solo.php(309): Solo->escape()
+#128 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#129 /project/clever/include/classes/solo.php(210): Solo->escape()
+#130 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#131 /project/clever/include/classes/solo.php(309): Solo->escape()
+#132 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#133 /project/clever/include/classes/solo.php(210): Solo->escape()
+#134 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#135 /project/clever/include/classes/solo.php(309): Solo->escape()
+#136 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#137 /project/clever/include/classes/solo.php(210): Solo->escape()
+#138 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#139 /project/clever/include/classes/solo.php(309): Solo->escape()
+#140 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#141 /project/clever/include/classes/solo.php(210): Solo->escape()
+#142 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#143 /project/clever/include/classes/solo.php(309): Solo->escape()
+#144 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#145 /project/clever/include/classes/solo.php(210): Solo->escape()
+#146 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#147 /project/clever/include/classes/solo.php(309): Solo->escape()
+#148 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#149 /project/clever/include/classes/solo.php(210): Solo->escape()
+#150 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#151 /project/clever/include/classes/solo.php(309): Solo->escape()
+#152 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#153 /project/clever/include/classes/solo.php(210): Solo->escape()
+#154 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#155 /project/clever/include/classes/solo.php(309): Solo->escape()
+#156 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#157 /project/clever/include/classes/solo.php(210): Solo->escape()
+#158 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#159 /project/clever/include/classes/solo.php(309): Solo->escape()
+#160 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#161 /project/clever/include/classes/solo.php(210): Solo->escape()
+#162 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#163 /project/clever/include/classes/solo.php(309): Solo->escape()
+#164 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#165 /project/clever/include/classes/solo.php(210): Solo->escape()
+#166 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#167 /project/clever/include/classes/solo.php(309): Solo->escape()
+#168 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#169 /project/clever/include/classes/solo.php(210): Solo->escape()
+#170 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#171 /project/clever/include/classes/solo.php(309): Solo->escape()
+#172 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#173 /project/clever/include/classes/solo.php(210): Solo->escape()
+#174 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#175 /project/clever/include/classes/solo.php(309): Solo->escape()
+#176 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#177 /project/clever/include/classes/solo.php(210): Solo->escape()
+#178 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#179 /project/clever/include/classes/solo.php(309): Solo->escape()
+#180 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#181 /project/clever/include/classes/solo.php(210): Solo->escape()
+#182 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#183 /project/clever/include/classes/solo.php(309): Solo->escape()
+#184 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#185 /project/clever/include/classes/solo.php(210): Solo->escape()
+#186 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#187 /project/clever/include/classes/solo.php(309): Solo->escape()
+#188 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#189 /project/clever/include/classes/solo.php(210): Solo->escape()
+#190 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#191 /project/clever/include/classes/solo.php(309): Solo->escape()
+#192 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#193 /project/clever/include/classes/solo.php(210): Solo->escape()
+#194 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#195 /project/clever/include/classes/solo.php(309): Solo->escape()
+#196 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#197 /project/clever/include/classes/solo.php(210): Solo->escape()
+#198 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#199 /project/clever/include/classes/solo.php(309): Solo->escape()
+#200 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#201 /project/clever/include/classes/solo.php(210): Solo->escape()
+#202 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#203 /project/clever/include/classes/solo.php(309): Solo->escape()
+#204 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#205 /project/clever/include/classes/solo.php(210): Solo->escape()
+#206 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#207 /project/clever/include/classes/solo.php(309): Solo->escape()
+#208 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#209 /project/clever/include/classes/solo.php(210): Solo->escape()
+#210 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#211 /project/clever/include/classes/solo.php(309): Solo->escape()
+#212 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#213 /project/clever/include/classes/solo.php(210): Solo->escape()
+#214 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#215 /project/clever/include/classes/solo.php(309): Solo->escape()
+#216 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#217 /project/clever/include/classes/solo.php(210): Solo->escape()
+#218 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#219 /project/clever/include/classes/solo.php(309): Solo->escape()
+#220 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#221 /project/clever/include/classes/solo.php(210): Solo->escape()
+#222 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#223 /project/clever/include/classes/solo.php(309): Solo->escape()
+#224 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#225 /project/clever/include/classes/solo.php(210): Solo->escape()
+#226 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#227 /project/clever/include/classes/solo.php(309): Solo->escape()
+#228 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#229 /project/clever/include/classes/solo.php(210): Solo->escape()
+#230 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#231 /project/clever/include/classes/solo.php(309): Solo->escape()
+#232 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#233 /project/clever/include/classes/solo.php(210): Solo->escape()
+#234 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#235 /project/clever/include/classes/solo.php(309): Solo->escape()
+#236 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#237 /project/clever/include/classes/solo.php(210): Solo->escape()
+#238 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#239 /project/clever/include/classes/solo.php(309): Solo->escape()
+#240 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#241 /project/clever/include/classes/solo.php(210): Solo->escape()
+#242 /project/clever/include/classes/solo.php(472): Solo->first_phase()
+#243 /project/clever/include/classes/solo.php(309): Solo->escape()
+#244 /project/clever/include/classes/solo.php(477): Solo->prepare_last_phase()
+#245 /project/clever/include/classes/solo.php(279): Solo->escape()
+#246 /project/clever/include/classes/solo.php(634): Solo->gameplay()
+#247 /project/clever/clever.php(118): Solo->response()
+#248 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(638): {closure}()
+#249 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#250 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#251 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#252 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#253 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#254 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#255 /project/clever/clever.php(139): Workerman\Worker::runAll()
+#256 {main}
+2022-06-03 09:27:48 pid:2289 worker[none:2290] exit with status 64000
+2022-06-03 09:30:23 pid:2289 Workerman[clever.php] stopping ...
+2022-06-03 09:30:23 pid:2289 Workerman[clever.php] has been stopped
+2022-06-03 09:30:24 pid:2415 Workerman[clever.php] start in DEBUG mode
+2022-06-03 09:41:11 pid:2415 Workerman[clever.php] stopping ...
+2022-06-03 09:41:11 pid:2415 Workerman[clever.php] has been stopped
+2022-06-03 09:41:12 pid:2513 Workerman[clever.php] start in DEBUG mode
+2022-06-03 09:41:52 pid:2513 Workerman[clever.php] stopping ...
+2022-06-03 09:41:52 pid:2513 Workerman[clever.php] has been stopped
+2022-06-03 09:41:53 pid:2517 Workerman[clever.php] start in DEBUG mode
+2022-06-03 09:45:40 pid:2517 Workerman[clever.php] stopping ...
+2022-06-03 09:45:40 pid:2517 Workerman[clever.php] has been stopped
+2022-06-03 09:45:40 pid:2527 Workerman[clever.php] start in DEBUG mode
+2022-06-03 10:44:10 pid:2527 Workerman[clever.php] stopping ...
+2022-06-03 10:44:10 pid:2527 Workerman[clever.php] has been stopped
+2022-06-03 10:44:11 pid:2744 Workerman[clever.php] start in DEBUG mode
+2022-06-03 10:48:33 pid:2744 Workerman[clever.php] stopping ...
+2022-06-03 10:48:33 pid:2744 Workerman[clever.php] has been stopped
+2022-06-03 10:48:33 pid:2749 Workerman[clever.php] start in DEBUG mode
+2022-06-03 11:13:16 pid:2749 Workerman[clever.php] stopping ...
+2022-06-03 11:13:16 pid:2749 Workerman[clever.php] has been stopped
+2022-06-03 11:15:12 pid:2868 Workerman[clever.php] start in DEBUG mode
+2022-06-03 14:28:56 pid:2868 Workerman[clever.php] stopping ...
+2022-06-03 14:28:56 pid:2868 Workerman[clever.php] has been stopped
+2022-06-03 14:28:56 pid:3190 Workerman[clever.php] start in DEBUG mode
+2022-06-03 15:01:40 pid:3190 Workerman[clever.php] stopping ...
+2022-06-03 15:01:40 pid:3190 Workerman[clever.php] has been stopped
+2022-06-03 15:01:41 pid:3378 Workerman[clever.php] start in DEBUG mode
+2022-06-03 15:05:21 pid:3378 Workerman[clever.php] stopping ...
+2022-06-03 15:05:21 pid:3378 Workerman[clever.php] has been stopped
+2022-06-03 15:05:22 pid:3398 Workerman[clever.php] start in DEBUG mode
+2022-06-03 15:05:45 pid:3398 Workerman[clever.php] stopping ...
+2022-06-03 15:05:45 pid:3398 Workerman[clever.php] has been stopped
+2022-06-03 15:05:51 pid:3403 Workerman[clever.php] start in DEBUG mode
+2022-06-03 15:08:52 pid:3403 Workerman[clever.php] stopping ...
+2022-06-03 15:08:52 pid:3403 Workerman[clever.php] has been stopped
+2022-06-03 15:08:56 pid:3413 Workerman[clever.php] start in DEBUG mode
+2022-06-03 15:32:42 pid:3413 Workerman[clever.php] stopping ...
+2022-06-03 15:32:42 pid:3413 Workerman[clever.php] has been stopped
+2022-06-03 15:32:42 pid:3562 Workerman[clever.php] start in DEBUG mode
+2022-06-03 15:53:57 pid:3562 Workerman[clever.php] stopping ...
+2022-06-03 15:53:57 pid:3562 Workerman[clever.php] has been stopped
+2022-06-03 15:53:58 pid:3681 Workerman[clever.php] start in DEBUG mode
+2022-06-03 16:01:57 pid:3681 Workerman[clever.php] stopping ...
+2022-06-03 16:01:57 pid:3681 Workerman[clever.php] has been stopped
+2022-06-03 16:01:57 pid:3704 Workerman[clever.php] start in DEBUG mode
+2022-06-05 12:55:01 pid:3704 Workerman[clever.php] stopping ...
+2022-06-05 12:55:01 pid:3704 Workerman[clever.php] has been stopped
+2022-06-06 09:38:52 pid:10698 Workerman[clever.php] start in DEBUG mode
+2022-06-06 09:39:02 pid:10698 Workerman[clever.php] stopping ...
+2022-06-06 09:39:02 pid:10698 Workerman[clever.php] has been stopped
+2022-06-06 09:40:37 pid:10780 Workerman[clever.php] start in DEBUG mode
+2022-06-06 09:43:03 pid:10780 Workerman[clever.php] stopping ...
+2022-06-06 09:43:03 pid:10780 Workerman[clever.php] has been stopped
+2022-06-06 09:43:04 pid:10789 Workerman[clever.php] start in DEBUG mode
+2022-06-06 09:46:13 pid:10789 Workerman[clever.php] stopping ...
+2022-06-06 09:46:13 pid:10789 Workerman[clever.php] has been stopped
+2022-06-06 09:46:13 pid:10802 Workerman[clever.php] start in DEBUG mode
+2022-06-06 09:57:38 pid:10802 Workerman[clever.php] stopping ...
+2022-06-06 09:57:38 pid:10802 Workerman[clever.php] has been stopped
+2022-06-06 09:57:38 pid:10822 Workerman[clever.php] start in DEBUG mode
+2022-06-06 09:59:29 pid:10822 Workerman[clever.php] stopping ...
+2022-06-06 09:59:29 pid:10822 Workerman[clever.php] has been stopped
+2022-06-06 09:59:30 pid:10832 Workerman[clever.php] start in DEBUG mode
+2022-06-06 10:03:03 pid:10832 Workerman[clever.php] stopping ...
+2022-06-06 10:03:03 pid:10832 Workerman[clever.php] has been stopped
+2022-06-06 10:03:03 pid:10839 Workerman[clever.php] start in DEBUG mode
+2022-06-06 10:37:02 pid:10839 Workerman[clever.php] stopping ...
+2022-06-06 10:37:02 pid:10839 Workerman[clever.php] has been stopped
+2022-06-06 10:37:08 pid:10945 Workerman[clever.php] start in DEBUG mode
+2022-06-06 13:06:50 pid:10945 Workerman[clever.php] stopping ...
+2022-06-06 13:06:50 pid:10945 Workerman[clever.php] has been stopped
+2022-06-06 13:06:51 pid:11599 Workerman[clever.php] start in DEBUG mode
+2022-06-06 15:14:47 pid:11599 Workerman[clever.php] stopping ...
+2022-06-06 15:14:47 pid:11599 Workerman[clever.php] has been stopped
+2022-06-06 15:14:48 pid:12195 Workerman[clever.php] start in DEBUG mode
+2022-06-06 15:50:12 pid:12195 Workerman[clever.php] stopping ...
+2022-06-06 15:50:12 pid:12195 Workerman[clever.php] has been stopped
+2022-06-06 15:50:13 pid:12357 Workerman[clever.php] start in DEBUG mode
+2022-06-06 15:52:00 pid:12357 Workerman[clever.php] stopping ...
+2022-06-06 15:52:00 pid:12357 Workerman[clever.php] has been stopped
+2022-06-06 15:52:00 pid:12365 Workerman[clever.php] start in DEBUG mode
+2022-06-06 18:03:22 pid:12365 Workerman[clever.php] stopping ...
+2022-06-06 18:03:22 pid:12365 Workerman[clever.php] has been stopped
+2022-06-06 18:03:23 pid:12798 Workerman[clever.php] start in DEBUG mode
+2022-06-06 22:28:53 pid:12798 Workerman[clever.php] stopping ...
+2022-06-06 22:28:53 pid:12798 Workerman[clever.php] has been stopped
+2022-06-07 07:52:45 pid:14478 Workerman[clever.php] start in DEBUG mode
+2022-06-07 08:00:09 pid:14478 Workerman[clever.php] stopping ...
+2022-06-07 08:00:09 pid:14478 Workerman[clever.php] has been stopped
+2022-06-07 08:00:10 pid:14509 Workerman[clever.php] start in DEBUG mode
+2022-06-07 09:50:59 pid:14509 Workerman[clever.php] stopping ...
+2022-06-07 09:50:59 pid:14509 Workerman[clever.php] has been stopped
+2022-06-07 09:51:01 pid:15004 Workerman[clever.php] start in DAEMON mode
+2022-06-07 09:51:09 pid:15007 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:44
+Stack trace:
+#0 /project/clever/clever.php(44): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#10 /project/clever/clever.php(143): Workerman\Worker::runAll()
+#11 {main}
+2022-06-07 09:51:09 pid:15006 worker[none:15007] exit with status 64000
+2022-06-07 09:51:13 pid:15008 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:44
+Stack trace:
+#0 /project/clever/clever.php(44): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#12 /project/clever/clever.php(143): Workerman\Worker::runAll()
+#13 {main}
+2022-06-07 09:51:13 pid:15006 worker[none:15008] exit with status 64000
+2022-06-07 09:51:15 pid:15009 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /project/clever/clever.php:44
+Stack trace:
+#0 /project/clever/clever.php(44): PDO->prepare()
+#1 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(404): {closure}()
+#2 /project/clever/vendor/workerman/workerman/Protocols/Websocket.php(57): Workerman\Protocols\Websocket::dealHandshake()
+#3 /project/clever/vendor/workerman/workerman/Connection/TcpConnection.php(601): Workerman\Protocols\Websocket::input()
+#4 /project/clever/vendor/workerman/workerman/Events/Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#5 /project/clever/vendor/workerman/workerman/Worker.php(2435): Workerman\Events\Select->loop()
+#6 /project/clever/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#7 /project/clever/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#8 /project/clever/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#9 /project/clever/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#10 /project/clever/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#11 /project/clever/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#12 /project/clever/clever.php(143): Workerman\Worker::runAll()
+#13 {main}
+2022-06-07 09:51:15 pid:15006 worker[none:15009] exit with status 64000
+2022-06-07 09:51:27 pid:15011 Workerman[clever.php] status 
+2022-06-07 09:53:08 pid:15006 Workerman[clever.php] stopping ...
+2022-06-07 09:53:08 pid:15006 Workerman[clever.php] has been stopped

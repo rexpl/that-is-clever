@@ -1,0 +1,19 @@
+Options -Indexes
+
+RewriteEngine on
+
+RewriteRule ^home$ loggedin.php [QSA,L]
+RewriteRule ^login$ _login.php [QSA,L]
+RewriteRule ^register$ _register.php [QSA,L]
+RewriteRule ^settings$ _settings.php [QSA,L]
+RewriteRule ^settings/email$ _settings_mail.php [QSA,L]
+RewriteRule ^settings/password$ _settings_password.php [QSA,L]
+
+RewriteRule ^game/solo$ game/_solo.php [QSA,L]
+RewriteRule ^game/friend$ game/_friend.php [QSA,L]
+
+RewriteRule ^pregame/solo$ pregame/_solo.php [QSA,L]
+RewriteRule ^pregame/friend$ pregame/_friend.php [QSA,L]
+
+RewriteRule ^result/solo$ result/_solo.php [QSA,L]
+RewriteRule ^result/friend$ result/_friend.php [QSA,L]

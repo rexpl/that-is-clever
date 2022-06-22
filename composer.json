@@ -1,0 +1,10 @@
+{
+	"autoload": {
+		"files": ["include/core.php"],
+		"classmap": ["include/classes/"]
+	},
+	"require": {
+		"defuse/php-encryption": "^2.3",
+		"workerman/workerman": "^4.0"
+	}
+}

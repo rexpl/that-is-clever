@@ -1,0 +1,471 @@
+@font-face {
+	font-family: 'PermanentMarker';
+	src: url('/ressources/fonts/PermanentMarker.ttf');
+}
+@font-face {
+	font-family: 'CaveatBrush-Regular';
+	src: url('/ressources/fonts/CaveatBrush-Regular.ttf');
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	opacity: 0;
+}
+ 
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+}
+
+@media screen and (min-width: 1400px) {
+	body {
+		font-size: 1rem;
+	}
+	h1 {
+		font-size: 2.5rem;
+	}
+}
+@media screen and (max-width: 1400px) {
+	body {
+		font-size: 0.65rem;
+	}
+	h1 {
+		font-size: 2rem;
+	}
+}
+@media screen and (max-width: 1200px) {
+	h1 {
+		font-size: 1.8rem;
+	}
+}
+
+:root {
+	--green-clever: #6bb058;
+	--blue-clever: #3284b8;
+	--yellow-clever: #dbc900;
+	--orange-clever: #dba100;
+	--purple-clever: #a442f5;
+}
+
+body {
+	background-color: #212529;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.caveat {
+	font-family: 'CaveatBrush-Regular';
+}
+
+.img-font-size-1 {
+	height: 1rem;
+	width: 1rem;
+}
+
+.img-font-size-2 {
+	height: 1.25rem;
+	width: 1.25rem;
+}
+
+.img-font-size-3 {
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+.bg-c-yellow {
+	background-color: var(--yellow-clever);
+}
+
+.bg-c-blue {
+	background-color: var(--blue-clever);
+}
+
+.bg-c-green {
+	background-color: var(--green-clever);
+}
+
+.bg-c-orange {
+	background-color: var(--orange-clever);
+}
+
+.bg-c-purple {
+	background-color: var(--purple-clever);
+}
+
+.bg-c-white {
+	background-color: #ffffff;
+}
+
+.bg-c-black {
+	background-color: #000000;
+}
+
+.text-white {
+	color: white;
+}
+
+.center {
+	text-align: center;
+}
+
+.center-y {
+	margin: 0;
+	position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.center-x {
+	margin: 0 auto;
+}
+
+.clever-box-s {
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-radius: 10%;
+	border-width: 0.1rem;
+	width: 1.8em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;
+}
+
+div.clever-box-blue {
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 3%;
+	border-width: 0.2rem;
+	background-color: rgba(66, 176, 245, 0.15);
+	box-shadow: 0 0 5px 5px #42b0f5;
+	display: inline-block;
+}
+
+div.clever-box-blue div.clever-box {
+	background-color: #ffffff;
+	color: var(--blue-clever);
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 10%;
+	border-width: 0.2rem;
+	width: 100%;
+	text-align: center;
+	margin: .5rem 1rem;
+	padding: .5rem .25rem;
+}
+
+div.clever-box-blue div.col {
+	flex: 0 0 auto;
+	width: 20%
+}
+
+div.clever-box-blue div.clever-box-c {
+	background-color: var(--blue-clever);
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-radius: 50%;
+	border-width: 0.1rem;
+	width: 1.51rem;
+	display: inline-block;
+}
+
+div.clever-box-blue div.center-x-w {
+	width: 100%;
+	margin: 1rem 1rem;
+}
+
+div.clever-box-yellow {
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 3%;
+	border-width: 0.2rem;
+	background-color: rgba(219, 201, 0, 0.15);
+	box-shadow: 0 0 5px 5px #dbc900;
+	display: inline-block;
+}
+
+div.clever-box-yellow div.clever-box {
+	background-color: #ffffff;
+	color: #000000;
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 10%;
+	border-width: 0.2rem;
+	width: 100%;
+	text-align: center;
+	margin: .5rem 1rem;
+	padding: .5rem .25rem;
+}
+
+div.clever-box-yellow span.clever-box-c {
+	background-color: var(--yellow-clever);
+	border-style: solid;
+	border-color: #FFFFFF;
+	color: #ffffff;
+	border-radius: 50%;
+	border-width: 0.1rem;
+	width: 1.51rem;
+	display: inline-block;
+}
+
+div.clever-box-yellow div.center-x-w {
+	width: 100%;
+	margin: 1rem 1rem;
+}
+
+div.clever-box-green {
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 10px;
+	border-width: 0.2rem;
+	background-color: rgba(114, 245, 66, 0.15);
+	box-shadow: 0 0 5px 5px #72f542;
+	display: inline-block;
+	width: 100%;
+	padding: 1rem;
+}
+
+div.clever-box-green .clever-box {
+	background-color: #ffffff;
+	color: var(--green-clever);
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 10%;
+	border-width: 0.2rem;
+	text-align: center;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	margin-top: 0.25rem;
+}
+
+div.clever-box-green .clever-box-s {
+	margin-top: -15%;
+	text-align: center;
+}
+
+div.clever-box-green .clever-box-c {
+	background-color: var(--green-clever);
+	border-style: solid;
+	border-color: #FFFFFF;
+	color: #ffffff;
+	border-radius: 50%;
+	border-width: 0.1rem;
+	width: 1.51rem;
+	text-align: center;
+	margin-top: -25%;
+}
+
+div.clever-box-orange {
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 10px;
+	border-width: 0.2rem;
+	background-color: rgba(219, 161, 0, 0.15);
+	box-shadow: 0 0 5px 5px #dba100;
+	display: inline-block;
+	width: 100%;
+	padding: 1rem;
+}
+
+div.clever-box-orange .clever-box {
+	background-color: #ffffff;
+	color: var(--orange-clever);
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 10%;
+	border-width: 0.2rem;
+	text-align: center;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	margin-top: 0.25rem;
+}
+
+div.clever-box-orange .clever-box-s {
+	margin-top: -15%;
+	text-align: center;
+}
+
+div.clever-box-purple {
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 10px;
+	border-width: 0.2rem;
+	background-color: rgba(164, 66, 245, 0.15);
+	box-shadow: 0 0 5px 5px #a442f5;
+	display: inline-block;
+	width: 100%;
+	padding: 1rem;
+}
+
+div.clever-box-purple .clever-box {
+	background-color: #ffffff;
+	color: var(--purple-clever);
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 10%;
+	border-width: 0.2rem;
+	text-align: center;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	margin-top: 0.25rem;
+}
+
+div.clever-box-purple .clever-box-s {
+	margin-top: -15%;
+	text-align: center;
+}
+
+div.fox_position {
+	text-align: center;
+	margin-top: -15%;
+}
+
+div.dice .clever-box {
+	visibility: hidden;
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 10%;
+	border-width: 0.15rem;
+	text-align: center;
+	padding-top:.25rem;
+	padding-bottom:.25rem;
+	margin: .5rem 0.25rem;
+}
+
+div.clever-box #white-dice-text {
+	color: #000000;
+}
+
+div.bonus .clever-box {
+	border-style: solid;
+	border-color: #ffffff;
+	border-radius: 10%;
+	border-width: 0.15rem;
+	text-align: center;
+	padding-top:.25rem;
+	padding-bottom:.25rem;
+	margin: .5rem 0.25rem;
+	background-color: #000000;
+}
+
+div.bonus .clever-box-s {
+	text-align: center;
+	background-color: #000000;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-radius: 10%;
+	border-width: 0.1rem;
+	width: 1.8em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -25%;
+}
+
+.c-col {
+	flex: 1 0 0%;
+}
+
+.c-col-5 {
+	flex: 0 0 auto;
+	width: 41.66666667%
+}
+
+.c-col-2 {
+	flex: 0 0 auto;
+	width:16.66666667%
+}
+
+.c-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+span#bottomDice .clever-box {
+	text-align: center;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-radius: 10%;
+	border-width: 0.2rem;
+}
+
+div.bottom_footer {
+	width: 100%;
+	background-color: #404040;
+	box-shadow: 0 0 5px 5px #333333;
+	position: fixed;
+	bottom: 0;
+	z-index: 3;
+}
+
+div#undermySidebar {
+	display: none;
+	background-color: rgba(0,0,0,0.4);
+	z-index: 3;
+	cursor: pointer;
+}
+
+.sidebar {
+	box-shadow: 0 0 15px 2px #ffffff;
+	display: none;
+	height: 100%;
+	width: 20%;
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	background-color: #ffffff;
+	overflow-x: hidden;
+	cursor: default;
+	padding: 1rem;
+}
+
+.sidebar .fixed-bottom {
+	position: fixed;
+	bottom: 0;
+	width: 20%;
+	padding-bottom: 4.5rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	background-color: white;
+}
+
+.sidebar .fixed-main {
+	margin-top: 5rem;
+	margin-bottom: 7rem;
+	position: relative;
+	height: 100%;
+}
+
+.sidebar .all-message {
+	font-size: 1.05rem;
+}
+
+.sidebar .fixed-top {
+	position: fixed;
+	top: 0;
+	width: 20%;
+	padding-top: 0.5rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	background-color: white;
+}
+
+.ping {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: grey;
+}
