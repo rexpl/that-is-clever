@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 require '../vendor/autoload.php';
 
@@ -55,7 +55,7 @@ require '../vendor/autoload.php';
 							</div>
 						</div>
 						<div class="mb-3">
-							<h1>Clever - <?= t('login_login'); ?></h1>
+							<h1>Clever - <?= t('login_login') ?></h1>
 						</div>
 						<div id="fields">
 							<div class="mb-3">

@@ -2,11 +2,6 @@
 
 require '../vendor/autoload.php';
 
-if (verify_login()) {
-	header('Location: /home');
-	die();
-}
-
 ?><!DOCTYPE html>
 <html>
 <head>

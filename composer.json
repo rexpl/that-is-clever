@@ -4,7 +4,7 @@
 			"Clever\\Library\\": "include/library"
 		},
 		"files": [
-			"include/bootstrap.php"
+			"include/bootstrap/bootstrap.php"
 		]
 	},
 	"require": {

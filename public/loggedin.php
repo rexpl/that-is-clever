@@ -1,11 +1,6 @@
 <?php 
 
-require '/project/clever/vendor/autoload.php';
-
-if (!verify_login()) {
-	header('Location: /login');
-	die();
-}
+require '../vendor/autoload.php';
 
 userIsInGame(true);
 

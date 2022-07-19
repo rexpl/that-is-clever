@@ -5,14 +5,14 @@ return [
 	/**
 	 * Application url
 	 */
-	'url' => 'localhost',
+	'url' => 'http://192.168.178.46',
 
 
 	/**
 	 * Version number will be appended to reload the in browser cached files in ressource.
 	 * Exemple: https://exemple.com/ressources/js/solo.min.js?v=1.5.23
 	 */
-	'version' => 1.0,
+	'version' => '1.0',
 
 
 	/**
@@ -33,8 +33,19 @@ return [
 	 */
 	'db_host' => 'localhost',
 	'db_name' =>  'clever',
-	'db_username' => 'sammy',
-	'db_password' => 'password',
+	'db_user' => 'sammy',
+	'db_pass' => 'password',
 
 
+	/**
+	 * Bcrypt cost
+	 */
+	'bcrypt' => 12,
+
+
+	/**
+	 * Value for cookie https only, easier for dev env.
+	 * MUST BE TRUE IN PRODUCTION
+	 */
+	'cookie_secure' => true,
 ];
