@@ -1,7 +1,11 @@
 {
 	"autoload": {
-		"files": ["include/core.php"],
-		"classmap": ["include/classes/"]
+		"psr-4": {
+			"Clever\\Library\\": "include/library"
+		},
+		"files": [
+			"include/bootstrap.php"
+		]
 	},
 	"require": {
 		"defuse/php-encryption": "^2.3",

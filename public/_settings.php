@@ -1,6 +1,6 @@
 <?php 
 
-require '/project/clever/vendor/autoload.php';
+require '../vendor/autoload.php';
 
 if (!verify_login()) {
 	header('Location: /login');
@@ -60,7 +60,7 @@ userIsInGame(true);
 					<span class="float-end">
 						<select id="language" class="form-select" onchange="language(this.value);" style="cursor: pointer;">
 							<?php 
-								foreach (SUPPORTED_LANGUAGES as $value) {
+								foreach ($config->get('supported_lang') as $value) {
 									echo "<option value=" . $value . ">" . TEXT['name_for_' . $value] . "</option>";
 								}
 							?>

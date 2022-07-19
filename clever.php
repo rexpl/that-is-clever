@@ -1,8 +1,10 @@
 <?php
 
 use Workerman\Worker;
+use Clever\Library\Solo;
+use Clever\Library\Friend;
 
-require_once __DIR__ . '/vendor/autoload.php';
+require 'vendor/autoload.php';
 $file = fopen("/project/clever/log/websocket.log", "a");
 
 //variables needed for gameplay

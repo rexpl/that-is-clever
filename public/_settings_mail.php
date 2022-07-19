@@ -3,7 +3,7 @@
 use Defuse\Crypto\Key;
 use Defuse\Crypto\Crypto;
 
-require '/project/clever/vendor/autoload.php';
+require '../vendor/autoload.php';
 
 if (!verify_login()) {
 	header('Location: /login');
