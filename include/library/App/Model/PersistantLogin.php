@@ -59,4 +59,33 @@ class PersistantLogin
 		$this->db->query("DELETE FROM persistent_login WHERE id_user = :id", ['id' => $userID]);
 	}
 
+
+	/**
+	 * look if given serial already exist.
+	 *
+	 * @param string $serial
+	 * 
+	 * @return bool
+	 */
+	public function serialExist($serial)
+	{
+		return $this->db->query("SELECT 1 FROM persistent_login WHERE serial = :serial", ['serial' => $serial])->fetch();
+	}
+
+
+
+	/**
+	 * Insert new login.
+	 * 
+	 * @param int $userID
+	 * @param string $serial
+	 * @param string $token
+	 * 
+	 * @return void
+	 */
+	public function new($userID, $serial, $token)
+	{
+		$this->db->query("INSERT INTO persistent_login (id_user, serial, token) VALUES (:id_user, :serial, :token)", ['id_user' => $userID, 'serial' => $serial, 'token' => $token]);
+	}
+
 }

@@ -2,7 +2,7 @@
 
 use Clever\Library\App\Config;
 
-$GLOBALS['config'] = new Config(require '../config/config.php');
+$GLOBALS['config'] = new Config(require dirname(__DIR__, 2) . '/config/config.php');
 
 global $config;
 

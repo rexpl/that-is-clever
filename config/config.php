@@ -32,7 +32,7 @@ return [
 	 * Database credentials (mysql)
 	 */
 	'db_host' => 'localhost',
-	'db_name' =>  'clever',
+	'db_name' => 'clever',
 	'db_user' => 'sammy',
 	'db_pass' => 'password',
 
@@ -47,5 +47,5 @@ return [
 	 * Value for cookie https only, easier for dev env.
 	 * MUST BE TRUE IN PRODUCTION
 	 */
-	'cookie_secure' => true,
+	'cookie_secure' => false,
 ];

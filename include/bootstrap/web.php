@@ -12,7 +12,7 @@ global $database;
 /**
  * Procedure to verify if the user needs to be login and then if he is logged in.
  */
-$guestURL = in_array(parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH), require '../config/guest_url.php') ? true : false;
+$guestURL = in_array(parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH), require dirname(__DIR__, 2) . '/config/guest_url.php') ? true : false;
 
 if (!$guestURL) {
 
@@ -28,7 +28,7 @@ if (!$guestURL) {
 		die();
 	}
 }
-elseif ($guestURL && Login::verifyLogin($database, $config)) {
+elseif ($guestURL && Login::verifyLogin($database, $config) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
 
 	header('Location: '.$config->get('url').'/home');
 	die();
@@ -38,9 +38,9 @@ elseif ($guestURL && Login::verifyLogin($database, $config)) {
 /**
  * Procedure to set the language
  */
-if (isset($_COOKIE['lang']) && in_array($_COOKIE['lang'], $config->get('url'))) {
+if (isset($_COOKIE['lang']) && in_array($_COOKIE['lang'], $config->get('supported_lang'))) {
 
-	define('TEXT', json_decode(file_get_contents('../lang/' . $_COOKIE['lang'] . '.json'), true));
+	define('TEXT', json_decode(file_get_contents(dirname(__DIR__, 2) . '/lang/' . $_COOKIE['lang'] . '.json'), true));
 }
 else {
 
@@ -65,7 +65,7 @@ else {
 	}
 
 	$lang = detect_language($config);
-	define('TEXT', json_decode(file_get_contents('../lang/' . $lang . '.json'), true));
+	define('TEXT', json_decode(file_get_contents(dirname(__DIR__, 2) . '/lang/' . $lang . '.json'), true));
 	setcookie("lang", $lang, time()+31556926, "/");
 }
 

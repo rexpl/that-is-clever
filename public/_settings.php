@@ -1,13 +1,6 @@
 <?php 
 
-require '../vendor/autoload.php';
-
-if (!verify_login()) {
-	header('Location: /login');
-	die();
-}
-
-userIsInGame(true);
+require dirname(__DIR__) . '/vendor/autoload.php';
 
 ?><!DOCTYPE html>
 <html>

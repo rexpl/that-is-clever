@@ -59,18 +59,16 @@ class Encryption
 	/**
 	 * Change the password of the given protected key.
 	 * 
-	 * @param string $protected_key
 	 * @param string $password
 	 * @param string $newPassword
 	 * 
 	 * @return Updated protected key (string)
 	 */
-	public function updateProtectedKey($protected_key, $password, $newPassword)
+	public function updateProtectedKey($password, $newPassword)
 	{
-		$protected_key = KeyProtectedByPassword::loadFromAsciiSafeString($protected_key);
-		$protected_key->changePassword($password, $newPassword);
+		$this->encryptionKey->changePassword($password, $newPassword);
 
-		return $protected_key->saveToAsciiSafeString();
+		return $this->encryptionKey->saveToAsciiSafeString();
 	}
 
 

@@ -48,4 +48,5 @@ return [
 	 * MUST BE TRUE IN PRODUCTION
 	 */
 	'cookie_secure' => true,
+	
 ];

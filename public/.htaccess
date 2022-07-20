@@ -2,9 +2,12 @@ Options -Indexes
 
 RewriteEngine on
 
-RewriteRule ^home$ loggedin.php [QSA,L]
+RewriteRule ^call/(.*)$ call/index.php [QSA,L]
+
 RewriteRule ^login$ _login.php [QSA,L]
 RewriteRule ^register$ _register.php [QSA,L]
+
+RewriteRule ^home$ loggedin.php [QSA,L]
 RewriteRule ^settings$ _settings.php [QSA,L]
 RewriteRule ^settings/email$ _settings_mail.php [QSA,L]
 RewriteRule ^settings/password$ _settings_password.php [QSA,L]

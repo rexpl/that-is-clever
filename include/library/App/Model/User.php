@@ -35,6 +35,19 @@ class User
 
 
 	/**
+	 * Get the id, password, protected_key, failed_login_count by username.
+	 *
+	 * @param string $username
+	 * 
+	 * @return id, password, protected_key, failed_login_count
+	 */
+	public function getLoginDataByUsername($username)
+	{
+		return $this->db->query("SELECT id, password, protected_key, failed_login_count FROM user WHERE username = BINARY :username AND status = 1", ['username' => $username])->fetch();
+	}
+
+
+	/**
 	 * Get the decrypted email address by ID.
 	 *
 	 * @param Clever\Library\App\Encryption
@@ -44,11 +57,34 @@ class User
 	 */
 	public function getMailByID(Encryption $crypto, $userID)
 	{
-		$email = $this->db->query("SELECT mail FROM user WHERE id = :id_user", ['id_user' => $userID])->fetch()->username;
+		$email = $this->db->query("SELECT mail FROM user WHERE id = :id", ['id' => $userID])->fetch()->username;
 
 		return $crypto->decrypt($email);
 	}
 
 
+	/**
+	 * Increment the failed_login counter..
+	 *
+	 * @param int $userID
+	 * 
+	 * @return void
+	 */
+	public function incrementFailedLoginCountByID($userID)
+	{
+		$this->db->query("UPDATE user SET failed_login_count = failed_login_count + 1 WHERE id = :id", ['id' => $userID]);
+	}
 
+
+	/**
+	 * verify if the user exist or not.
+	 * 
+	 * @param string $username
+	 * 
+	 * @return bool
+	 */
+	public function usernameExist($username)
+	{
+		return $this->db->query("SELECT 1 FROM user WHERE username = :username", ['username' => $username])->fetch();
+	}
 }

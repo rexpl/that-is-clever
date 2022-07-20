@@ -1,11 +1,6 @@
 <?php
 
-require '../vendor/autoload.php';
-
-/*if (verify_login()) {
-	header('Location: /home');
-	die();
-}*/
+require dirname(__DIR__) . '/vendor/autoload.php';
 
 ?><!DOCTYPE html>
 <html>
@@ -19,6 +14,7 @@ require '../vendor/autoload.php';
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="<?= $config->get('url'); ?>/ressources/js/app.min.js?v=<?= $config->get('version'); ?>"></script>
 
 	<style type="text/css">
 		body {
@@ -46,12 +42,12 @@ require '../vendor/autoload.php';
 	<div class="main">
 		<div class="col-md-6 col-sm-12">
 			<div class="login-form">
-				<form autocomplete="off" onsubmit="return login();" id="login_form">
+				<form method="post" autocomplete="off" onsubmit="LoginPage.submit();return false;" id="login_form">
 					<div class="m-3">
 						<div class="mobile_dot">
-							<div class="alert alert-dismissible" id="alert_box" style="visibility: hidden;">
+							<div class="alert alert-dismissible <?= isset($_GET['register']) ? 'alert-success' : '' ?>" id="alert_box" style="<?= isset($_GET['register']) ? '' : 'visibility: hidden;' ?>">
 								<button type="button" class="btn-close" onclick="document.getElementById('alert_box').style.visibility='hidden';"></button>
-								<div id="text_alert"></div>
+								<div id="text_alert"><?= isset($_GET['register']) ? t('register_success') : '' ?></div>
 							</div>
 						</div>
 						<div class="mb-3">
@@ -60,11 +56,11 @@ require '../vendor/autoload.php';
 						<div id="fields">
 							<div class="mb-3">
 								<label for="username" class="form-label"><strong><?= t('login_username'); ?>:</strong></label>
-								<input type="text" autocomplete="username" class="form-control border" name="username" id="username" value="<?php if (isset($_COOKIE['username'])) echo htmlentities($_COOKIE['username'], ENT_QUOTES); ?>" autofocus>
+								<input type="text" autocomplete="username" class="form-control border" name="username" id="username" <?= isset($_GET['username']) ? 'value="' . e($_GET['username']) . '"' : 'autofocus' ?>>
 							</div>
 							<div class="mb-5">
 								<label for="password" class="form-label"><strong><?= t('login_password'); ?>:</strong></label>
-								<input type="password" autocomplete="current-password" class="form-control border" name="password" id="password">
+								<input type="password" autocomplete="current-password" class="form-control border" name="password" id="password" <?= isset($_GET['username']) ? 'autofocus' : '' ?>>
 							</div>
 						</div>
 						<button type="submit" class="btn btn-black text-white" id="butn_submit"><?= t('login_login'); ?></button>
@@ -80,45 +76,15 @@ require '../vendor/autoload.php';
 	</div>
 <script type="text/javascript">
 
-	function login() {
-		document.getElementById("fields").classList.remove("invalid");
-		var e = document.getElementById("alert_box");
-		e.style.visibility='hidden';
-		var xhttp = new XMLHttpRequest();
-		xhttp.onreadystatechange = function() {
-			if (this.readyState == 4) {
-				if (this.status == 200) {
-					result = JSON.parse(this.responseText);
-					if (result['succes'] == true) {
-						window.location.href = "/home";
-					}
-					else {
-						if (result['reason'] == 'credentials') {
-							document.getElementById("fields").classList.add("invalid");
-							document.getElementById('password').focus();
-						}
-						e.classList.add("alert-warning");
-						document.getElementById("text_alert").innerHTML = result['message'];
-						e.style.visibility='visible';
-					}
-				}
-				else {
-					e.classList.add("alert-danger");
-					document.getElementById("text_alert").innerHTML = "<?= t('unexpected_error'); ?>";
-					e.style.visibility='visible';
-				}
-			}
-		}
-		var data = new FormData(document.getElementById('login_form'));
-		document.getElementById('password').value = '';
-		xhttp.open("POST", "<?= $config->get('url'); ?>/call/login/login.php", true);
-		xhttp.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-		xhttp.send(data);
+	text = {
 
-		return false;
+		textLogin: "<?= t('login_login'); ?>",
+		textUnexpectedError: "<?= t('unexpected_error'); ?>",
+
 	}
 
+	const LoginPage = new Login("<?= $config->get('url'); ?>",  text);
+
 </script>
-<script src="<?= $config->get('url'); ?>/ressources/js/app.js?v=<?= $config->get('version'); ?>"></script>
 </body>
 </html>
