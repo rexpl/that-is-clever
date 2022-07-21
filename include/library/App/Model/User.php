@@ -87,4 +87,33 @@ class User
 	{
 		return $this->db->query("SELECT 1 FROM user WHERE username = :username", ['username' => $username])->fetch();
 	}
+
+
+	/**
+	 * Create new user.
+	 * 
+	 * @param string $username
+	 * @param string $password
+	 * @param string $mail_hash
+	 * @param string $protected_key
+	 * @param string $mail
+	 * 
+	 * @return vois
+	 */
+	public function createUser($username, $password, $mail_hash, $protected_key, $mail)
+	{
+		return $this->db->query("
+			INSERT INTO 
+				user (status, username, password, mail_hash, protected_key, mail, failed_login_count)
+			VALUES
+				(1, :username, :password, :mail_hash, :protected_key, :mail, 0)",
+			[
+				'username' => $username,
+				'password' => $password,
+				'mail_hash' => $mail_hash,
+				'protected_key' => $protected_key,
+				'mail' => $mail,
+			]
+		);
+	}
 }

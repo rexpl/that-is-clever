@@ -15,11 +15,12 @@ class Login
 	/**
 	 * Verify login credentials and log the user in.
 	 *
-	 * @param id
+	 * @param Clever\Library\App\Database
+	 * @param Clever\Library\App\Config
 	 * 
-	 * @return bool
+	 * @return array
 	 */
-	public static function login(Database $database)
+	public static function login(Database $database, Config $config)
 	{
 		/**
 		 * Verify we have all necessary data.
@@ -65,6 +66,7 @@ class Login
 		$_SESSION['personnal_key'] = $crypto->unlockKey($user->protected_key, $_POST['password']);
 
 		$_SESSION['id_user'] = $user->id;
+		$_SESSION['username'] = $_POST['username'];
 		$_SESSION['remote_ip'] = $_SERVER['REMOTE_ADDR'];
 		$_SESSION['cookie_login'] = false;
 
@@ -72,21 +74,19 @@ class Login
 		/**
 		 * We set the necessary cookies for persistant login.
 		 */
-		$login = new PersistantLogin();
+		$login = new PersistantLogin($database);
 
-
-		$found = false;
-		while ($found == true) {
+		while (true) {
 
 			//serial has to be unique
 			$serial = Helper::randomString(128);
-			$found = $login->serialExist($serial);
+			if (!$login->serialExist($serial)) break;
 		}
 
-		setcookie("serial", $serial, time()+5443200, "/", $config->get('url'), $config->get('cookie_secure'), true);
+		setcookie("serial", $serial, time()+5443200, "/", "", $config->get('cookie_secure'), true);
 
 		$token = Helper::randomString(64);
-		setcookie("token", $token, time()+1814400, "/", $config->get('url'), $config->get('cookie_secure'), true);
+		setcookie("token", $token, time()+1814400, "/", "", $config->get('cookie_secure'), true);
 
 
 		$login->new($user->id, $serial, password_hash($token, PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]));
@@ -111,7 +111,10 @@ class Login
 		/**
 		 * User ID present and IP match, we consider the user logged in.
 		 */
-		if (isset($_SESSION['id_user']) && $_SESSION['remote_ip'] == $_SERVER['REMOTE_ADDR']) return true;
+		if (isset($_SESSION['id_user'], $_SESSION['remote_ip']) && $_SESSION['remote_ip'] == $_SERVER['REMOTE_ADDR']) {
+
+			return true;
+		}
 
 
 		/**
@@ -131,7 +134,7 @@ class Login
 		 * Chances are the user is victim of an xss atack so we log the user out on every device,
 		 * forcing the user to reenter his password to login.
 		 */
-		if (password_verify($_COOKIE['token'], $serial->token)) {
+		if (!password_verify($_COOKIE['token'], $serial->token)) {
 
 			$login->deleteAllByUserID($serial->id_user);
 			return false;
@@ -141,6 +144,9 @@ class Login
 		/**
 		 * Token match user is login.
 		 */
+		$user = new User($database);
+		$_SESSION['username'] = $user->getUsernameByID($serial->id_user);
+		
 		$_SESSION['id_user'] = $serial->id_user;
 		$_SESSION['remote_ip'] = $_SERVER['REMOTE_ADDR'];
 		$_SESSION['cookie_login'] = true;
@@ -151,7 +157,7 @@ class Login
 		 */
 		$token = Helper::randomString(64);
 		$login->updateToken($serial->id, password_hash($token, PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]));
-		setcookie("token", $token, time()+1814400, "/", $config->get('url'), $config->get('cookie_secure'), true);
+		setcookie("token", $token, time()+1814400, "/", "", $config->get('cookie_secure'), true);
 
 		return true;
 	}

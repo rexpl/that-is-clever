@@ -90,6 +90,12 @@ div.link-setting:hover, div.link-setting:active {
 	cursor: pointer;
 }
 
+#nav-home div.home-box {
+	text-align: center;
+	background-color: rgba(217, 4, 4, 0.15);
+	box-shadow: 0 0 5px 5px #d90404;
+}
+
 .clever-box {
 	border-style: solid;
 	border-color: #FFFFFF;

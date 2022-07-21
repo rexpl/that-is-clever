@@ -5,16 +5,16 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 ?><!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8"><title>Clever - <?= t('register_register'); ?></title>
+	<meta charset="utf-8"><title>Clever - <?= t('register_register') ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="icon" type="image/x-icon" href="<?= $config->get('url'); ?>/ressources/img/logo.png">
+	<link rel="icon" type="image/x-icon" href="<?= $config->get('url') ?>/ressources/img/logo.png">
 
-	<link href="<?= $config->get('url'); ?>/ressources/css/login.min.css?v=<?= $config->get('version'); ?>" rel="stylesheet">
+	<link href="<?= $config->get('url') ?>/ressources/css/login.min.css?v=<?= $config->get('version') ?>" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-	<script src="<?= $config->get('url'); ?>/ressources/js/app.min.js?v=<?= $config->get('version'); ?>"></script>
+	<script src="<?= $config->get('url') ?>/ressources/js/app.min.js?v=<?= $config->get('version') ?>"></script>
 
 	<style type="text/css">
 		body {
@@ -36,35 +36,35 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 							</div>
 						</div>
 						<div class="mb-3">
-							<h1>Clever - <?= TEXT['register_register']; ?></h1>
+							<h1>Clever - <?= t('register_register') ?></h1>
 						</div>
 						<div id="fields">
 							<div class="mb-3">
-								<label for="username" class="form-label"><strong><?= TEXT['login_username']; ?>:</strong></label>
+								<label for="username" class="form-label"><strong><?= t('login_username') ?>:</strong></label>
 								<input type="text" autocomplete="username" class="form-control border" name="username" id="username" onfocus="show('message_username');RegisterPage.ValidateUsername();" onfocusout="hide('message_username')" onkeyup="RegisterPage.ValidateUsername();">
 								<div id="message_username" class="mt-1" style="visibility: hidden;"></div>
 							</div>
 							<div class="mb-3">
-								<label for="password" class="form-label"><strong><?= TEXT['login_password']; ?>:</strong></label>
+								<label for="password" class="form-label"><strong><?= t('login_password') ?>:</strong></label>
 								<input type="password" autocomplete="new-password" class="form-control border" name="password" id="password" onfocus="show('message_password');RegisterPage.ValidatePassword();" onfocusout="hide('message_password')" onkeyup="RegisterPage.ValidatePassword();">
 								<div id="message_password" class="mt-1" style="visibility: hidden;"></div>
 							</div>
 							<div class="mb-3">
-								<label for="password_confirm" class="form-label"><strong><?= TEXT['register_confirm_password']; ?>:</strong></label>
+								<label for="password_confirm" class="form-label"><strong><?= t('register_confirm_password'); ?>:</strong></label>
 								<input type="password" autocomplete="new-password" class="form-control border" name="password_confirm" id="password_confirm" onfocus="show('message_password_confirm');RegisterPage.ValidatePasswordConfirm();" onfocusout="hide('message_password_confirm')" onkeyup="RegisterPage.ValidatePasswordConfirm();">
 								<div id="message_password_confirm" class="mt-1" style="visibility: hidden;"></div>
 							</div>
 							<div class="mb-5">
-								<label for="mail" autocomplete="email" class="form-label"><strong><?= TEXT['register_mail']; ?>:</strong></label>
+								<label for="mail" autocomplete="email" class="form-label"><strong><?= t('register_mail') ?>:</strong></label>
 								<input type="email" class="form-control border" name="mail" id="mail">
 							</div>
 						</div>
-						<button type="submit" class="btn btn-black text-white" id="butn_submit"><?= TEXT['register_register']; ?></button>
+						<button type="submit" class="btn btn-black text-white" id="butn_submit"><?= t('register_register') ?></button>
 					</div>
 				</form>
 				<div class="m-3">
 					<div class="mt-5" style="text-align: right;">
-						<?php echo sprintf(TEXT['register_login'], "<a href=\"/login\" class=\"link\">", "</a>"); ?>
+						<?php echo sprintf(t('register_login'), "<a href=\"" . $config->get('url') . "/login\" class=\"link\">", "</a>"); ?>
 					</div>				
 				</div>
 			</div>
@@ -85,26 +85,26 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 
 	const text = {
 
-		textRegister: "<?= t('login_login'); ?>",
-		textErrorSomething: "<?= t('register_error_submit'); ?>",
-		textUsernameExist: "<?= t('register_username_match'); ?>",
-		textUsernameNotExist: "<?= t('register_username_no_match'); ?>",
-		textUsernameCharacterMin: "<?= t('register_username_character'); ?>",
-		textUsernameCharacterMax: "<?= t('register_username_character_max'); ?>",
-		textUnexpectedError: "<?= t('unexpected_error'); ?>",
-		textPasswordCharacter: "<?= t('register_character_password'); ?>",
-		textPasswordCharacterValid: "<?= t('register_valid_password'); ?>",
-		textPasswordCharacterLow: "<?= t('register_character_password_low'); ?>",
-		textPasswordCharacterUp: "<?= t('register_character_password_up'); ?>",
-		textPasswordCharacterNum: "<?= t('register_character_password_num'); ?>",
-		textPasswordCharacterSpecial: "<?= t('register_character_password_spe'); ?>",
-		textPasswordCharacterCount: "<?= t('register_character_password_count'); ?>",
-		textPasswordConfirmValid: "<?= t('register_valid_password_confirm'); ?>",
-		textPasswordConfirmNotValid: "<?= t('register_password_no_match'); ?>",
+		textRegister: "<?= t('register_register'); ?>",
+		textErrorSomething: "<?= t('register_error_submit') ?>",
+		textUsernameExist: "<?= t('register_username_match') ?>",
+		textUsernameNotExist: "<?= t('register_username_no_match') ?>",
+		textUsernameCharacterMin: "<?= t('register_username_character') ?>",
+		textUsernameCharacterMax: "<?= t('register_username_character_max') ?>",
+		textUnexpectedError: "<?= t('unexpected_error') ?>",
+		textPasswordCharacter: "<?= t('register_character_password') ?>",
+		textPasswordCharacterValid: "<?= t('register_valid_password') ?>",
+		textPasswordCharacterLow: "<?= t('register_character_password_low') ?>",
+		textPasswordCharacterUp: "<?= t('register_character_password_up') ?>",
+		textPasswordCharacterNum: "<?= t('register_character_password_num') ?>",
+		textPasswordCharacterSpecial: "<?= t('register_character_password_spe') ?>",
+		textPasswordCharacterCount: "<?= t('register_character_password_count') ?>",
+		textPasswordConfirmValid: "<?= t('register_valid_password_confirm') ?>",
+		textPasswordConfirmNotValid: "<?= t('register_password_no_match') ?>",
 		
 	}
 
-	const RegisterPage = new Register("<?= $config->get('url'); ?>",  text);
+	const RegisterPage = new Register("<?= $config->get('url') ?>",  text);
 
 </script>
 </body>

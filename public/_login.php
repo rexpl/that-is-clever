@@ -5,16 +5,16 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 ?><!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8"><title>Clever - <?= t('login_login'); ?></title>
+	<meta charset="utf-8"><title>Clever - <?= t('login_login') ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="icon" type="image/x-icon" href="<?= $config->get('url'); ?>/ressources/img/logo.png">
+	<link rel="icon" type="image/x-icon" href="<?= $config->get('url') ?>/ressources/img/logo.png">
 
-	<link href="<?= $config->get('url'); ?>/ressources/css/login.min.css?v=<?= $config->get('version'); ?>" rel="stylesheet">
+	<link href="<?= $config->get('url') ?>/ressources/css/login.min.css?v=<?= $config->get('version') ?>" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-	<script src="<?= $config->get('url'); ?>/ressources/js/app.min.js?v=<?= $config->get('version'); ?>"></script>
+	<script src="<?= $config->get('url') ?>/ressources/js/app.min.js?v=<?= $config->get('version') ?>"></script>
 
 	<style type="text/css">
 		body {

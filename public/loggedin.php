@@ -1,60 +1,36 @@
 <?php 
 
 require dirname(__DIR__) . '/vendor/autoload.php';
+require dirname(__DIR__) . '/include/views/page.php';
 
-userIsInGame(true);
-
-?><!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"><title>Clever</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-	<link rel="icon" type="image/x-icon" href="/ressources/img/logo.png">
-	<link href="/ressources/css/clever.min.css?v=<?= CLEVER_VERSION; ?>" rel="stylesheet">
-</head>
-<body class="bg-dark" style="color: white;">
-	<div class="modal" id="myModal" style="display: none;background-color: rgba(0,0,0,0.5);">
-		<div class="modal-dialog modal-lg modal-dialog-centered">
-			<div class="modal-content">
-				<div class="m-3">
-					<button type="button" class="btn-close float-end" onclick="document.getElementById('myModal').style.display = 'none';"></button>
-				</div>
-				<div class="modal-body mx-auto my-1" style="color: grey!important;">
-					<p class="my-5"><?= TEXT['message_multiplayer']; ?></p>
-				</div>
-				<div class="m-3 mx-auto">
-					<button onclick="document.getElementById('myModal').style.display = 'none';" class="btn btn-secondary"><?= TEXT['game_to_home']; ?></button>
+?>
+	<div class="container pt-5">
+		<div id="nav-home">
+			<div class="clever-box my-3 home-box p-3">
+				<div class="clearfix">
+					<div class="float-start">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg> <?= e($_SESSION['username']) ?>
+					</div>
+					<div class="float-end">
+						<a href="<?= $config->get('url') ?>/settings"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></a>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="container home-margin-top" id="page-home">
-		<div class="mb-5" style="text-align: center;font-family: 'PermanentMarker';">
-			<h1 class="home-display"><img src="/ressources/img/dices-color-l.png" class="home-dice">&ensp;Clever&ensp;<img src="/ressources/img/dices-color-r.png" class="home-dice"></h1>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-				<div class="clever-box my-3 mx-2 home-box" onmouseover="hover_start('img_multi', 'users')" onmouseout="hover_end('img_multi', 'users')" onclick="document.getElementById('myModal').style.display = 'block';">
-					<h2 class="margin-icons"><img id="img_multi" src="/ressources/img/users.svg" class="home-dice">&ensp;<?= TEXT['home_multiplayer']; ?></h2>
+		<div class="row" id="page-home">
+			<div class="col-md-4 my-3">
+				<div class="clever-box home-box h-100 d-flex py-5" onmouseover="hover_start('img_solo', 'user')" onmouseout="hover_end('img_solo', 'user')" onclick="window.location.href = '/pregame/solo'">
+					<h2 class="my-5 py-5 my-auto mx-auto"><img id="img_solo" src="/ressources/img/user.svg" class="home-dice">&ensp;<?= TEXT['home_solo']; ?></h2>
 				</div>
 			</div>
-			<div class="col-md-6">
-				<div class="clever-box my-3 mx-2 home-box" onmouseover="hover_start('img_solo', 'user')" onmouseout="hover_end('img_solo', 'user')" onclick="window.location.href = '/pregame/solo'">
-					<h2 class="margin-icons"><img id="img_solo" src="/ressources/img/user.svg" class="home-dice">&ensp;<?= TEXT['home_solo']; ?></h2>
+			<div class="col-md-4 my-3">
+				<div class="clever-box home-box h-100 d-flex py-5" onmouseover="hover_start('img_multi', 'users')" onmouseout="hover_end('img_multi', 'users')" style="cursor: default;">
+					<h2 class="my-5 py-5 my-auto mx-auto"><img id="img_multi" src="/ressources/img/users.svg" class="home-dice">&ensp;<?= TEXT['home_multiplayer']; ?><span class="badge bg-secondary m-3">Comming soon</span></h2>
 				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-				<div class="clever-box my-3 mx-2 home-box" onmouseover="hover_start('img_frie', 'smile')" onmouseout="hover_end('img_frie', 'smile')" onclick="window.location.href = '/pregame/friend'">
-					<h2 class="margin-icons"><img id="img_frie" src="/ressources/img/smile.svg" class="home-dice">&ensp;<?= TEXT['home_play_friend']; ?></h2>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="clever-box my-3 mx-2 home-box" onmouseover="hover_start('img_sett', 'settings')" onmouseout="hover_end('img_sett', 'settings')" onclick="window.location.href = '/settings'">
-					<h2 class="margin-icons"><img id="img_sett" src="/ressources/img/settings.svg" class="home-dice">&ensp;<?= TEXT['home_settings']; ?></h2>
+			<div class="col-md-4 my-3">
+				<div class="clever-box home-box h-100 d-flex py-5" onmouseover="hover_start('img_frie', 'smile')" onmouseout="hover_end('img_frie', 'smile')" onclick="window.location.href = '/pregame/friend'">
+						<h2 class="my-5 py-5 my-auto mx-auto"><img id="img_frie" src="/ressources/img/smile.svg" class="home-dice">&ensp;<?= TEXT['home_play_friend']; ?></h2>
 				</div>
 			</div>
 		</div>

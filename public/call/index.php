@@ -8,7 +8,7 @@ require dirname(__DIR__, 2) . '/vendor/autoload.php';
 
 
 
-if (strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
+if (!isset($_SERVER['HTTP_X_REQUESTED_WITH'])) {
 
 	header("HTTP/1.0 404 Not Found");
 	die();
@@ -30,10 +30,9 @@ Route::$basepath = "/call/login";
 /**
  * Login
  */
-Route::add("/login" , function() {
+Route::add("/login" , function() use ($database, $config) {
 
-	global $database;
-	return Login::login($database);
+	return Login::login($database, $config);
 
 }, 'post');
 
@@ -49,10 +48,9 @@ Route::add("/username" , function() use ($database) {
 /**
  * Registration
  */
-Route::add("/register" , function() {
+Route::add("/register" , function() use ($database, $config) {
 
-	global $database;
-	return Register::register($database);
+	return Register::register($database, $config);
 
 }, 'post');
 

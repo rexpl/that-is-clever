@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /call/
+Disallow: /ressources/img/
+Disallow: /ressources/game/

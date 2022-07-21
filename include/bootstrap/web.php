@@ -9,6 +9,9 @@ $GLOBALS['database'] = new Database($config);
 global $database;
 
 
+session_start();
+
+
 /**
  * Procedure to verify if the user needs to be login and then if he is logged in.
  */
@@ -18,7 +21,7 @@ if (!$guestURL) {
 
 	if (!Login::verifyLogin($database, $config)) {
 		
-		if (strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
+		if (isset($_SERVER['HTTP_X_REQUESTED_WITH'])) {
 
 			header("HTTP/1.1 401 Unauthorized");
 			die();
@@ -28,7 +31,7 @@ if (!$guestURL) {
 		die();
 	}
 }
-elseif ($guestURL && Login::verifyLogin($database, $config) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
+elseif ($guestURL && Login::verifyLogin($database, $config) && !isset($_SERVER['HTTP_X_REQUESTED_WITH'])) {
 
 	header('Location: '.$config->get('url').'/home');
 	die();

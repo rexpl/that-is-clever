@@ -48,5 +48,18 @@ return [
 	 * MUST BE TRUE IN PRODUCTION
 	 */
 	'cookie_secure' => true,
+
+
+	/**
+	 * Email credentials credentials (mysql)
+	 */
+	'mail_host' => 'smtp.exemple.com',
+	'mail_port' => '587',
+	'mail_encryption' => 'tls',
+	'mail_username' => 'username@exemple.com',
+	'mail_password' => 'secret-password',
+	'mail_from_mail' => 'mail@exemple.com',
+	'mail_from_name' => 'Clever',
+	
 	
 ];

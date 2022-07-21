@@ -21,7 +21,7 @@ class Encryption
 	 */
 	public function __construct($key=null)
 	{
-		if (!$key) $this->encryptionKey = Key::loadFromAsciiSafeString($key);
+		if ($key) $this->encryptionKey = Key::loadFromAsciiSafeString($key);
 	}
 
 
@@ -34,8 +34,9 @@ class Encryption
 	 */
 	public function makeProtectedKey($password) {
 
-		$this->encryptionKey = KeyProtectedByPassword::createRandomPasswordProtectedKey($password);
-		return $this->encryptionKey->saveToAsciiSafeString();
+		$protected_key = KeyProtectedByPassword::createRandomPasswordProtectedKey($password);
+		$this->encryptionKey = $protected_key->unlockKey($password);
+		return $protected_key->saveToAsciiSafeString();
 	}
 
 

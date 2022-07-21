@@ -9,6 +9,7 @@
 	},
 	"require": {
 		"defuse/php-encryption": "^2.3",
-		"workerman/workerman": "^4.0"
+		"workerman/workerman": "^4.0",
+		"phpmailer/phpmailer": "^6.6"
 	}
 }

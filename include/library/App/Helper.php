@@ -21,4 +21,38 @@ class helper
 		}
 		return implode('', $pieces);
 	}
+
+
+	/**
+	 * Validate an email address.
+	 *
+	 * @param string $email
+	 * 
+	 * @return bool
+	 */
+	public static function validEmail($email)
+	{
+		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+			return false;
+		}
+
+		return true;
+	}
+
+
+	/**
+	 * Password strength checker.
+	 *
+	 * @param string $password
+	 * 
+	 * @return bool
+	 */
+	public static function validPassword($password)
+	{
+		if (!preg_match_all('$\S*(?=\S{8,})(?=\S*[a-z])(?=\S*[A-Z])(?=\S*[\d])(?=\S*[\W])\S*$', $password)) {
+			return false;
+		}
+
+		return true;
+	}
 }
