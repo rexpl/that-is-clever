@@ -4,16 +4,23 @@ namespace Clever\Library\App;
 
 class helper
 {
+
 	/**
-	 * Generate random suit of charachters.
+	 * Generate a random string, using a cryptographically secure 
+	 * pseudorandom number generator (random_int)
 	 *
 	 * @param int $length
 	 * 
 	 * @return string
 	 */
-	public static function randomString($length)
+	public static function randomString($length): string
 	{
 		$keyspace = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+		if ($length < 1) {
+			throw new \RangeException("Length must be a positive integer.");
+		}
+
 		$pieces = [];
 		$max = mb_strlen($keyspace, '8bit') - 1;
 		for ($i = 0; $i < $length; ++$i) {

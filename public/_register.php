@@ -3,12 +3,14 @@
 require dirname(__DIR__) . '/vendor/autoload.php';
 
 ?><!DOCTYPE html>
-<html>
+<html lang="<?= lang() ?>">
 <head>
 	<meta charset="utf-8"><title>Clever - <?= t('register_register') ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="icon" type="image/x-icon" href="<?= $config->get('url') ?>/ressources/img/logo.png">
+	<?php hreflang($config); ?>
+
+	<link rel="icon" type="image/x-icon" href="<?= $config->get('url') ?>/ressources/favicon.ico">
 
 	<link href="<?= $config->get('url') ?>/ressources/css/login.min.css?v=<?= $config->get('version') ?>" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -63,12 +65,22 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 					</div>
 				</form>
 				<div class="m-3">
-					<div class="mt-5" style="text-align: right;">
-						<?php echo sprintf(t('register_login'), "<a href=\"" . $config->get('url') . "/login\" class=\"link\">", "</a>"); ?>
-					</div>				
+					<ul class="list-inline mt-5" style="text-align: right;">
+						<li class="list-inline-item"><?php echo sprintf(t('register_login'), "<a href=\"" . $config->get('url') . "/" . lang() . "/login\" class=\"link\">", "</a>"); ?></li>
+					</ul>
+				</div>
+				<div class="m-3">
+					<ul class="list-inline" style="text-align: right;">
+						<li class="list-inline-item"><a class="link" href="<?= $config->get('url') ?>/<?= lang() ?>/">Clever</a></li>
+						<li class="list-inline-item">⋅</li>
+						<li class="list-inline-item"><a class="link" href="<?= $config->get('url') ?>/<?= lang() ?>/login"><?= t('login_login') ?></a>
+						<li class="list-inline-item">⋅</li>
+						<li class="list-inline-item"><a href="<?= $config->get('url') ?>/<?= lang() ?>/reset-password" class="link"><?= t('login_reset_password'); ?></a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
+		<?php require dirname(__DIR__) . '/include/views/language-menu.php'; ?>
 	</div>
 <script type="text/javascript">
 
@@ -105,6 +117,8 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 	}
 
 	const RegisterPage = new Register("<?= $config->get('url') ?>",  text);
+
+	hideLanguageChoiceBannerIfCookie();
 
 </script>
 </body>

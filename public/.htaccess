@@ -4,8 +4,21 @@ RewriteEngine on
 
 RewriteRule ^call/(.*)$ call/index.php [QSA,L]
 
+RewriteRule ^([a-z]{2})/$ index.php?language=$1 [QSA,L]
+
 RewriteRule ^login$ _login.php [QSA,L]
+RewriteRule ^([a-z]{2})/login$ _login.php?language=$1 [QSA,L]
+
 RewriteRule ^register$ _register.php [QSA,L]
+RewriteRule ^([a-z]{2})/register$ _register.php?language=$1 [QSA,L]
+
+RewriteRule ^login$ _login.php [QSA,L]
+RewriteRule ^([a-z]{2})/login$ _login.php?language=$1 [QSA,L]
+
+RewriteRule ^reset-password$ _password_reset.php [QSA,L]
+RewriteRule ^([a-z]{2})/reset-password$ _password_reset.php?language=$1 [QSA,L]
+
+RewriteRule ^password-reset-link$ _password_reset_link.php [QSA,L]
 
 RewriteRule ^home$ loggedin.php [QSA,L]
 RewriteRule ^settings$ _settings.php [QSA,L]

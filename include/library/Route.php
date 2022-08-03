@@ -51,6 +51,6 @@ class Route
 			die();
 		}
 
-		return call_user_func(self::$routes[$method][$uri]);
+		return call_user_func_array(self::$routes[$method][$uri], func_get_args());
 	}
 }

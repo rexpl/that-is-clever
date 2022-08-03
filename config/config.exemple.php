@@ -12,7 +12,7 @@ return [
 	 * Version number will be appended to reload the in browser cached files in public/ressource/...
 	 * Exemple: https://exemple.com/ressources/js/solo.min.js?v=1.5.23
 	 */
-	'version' => 1.0,
+	'version' => '1.0',
 
 
 	/**
@@ -41,6 +41,13 @@ return [
 	 * Bcrypt cost
 	 */
 	'bcrypt' => 12,
+
+
+	/**
+	 * External encryption key
+	 * WARNING: Must only be used to data store outside the server (ex:cookie, mail toekn, ...)
+	 */
+	'ext_key' => 'secret-key',
 
 
 	/**

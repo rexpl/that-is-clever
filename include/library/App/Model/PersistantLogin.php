@@ -48,6 +48,19 @@ class PersistantLogin
 
 
 	/**
+	 * Delete record associated to serial.
+	 *
+	 * @param string $serial
+	 * 
+	 * @return void
+	 */
+	public function deleteBySerial($serial)
+	{
+		$this->db->query("DELETE FROM persistent_login WHERE serial = :serial", ['serial' => $serial]);
+	}
+
+
+	/**
 	 * Delete all record associated to user.
 	 *
 	 * @param int $userID

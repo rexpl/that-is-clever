@@ -62,6 +62,9 @@ class Login
 		}
 
 
+		session_regenerate_id(true);
+
+
 		$crypto = new Encryption();
 		$_SESSION['personnal_key'] = $crypto->unlockKey($user->protected_key, $_POST['password']);
 
@@ -95,6 +98,38 @@ class Login
 		return [
 			"succes" => true,
 		];
+	}
+
+
+	/**
+	 * Log the user out.
+	 *
+	 * @param Clever\Library\App\Database
+	 * @param Clever\Library\App\Config
+	 * @param bool $all
+	 * 
+	 * @return bool
+	 */
+	public static function logout(Database $database, Config $config, $all)
+	{
+		$login = new PersistantLogin($database);
+
+		if ($all) {
+
+			$login->deleteAllByUserID($_SESSION['id_user']);
+		}
+		else {
+
+			$login->deleteBySerial($_COOKIE['serial']);
+		}
+
+		session_destroy();
+		session_regenerate_id(true);
+
+		setcookie("serial", null, 0, "/", "", $config->get('cookie_secure'), true);
+		setcookie("token", null, 0, "/", "", $config->get('cookie_secure'), true);
+
+		return true;
 	}
 
 
@@ -158,6 +193,35 @@ class Login
 		$token = Helper::randomString(64);
 		$login->updateToken($serial->id, password_hash($token, PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]));
 		setcookie("token", $token, time()+1814400, "/", "", $config->get('cookie_secure'), true);
+
+		return true;
+	}
+
+
+	/**
+	 * Verify the password if logged in with cookies.
+	 *
+	 * @param Clever\Library\App\Database
+	 * @param Clever\Library\App\Config
+	 * @param bool $all
+	 * 
+	 * @return bool
+	 */
+	public static function verifyPassword(Database $database, Config $config)
+	{
+		if (empty($_POST['password'])) return false;
+
+		$userDB = new User($database);
+		$user = $userDB->getLoginDataByID($_SESSION['id_user']);
+
+		if (!password_verify($_POST['password'], $user->password)) return false;
+
+		$crypto = new Encryption();
+		$_SESSION['personnal_key'] = $crypto->unlockKey($user->protected_key, $_POST['password']);
+
+		$_SESSION['cookie_login'] = false;
+		
+		session_regenerate_id(true);
 
 		return true;
 	}

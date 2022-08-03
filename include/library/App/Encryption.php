@@ -88,7 +88,7 @@ class Encryption
 		}
 		catch (EnvironmentIsBrokenException $error) {
 
-			return "[ERROR]";
+			return "[Unexpected error (Error: E1007)]";
 		}
 	}
 
@@ -108,7 +108,7 @@ class Encryption
 		}
 		catch (WrongKeyOrModifiedCiphertextException $error) {
 
-			return "[ERROR]";
+			return "[Unexpected error (Error: E1008)]";
 		}
 	}
 }

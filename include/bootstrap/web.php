@@ -15,11 +15,18 @@ session_start();
 /**
  * Procedure to verify if the user needs to be login and then if he is logged in.
  */
-$guestURL = in_array(parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH), require dirname(__DIR__, 2) . '/config/guest_url.php') ? true : false;
+$isGuestURL = in_array(parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH), require dirname(__DIR__, 2) . '/config/guest_url.php') ? true : false;
 
-if (!$guestURL) {
+//url for guest but also visible for connected users
+$isAllowedGuestURL = in_array(parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH), require dirname(__DIR__, 2) . '/config/guest_url_allowed.php') ? true : false;
 
-	if (!Login::verifyLogin($database, $config)) {
+$isLogin = Login::verifyLogin($database, $config);
+
+$isAjax = isset($_SERVER['HTTP_X_REQUESTED_WITH']) ? true : false;
+
+if (!$isGuestURL) {
+
+	if (!$isLogin) {
 		
 		if (isset($_SERVER['HTTP_X_REQUESTED_WITH'])) {
 
@@ -31,19 +38,30 @@ if (!$guestURL) {
 		die();
 	}
 }
-elseif ($guestURL && Login::verifyLogin($database, $config) && !isset($_SERVER['HTTP_X_REQUESTED_WITH'])) {
+elseif ($isGuestURL && $isLogin && !$isAjax && !$isAllowedGuestURL) {
 
 	header('Location: '.$config->get('url').'/home');
 	die();
 }
 
 
+
 /**
  * Procedure to set the language
  */
+function lang($value='') {
+	
+	static $lang;
+
+	if (!empty($value)) $lang = $value;
+
+	return $lang;
+}
+
 if (isset($_COOKIE['lang']) && in_array($_COOKIE['lang'], $config->get('supported_lang'))) {
 
 	define('TEXT', json_decode(file_get_contents(dirname(__DIR__, 2) . '/lang/' . $_COOKIE['lang'] . '.json'), true));
+	lang($_COOKIE['lang']);
 }
 else {
 
@@ -67,10 +85,38 @@ else {
 
 	}
 
-	$lang = detect_language($config);
+	if (isset($_GET['language'],) && in_array($_GET['language'], $config->get('supported_lang'))) {
+
+		$lang = $_GET['language'];
+	}
+	else {
+
+		$lang = detect_language($config);
+	}
+
 	define('TEXT', json_decode(file_get_contents(dirname(__DIR__, 2) . '/lang/' . $lang . '.json'), true));
 	setcookie("lang", $lang, time()+31556926, "/");
+
+	lang($lang);
 }
+
+/**
+ * The user changed from exemple.com/en/exemple to exemple.com/fr/exemple
+ */
+if (isset($_GET['language'], $_COOKIE['lang']) && $_GET['language'] != $_COOKIE['lang']) {
+
+	if (!in_array($_GET['language'], $config->get('supported_lang'))) {
+
+		header("HTTP/1.0 404 Not Found");
+		die;
+	}
+
+	setcookie("lang", $_GET['language'], time()+31556926, "/");
+
+	header('Location: '.parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH));
+	die;
+}
+
 
 
 /**
@@ -84,5 +130,11 @@ function t($argument) {
 
 	if (isset(TEXT[$argument])) return TEXT[$argument];
 
-	return $argument;
+	return 'translatation.error [' . $argument . ']';
+}
+
+
+if ($isGuestURL) {
+	
+	require 'guest.php';
 }

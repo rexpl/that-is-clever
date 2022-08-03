@@ -19,18 +19,18 @@ require dirname(__DIR__) . '/include/views/page.php';
 		</div>
 		<div class="row" id="page-home">
 			<div class="col-md-4 my-3">
-				<div class="clever-box home-box h-100 d-flex py-5" onmouseover="hover_start('img_solo', 'user')" onmouseout="hover_end('img_solo', 'user')" onclick="window.location.href = '/pregame/solo'">
-					<h2 class="my-5 py-5 my-auto mx-auto"><img id="img_solo" src="/ressources/img/user.svg" class="home-dice">&ensp;<?= TEXT['home_solo']; ?></h2>
+				<div class="clever-box home-box h-100 d-flex py-5" onmouseover="hover_start('img_solo', 'user')" onmouseout="hover_end('img_solo', 'user')" onclick="window.location.href = '<?= $config->get('url') ?>/pregame/solo'">
+					<h2 class="my-5 py-5 my-auto mx-auto"><img id="img_solo" src="<?= $config->get('url') ?>/ressources/img/user.svg" class="home-dice">&ensp;<?= t('home_solo') ?></h2>
 				</div>
 			</div>
 			<div class="col-md-4 my-3">
 				<div class="clever-box home-box h-100 d-flex py-5" onmouseover="hover_start('img_multi', 'users')" onmouseout="hover_end('img_multi', 'users')" style="cursor: default;">
-					<h2 class="my-5 py-5 my-auto mx-auto"><img id="img_multi" src="/ressources/img/users.svg" class="home-dice">&ensp;<?= TEXT['home_multiplayer']; ?><span class="badge bg-secondary m-3">Comming soon</span></h2>
+					<h2 class="my-5 py-5 my-auto mx-auto"><img id="img_multi" src="<?= $config->get('url') ?>/ressources/img/users.svg" class="home-dice">&ensp;<?= t('home_multiplayer') ?><span class="badge bg-secondary m-3">Comming soon</span></h2>
 				</div>
 			</div>
 			<div class="col-md-4 my-3">
-				<div class="clever-box home-box h-100 d-flex py-5" onmouseover="hover_start('img_frie', 'smile')" onmouseout="hover_end('img_frie', 'smile')" onclick="window.location.href = '/pregame/friend'">
-						<h2 class="my-5 py-5 my-auto mx-auto"><img id="img_frie" src="/ressources/img/smile.svg" class="home-dice">&ensp;<?= TEXT['home_play_friend']; ?></h2>
+				<div class="clever-box home-box h-100 d-flex py-5" onmouseover="hover_start('img_frie', 'smile')" onmouseout="hover_end('img_frie', 'smile')" onclick="window.location.href = '<?= $config->get('url') ?>/pregame/friend'">
+						<h2 class="my-5 py-5 my-auto mx-auto"><img id="img_frie" src="<?= $config->get('url') ?>/ressources/img/smile.svg" class="home-dice">&ensp;<?= t('home_play_friend') ?></h2>
 				</div>
 			</div>
 		</div>
