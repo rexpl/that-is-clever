@@ -1,8 +1,8 @@
 <?php
 
-namespace Clever\Library\App\Model;
+namespace Clever\Library\Model;
 
-use Clever\Library\App\Database;
+use Clever\Library\Database;
 
 class PasswordResetMail
 {

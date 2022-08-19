@@ -2,15 +2,21 @@
 
 use Clever\Library\Route;
 
-use Clever\Library\App\Login;
-use Clever\Library\App\Register;
-use Clever\Library\App\Credentials;
+use Clever\Library\Controller\PreGame\Create;
+
+use Clever\Library\Controller\Login\Login;
+use Clever\Library\Controller\Login\Username;
+use Clever\Library\Controller\Login\Register;
+use Clever\Library\Controller\Login\CookieLogin;
+use Clever\Library\Controller\Login\Logout;
+use Clever\Library\Controller\Login\UpdateCredentials;
+use Clever\Library\Controller\Login\ResetPassword;
+
 
 require dirname(__DIR__, 2) . '/vendor/autoload.php';
 
 
 header('X-Robots-Tag: noindex');
-sleep(1);
 
 if (!isset($_SERVER['HTTP_X_REQUESTED_WITH'])) {
 
@@ -19,129 +25,94 @@ if (!isset($_SERVER['HTTP_X_REQUESTED_WITH'])) {
 }
 
 header('Content-Type: application/json; charset=utf-8');
+//sleep(1);
 
 
-Route::add("/call/game/socket_error", function() {
-	return "hello";
+$route = new Route();
+
+
+$route->add("/call/game/socket_error", function() {
+
 });
+
+
+/**
+ * Path from here is /call/pregame/(.*)
+ */
+$route->basepath = "/call/pregame";
+
+
+/**
+ * Create a game
+ */
+$route->add("/create" , [Create::class, 'create']);
 
 
 /**
  * Path from here is /call/login/(.*)
  */
-Route::$basepath = "/call/login";
+$route->basepath = "/call/login";
 
 
 /**
  * Login
  */
-Route::add("/login" , function($database, $config)
-{
-
-	return Login::login($database, $config);
-
-}, 'post');
+$route->add("/login" , [Login::class, 'login'], 'post');
 
 
 /**
  * Verify if username is already in use at registration
  */
-Route::add("/username" , function($database)
-{
-
-	return Register::username($database, trim($_GET['username']));
-
-});
+$route->add("/username" , [Username::class, 'usernameExist']);
 
 
 /**
  * Registration
  */
-Route::add("/register" , function($database, $config)
-{
-
-	return Register::register($database, $config);
-
-}, 'post');
+$route->add("/register" , [Register::class, 'register'], 'post');
 
 
 /**
  * See if user is logged in via password or cookies
  */
-Route::add("/cookie" , function()
-{
-
-	if ($_SESSION['cookie_login']) return true;
-	
-	return false;
-});
+$route->add("/cookie" , [CookieLogin::class, 'UserLoginWithCookie']);
 
 
 /**
  * Logout
  */
-Route::add("/logout" , function($database, $config)
-{
-
-	return Login::logout($database, $config, $_GET['all']);
-
-}, 'get');
+$route->add("/logout" , [Logout::class, 'logout']);
 
 
 /**
  * Verify the password if logged in with cookies.
  */
-Route::add("/verifyPassword" , function($database, $config)
-{
-
-	return Login::verifyPassword($database, $config);
-
-}, 'post');
+$route->add("/verifyPassword" , [CookieLogin::class, 'verifyPassword'], 'post');
 
 
 /**
  * Update the email.
  */
-Route::add("/updateEmail" , function($database, $config)
-{
-
-	return Credentials::updateEmail($database, $config);
-
-}, 'post');
+$route->add("/updateEmail" , [UpdateCredentials::class, 'updateEmail'], 'post');
 
 
 /**
  * Update the password.
  */
-Route::add("/updatePassword" , function($database, $config)
-{
-
-	return Credentials::updatePassword($database, $config);
-
-}, 'post');
+$route->add("/updatePassword" , [UpdateCredentials::class, 'updatePassword'], 'post');
 
 
 /**
  * Password reset request.
  */
-Route::add("/reset-password" , function($database, $config)
-{
-
-	return Credentials::passwordMail($database, $config);
-
-}, 'post');
+$route->add("/reset-password" , [ResetPassword::class, 'passwordMail'], 'post');
 
 
 /**
- * Password reset request.
+ * Password reset request (after email).
  */
-Route::add("/reset-password-link" , function($database, $config)
-{
-
-	return Credentials::resetPassword($database, $config);
-
-}, 'post');
+$route->add("/reset-password-link" , [ResetPassword::class, 'passwordReset'], 'post');
 
 
 
-echo json_encode(Route::run($database, $config));
+echo json_encode($route->run($database, $config));

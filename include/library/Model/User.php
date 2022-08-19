@@ -1,9 +1,9 @@
 <?php 
 
-namespace Clever\Library\App\Model;
+namespace Clever\Library\Model;
 
-use Clever\Library\App\Database;
-use Clever\Library\App\Encryption;
+use Clever\Library\Database;
+use Clever\Library\Encryption;
 
 class User
 {

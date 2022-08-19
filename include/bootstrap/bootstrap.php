@@ -1,6 +1,6 @@
 <?php 
 
-use Clever\Library\App\Config;
+use Clever\Library\Config;
 
 $GLOBALS['config'] = new Config(require dirname(__DIR__, 2) . '/config/config.php');
 

@@ -1,10 +1,13 @@
 <?php
 
-namespace Clever\Library\App;
+namespace Clever\Library;
+
+use Error;
 
 class Config
 {
 	private $config;
+
 
 	/**
 	 * Load the config in $config.
@@ -26,7 +29,7 @@ class Config
 	 * 
 	 * @return <string, array>
 	 */
-	function get($argument)
+	public function get($argument)
 	{
 		return $this->config[$argument];
 	}

@@ -1,43 +1,25 @@
 <?php 
 
-namespace Clever\Library\App;
+namespace Clever\Library\Controller\Login;
 
-use Clever\Library\App\Encryption;
-use Clever\Library\App\Config;
-use Clever\Library\App\Database;
-use Clever\Library\App\Helper;
+use Clever\Library\Encryption;
+use Clever\Library\Config;
+use Clever\Library\Database;
+use Clever\Library\Helper;
 
-use Clever\Library\App\Model\User;
+use Clever\Library\Model\User;
 
 class Register
 {
 	/**
-	 * Verify if username already in use. This can be an ajax response.
+	 * Try to register the user.
 	 * 
-	 * @param Clever\Library\App\Database
-	 * @param string
-	 * 
-	 * @return bool
-	 */
-	public static function username(Database $database, $username)
-	{
-		$user = new User($database);
-
-		if (!$user->usernameExist($username)) return false;
-
-		return true;
-	}
-
-
-	/**
-	 * Try to register the user. This an ajax response.
-	 * 
-	 * @param Clever\Library\App\Database
-	 * @param Clever\Library\App\Config
+	 * @param Clever\Library\Database
+	 * @param Clever\Library\Config
 	 * 
 	 * @return array
 	 */
-	public static function register(Database $database, Config $config)
+	public function register(Database $database, Config $config)
 	{
 		if (empty($_POST['username']) || empty($_POST['password']) || empty($_POST['password_confirm']) || empty($_POST['mail'])) {
 
@@ -47,7 +29,9 @@ class Register
 			];
 		}
 
-		if (self::username($database, $_POST['username'])) {
+		$user = new User($database);
+
+		if ($user->usernameExist($_GET['username'])) {
 
 			return [
 				'success' => false,
@@ -71,13 +55,14 @@ class Register
 			];
 		}
 
-		$crypto = new Encryption();
 		$password = password_hash($_POST['password'], PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
 		$mail_hash = password_hash($_POST['mail'], PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
+
+		$crypto = new Encryption();
+		
 		$protected_key = $crypto->makeProtectedKey($_POST['password']);
 		$mail = $crypto->encryptString($_POST['mail']);
 
-		$user = new User($database);
 		$user->createUser($_POST['username'], $password, $mail_hash, $protected_key, $mail);
 
 		return [

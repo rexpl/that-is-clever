@@ -1,7 +1,7 @@
 <?php 
 
-use Clever\Library\App\Encryption;
-use Clever\Library\App\Model\User;
+use Clever\Library\Encryption;
+use Clever\Library\Model\User;
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 

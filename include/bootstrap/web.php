@@ -1,7 +1,7 @@
 <?php
 
-use Clever\Library\App\Database;
-use Clever\Library\App\Login;
+use Clever\Library\Database;
+use Clever\Library\Login;
 
 
 $GLOBALS['database'] = new Database($config);

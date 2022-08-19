@@ -1,33 +1,10 @@
 <?php 
 
-require '/project/clever/vendor/autoload.php';
+require dirname(__DIR__, 2) . '/vendor/autoload.php';
+require dirname(__DIR__, 2) . '/include/views/page.php';
 
-if (!verify_login()) {
-	header('Location: /login');
-	die();
-}
-
-userIsInGame(true);
-
-?><!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"><title>Clever - <?= TEXT['home_play_friend']; ?></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-	<link rel="icon" type="image/x-icon" href="/ressources/favicon.ico">
-	</style>
-	<link href="/ressources/css/clever.min.css?v=<?= CLEVER_VERSION; ?>" rel="stylesheet">
-</head>
-<body class="bg-dark" style="color: white;">
+?>
 	<div class="container home-margin-top" id="pregame-friend">
-		<div class="mb-5" style="text-align: center;font-family: 'PermanentMarker';">
-			<h1 class="home-display" onclick="window.location.href = '/home'"><img src="/ressources/img/dices-color-l.png" class="home-dice">&ensp;Clever&ensp;<img src="/ressources/img/dices-color-r.png" class="home-dice"></h1>
-		</div>
-		<div class="home-margin-top" style="text-align: center;">
-			<h1><?= TEXT['home_play_friend']; ?></h1>
-		</div>
 		<div class="clearfix mt-4" id="button_back">
 			<span class="float-start"><button class="btn btn-secondary" onclick="window.location.href = '/home'"><img src="/ressources/img/arrow-left.svg"></button></span>
 		</div>

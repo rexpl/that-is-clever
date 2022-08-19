@@ -1,7 +1,8 @@
 {
 	"autoload": {
 		"psr-4": {
-			"Clever\\Library\\": "include/library"
+			"Clever\\Library\\": "include/library",
+			"Mexenus\\Database\\": "include/database"
 		},
 		"files": [
 			"include/bootstrap/bootstrap.php"

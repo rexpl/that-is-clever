@@ -1,107 +1,27 @@
 <?php
 
-namespace Clever\Library\App;
+namespace Clever\Library\Controller\Login;
 
-use Clever\Library\App\Encryption;
-use Clever\Library\App\Config;
-use Clever\Library\App\Database;
-use Clever\Library\App\Helper;
-use Clever\Library\App\Mail;
+use Clever\Library\Encryption;
+use Clever\Library\Config;
+use Clever\Library\Database;
+use Clever\Library\Helper;
+use Clever\Library\Mail;
 
-use Clever\Library\App\Model\User;
-use Clever\Library\App\Model\PasswordResetMail;
+use Clever\Library\Model\User;
+use Clever\Library\Model\PasswordResetMail;
 
-class Credentials
+class ResetPassword
 {
-	/**
-	 * Update the email address.
-	 *
-	 * @param Clever\Library\App\Database
-	 * @param Clever\Library\App\Config
-	 * 
-	 * @return array
-	 */
-	public static function updateEmail(Database $database, Config $config)
-	{
-		if ($_SESSION['cookie_login']) {
-
-			return [
-				'success' => false,
-				'message' => 'key',
-			];
-		}
-
-		if (empty($_POST['password']) || empty($_POST['email'])) {
-
-			return [
-				'success' => false,
-				'message' => t('login_fill_fields'),
-			];
-		}
-
-		if (!Helper::validEmail($_POST['email'])) {
-			
-			return [
-				'success' => false,
-				'message' => t('register_no_valid_mail'),
-			];
-		}
-
-		$userDB = new User($database);
-		$user = $userDB->getLoginDataByID($_SESSION['id_user']);
-
-		if (!password_verify($_POST['password'], $user->password)) {
-
-			return [
-				'success' => false,
-				'message' => t('login_failed_attempt'),
-			];
-		}
-
-		$crypto = new Encryption($_SESSION['personnal_key']);
-
-		if ($_POST['email'] == $userDB->getMailByID($crypto, $_SESSION['id_user'])) {
-			
-			return [
-				'success' => false,
-				'message' => t('settings_nochange'),
-			];
-		}
-
-		$mailHash = password_hash($_POST['email'], PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
-		$userDB->updateMailByID($crypto, $mailHash, $_POST['email'], $_SESSION['id_user']);
-
-		return [
-			'success' => true,
-			'message' => t('settings_mail_success'),
-			'new_text' => sprintf(t('settings_mail_message'), e($_POST['email'])),
-		];
-	}
-
-
-	/**
-	 * Update the password.
-	 *
-	 * @param Clever\Library\App\Database
-	 * @param Clever\Library\App\Config
-	 * 
-	 * @return array
-	 */
-	public static function updatePassword(Database $database, Config $config)
-	{
-		
-	}
-
-
 	/**
 	 * Try to request a password reset.
 	 * 
-	 * @param Clever\Library\App\Database
-	 * @param Clever\Library\App\Config
+	 * @param Clever\Library\Database
+	 * @param Clever\Library\Config
 	 * 
 	 * @return array
 	 */
-	public static function passwordMail(Database $database, Config $config)
+	public function passwordMail(Database $database, Config $config)
 	{
 		if (empty($_POST['username']) || empty($_POST['email'])) {
 
@@ -123,7 +43,7 @@ class Credentials
 		}
 
 		$crypto = new Encryption($config->get('ext_key'));
-		$email = $crypto->encryptString($_POST['username']);
+		$email = $crypto->encryptString($_POST['email']);
 		$token = Helper::randomString(64);
 
 		$mail = new PasswordResetMail($database);
@@ -154,7 +74,7 @@ class Credentials
 		$mail->disableAllSerialByUserID($user->id);
 		$mail->newMail($user->id, $serial, password_hash($token, PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]));
 
-		require dirname(__DIR__, 2) .'/views/mail_password_reset.php';
+		require dirname(__DIR__, 3) .'/views/mail_password_reset.php';
 
 		$mail = new Mail($config);
 
@@ -175,12 +95,12 @@ class Credentials
 	/**
 	 * Try to request a password reset.
 	 * 
-	 * @param Clever\Library\App\Database
-	 * @param Clever\Library\App\Config
+	 * @param Clever\Library\Database
+	 * @param Clever\Library\Config
 	 * 
 	 * @return array
 	 */
-	public static function resetPassword(Database $database, Config $config)
+	public function passwordReset(Database $database, Config $config)
 	{
 		if (empty($_POST['password']) || empty($_POST['password_confirm'])) {
 
@@ -253,5 +173,4 @@ class Credentials
 			'username' => $userDB->getUsernameByID($mail->id_user),
 		];
 	}
-
 }

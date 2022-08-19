@@ -1,11 +1,6 @@
 <?php
 
-require '/project/clever/vendor/autoload.php';
-
-if (!verify_login()) {
-	header('Location: /login');
-	die();
-}
+require dirname(__DIR__, 2) . '/vendor/autoload.php';
 
 ?><!DOCTYPE html>
 <html>
@@ -15,7 +10,7 @@ if (!verify_login()) {
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
 	<link rel="icon" type="image/x-icon" href="/ressources/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="/ressources/css/game.min.css?v=<?= CLEVER_VERSION; ?>">
+	<link rel="stylesheet" type="text/css" href="/ressources/css/game.min.css?v=<?= $config->get('version') ?>">
 </head>
 <body class="bg-dark">
 	<div class="modal" id="myModal_end" style="display: none;background-color: rgba(0,0,0,0.75);color: white;z-index: 2;" onclick="window.location.replace('/result/solo');">
@@ -64,6 +59,6 @@ if (!verify_login()) {
 			</div>
 		</div>
 	</div>
-<script type="text/javascript" textRound="<?= TEXT['game_round_js']; ?>" textPoints="<?= TEXT['game_points_js']; ?>" textConnection="<?= TEXT['game_no_connection']; ?>" src="/ressources/js/solo.min.js?v=<?= CLEVER_VERSION; ?>" id="script"></script>
+<script type="text/javascript" textRound="<?= t('game_round_js') ?>" textPoints="<?= t('game_points_js') ?>" textConnection="<?= t('game_no_connection') ?>" wsLink="<?= $config->get('ws_url') ?>?token=<?= $_SESSION['game_token'] ?? '' ?>" src="/ressources/js/solo.min.js?v=<?= $config->get('version') ?>" id="script"></script>
 </body>
 </html>

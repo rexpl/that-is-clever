@@ -1,6 +1,6 @@
 <?php 
 
-namespace Clever\Library\App;
+namespace Clever\Library;
 
 class helper
 {

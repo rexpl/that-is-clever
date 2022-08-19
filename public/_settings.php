@@ -5,7 +5,7 @@ require dirname(__DIR__) . '/include/views/page.php';
 
 ?>
 	<div class="modal" id="myModal" style="display: none;background-color: rgba(0,0,0,0.3);color: grey;">
-		<div class="modal-dialog modal-lg modal-dialog-centered">
+		<div class="modal-dialog modal-lg modal-dialog-centered animate__animated animate__zoomIn">
 			<div class="modal-content">
 				<div class="m-3">
 					<button type="button" class="btn-close float-end" onclick="document.getElementById('myModal').style.display = 'none';"></button>

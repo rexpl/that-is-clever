@@ -1,14 +1,27 @@
 <VirtualHost *:80>
-ServerName example.com
-ServerAdmin admin@example.com
-DocumentRoot /var/www/html/that-is-clever/public
-<Directory /var/www/html/that-is-clever>
-AllowOverride All
-</Directory>
-        ErrorLog /var/www/html/that-is-clever/log/error.log
 
-        LogFormat "%t, %a, %U, %q, %m, %D, %>s, \"%{User-agent}i\", %{Referer}i, %I, %O, %k, %H" clever
-        CustomLog /var/www/html/that-is-clever/log/access.csv clever
+	ServerName example.com
+	ServerAdmin admin@example.com
 
-        CustomLog /var/www/html/that-is-clever/log/access.log combined
+	DocumentRoot /var/www/html/that-is-clever/public
+
+	<Directory /var/www/html/that-is-clever>
+
+		AllowOverride All
+
+	</Directory>
+
+	ErrorLog /var/www/html/that-is-clever/log/error.log
+
+	LogFormat "%{%Y-%m-%d}t %{%T}t, %a, %U, %q, %m, %D, %>s, \"%{User-agent}i\", %{Referer}i, %I, %O, %k, %H" clev>
+	CustomLog /var/www/html/that-is-clever/log/access.csv clever
+
+	CustomLog /var/www/html/that-is-clever/log/access.log combined
+
+	ProxyRequests Off 
+    ProxyPass /wss/  ws://0.0.0.0:8000
+
 </VirtualHost>
+
+ProxyRequests Off 
+      ProxyPass /wss/  ws://example.com:port_no

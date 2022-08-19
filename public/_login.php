@@ -14,6 +14,7 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 
 	<link href="<?= $config->get('url') ?>/ressources/css/login.min.css?v=<?= $config->get('version') ?>" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="<?= $config->get('url') ?>/ressources/js/app.min.js?v=<?= $config->get('version') ?>"></script>
@@ -32,7 +33,7 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 				<form method="post" autocomplete="off" onsubmit="LoginPage.submit();return false;" id="login_form">
 					<div class="m-3">
 						<div class="mobile_dot">
-							<div class="alert alert-dismissible <?= isset($_GET['register']) ? 'alert-success' : '' ?>" id="alert_box" style="<?= isset($_GET['register']) ? '' : 'visibility: hidden;' ?>">
+							<div class="alert alert-dismissible <?= isset($_GET['register']) ? 'alert-success' : '' ?> animate__animated animate__pulse" id="alert_box" style="<?= isset($_GET['register']) ? '' : 'visibility: hidden;' ?>">
 								<button type="button" class="btn-close" onclick="document.getElementById('alert_box').style.visibility='hidden';"></button>
 								<div id="text_alert"><?= isset($_GET['register']) ? t('register_success') : '' ?></div>
 							</div>

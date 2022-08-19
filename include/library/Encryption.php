@@ -1,16 +1,23 @@
 <?php 
 
-namespace Clever\Library\App;
+namespace Clever\Library;
 
 use Defuse\Crypto\Key;
 use Defuse\Crypto\Crypto;
 use Defuse\Crypto\KeyProtectedByPassword;
+
 use Defuse\Crypto\Exception\EnvironmentIsBrokenException;
 use Defuse\Crypto\Exception\WrongKeyOrModifiedCiphertextException;
 
 class Encryption
 {
+	/**
+	 * Defuse\Crypto\Key
+	 * 
+	 * @var Key
+	 */
 	private $encryptionKey;
+
 
 	/**
 	 * If user already login.
@@ -74,7 +81,7 @@ class Encryption
 
 
 	/**
-	 * Encrypt string with the key unlocked in unlockKey().
+	 * Encrypt string with the key.
 	 * 
 	 * @param string $string
 	 * 
@@ -94,7 +101,7 @@ class Encryption
 
 
 	/**
-	 * Decrypt string with the key unlocked in unlockKey().
+	 * Decrypt string with the key.
 	 * 
 	 * @param string $string
 	 * 

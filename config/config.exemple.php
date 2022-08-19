@@ -6,6 +6,12 @@ return [
 	 * Application url
 	 */
 	'url' => 'localhost',
+	
+
+	/**
+	 * Websocket  url
+	 */
+	'ws_url' => 'ws://localhost/wss/',
 
 
 	/**

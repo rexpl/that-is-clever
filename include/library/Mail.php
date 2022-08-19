@@ -1,8 +1,8 @@
 <?php 
 
-namespace Clever\Library\App;
+namespace Clever\Library;
 
-use Clever\Library\App\Config;
+use Clever\Library\Config;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
