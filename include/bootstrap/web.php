@@ -1,10 +1,11 @@
 <?php
 
-use Clever\Library\Database;
+use Mexenus\Database\Database;
+
 use Clever\Library\Login;
 
 
-$GLOBALS['database'] = new Database($config);
+$GLOBALS['database'] = new Database($config->get('db_host'), $config->get('db_name'), $config->get('db_user'), $config->get('db_pass'));
 
 global $database;
 
@@ -16,9 +17,6 @@ session_start();
  * Procedure to verify if the user needs to be login and then if he is logged in.
  */
 $isGuestURL = in_array(parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH), require dirname(__DIR__, 2) . '/config/guest_url.php') ? true : false;
-
-//url for guest but also visible for connected users
-$isAllowedGuestURL = in_array(parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH), require dirname(__DIR__, 2) . '/config/guest_url_allowed.php') ? true : false;
 
 $isLogin = Login::verifyLogin($database, $config);
 
@@ -38,7 +36,7 @@ if (!$isGuestURL) {
 		die();
 	}
 }
-elseif ($isGuestURL && $isLogin && !$isAjax && !$isAllowedGuestURL) {
+elseif ($isGuestURL && $isLogin && !$isAjax) {
 
 	header('Location: '.$config->get('url').'/home');
 	die();
