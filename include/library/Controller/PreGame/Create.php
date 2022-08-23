@@ -19,7 +19,7 @@ class Create
 	 * 
 	 * @return callable
 	 */
-	public static function create(Database $database, Config $config)
+	public function create(Database $database, Config $config)
 	{
 		if (!isset($_GET['q']) || !in_array($_GET['q'], ['solo', 'friend'])) {
 
@@ -29,9 +29,9 @@ class Create
 			];
 		}
 
-		if ($_GET['q'] == 'solo') return self::solo($database, $config);
+		if ($_GET['q'] == 'solo') return $this->solo($database, $config);
 
-		return self::friend($database, $config);
+		return $this->friend($database, $config);
 	}
 
 
@@ -42,7 +42,7 @@ class Create
 	 * 
 	 * @return array
 	 */
-	private static function solo(Database $database, Config $config) {
+	private function solo(Database $database, Config $config) {
 
 		$game = new Game($database);
 		$gameID = $game->createGame();
@@ -74,7 +74,7 @@ class Create
 	 * 
 	 * @return array
 	 */
-	private static function friend(Database $database, Config $config) {
+	private function friend(Database $database, Config $config) {
 
 		$game = new Game($database);
 

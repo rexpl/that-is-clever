@@ -21,7 +21,7 @@ class Route
 	 * 
 	 * @return void
 	 */
-	public function add($uri, callable $function, $method = 'get')
+	public function add($uri, $function, $method = 'get')
 	{
 
 		if (!in_array(strtolower($method), ['get', 'post', 'put', 'delete'])) {
@@ -49,6 +49,11 @@ class Route
 
 			header("HTTP/1.0 404 Not Found");
 			die();
+		}
+
+		if (!$this->routes[$method][$uri] instanceof \Closure) {
+
+			$this->routes[$method][$uri][0] = new $this->routes[$method][$uri][0]();
 		}
 
 		return call_user_func_array($this->routes[$method][$uri], func_get_args());
