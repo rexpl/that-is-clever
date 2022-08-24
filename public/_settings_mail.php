@@ -12,8 +12,9 @@ if ($_SESSION['cookie_login']) {
 }
 
 $user = new User($database);
-$crypto = new Encryption($_SESSION['personnal_key']);
+$user = $user->find($_SESSION['id_user']);
 
+$crypto = new Encryption($_SESSION['personnal_key']);
 
 require dirname(__DIR__) . '/include/views/page.php';
 
@@ -36,7 +37,7 @@ require dirname(__DIR__) . '/include/views/page.php';
 							<div id="text_alert">HEy</div>
 						</div>
 					</div>
-					<p id="main_text"><?= sprintf(t('settings_mail_message'), e($user->getMailByID($crypto, $_SESSION['id_user']))) ?></p>
+					<p id="main_text"><?= sprintf(t('settings_mail_message'), e($crypto->decryptString($user->mail))) ?></p>
 					<form method="post" class="mt-4" autocomplete="on" onsubmit="return MailSettingPage.submit();return false;" id="new_mail_form">
 						<div class="mb-3">
 							<label for="mail" class="form-label"><strong><?= t('settings_mail_new') ?>:</strong></label>

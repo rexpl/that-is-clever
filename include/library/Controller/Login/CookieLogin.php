@@ -2,9 +2,10 @@
 
 namespace Clever\Library\Controller\Login;
 
+use Mexenus\Database\Database;
+
 use Clever\Library\Encryption;
 use Clever\Library\Config;
-use Clever\Library\Database;
 
 use Clever\Library\Model\User;
 
@@ -35,8 +36,8 @@ class CookieLogin
 	{
 		if (empty($_POST['password'])) return false;
 
-		$userDB = new User($database);
-		$user = $userDB->getLoginDataByID($_SESSION['id_user']);
+		$user = new User($database);
+		$user = $user->find($_SESSION['id_user']);
 
 		if (!password_verify($_POST['password'], $user->password)) return false;
 

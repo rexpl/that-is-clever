@@ -44,6 +44,18 @@ abstract class QueryBuilder
 	}
 
 
+	public function first()
+	{
+		return $this->execSelect(true);
+	}
+
+
+	public function get()
+	{
+		return $this->execSelect(false);
+	}
+
+
 	/**
 	 * Execute the select statement.
 	 * 
@@ -73,11 +85,9 @@ abstract class QueryBuilder
 	 * 
 	 * @return mixed
 	 */
-	public function exec($firstResultOnly = false)
+	public function execute()
 	{
-		if ($this->query->select) return $this->execSelect($firstResultOnly);
-
-		$this->query->database->query($this->query->query, $this->query->param);
+		return $this->query->database->query($this->query->query, $this->query->param);
 	}
 
 

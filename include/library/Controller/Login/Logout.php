@@ -2,7 +2,8 @@
 
 namespace Clever\Library\Controller\Login;
 
-use Clever\Library\Database;
+use Mexenus\Database\Database;
+
 use Clever\Library\Config;
 
 use Clever\Library\Model\PersistantLogin;
@@ -22,17 +23,16 @@ class Logout
 	{
 		$login = new PersistantLogin($database);
 
-		if ($_GET['all']) {
+		if (isset($_GET['all'])) {
 
-			$login->deleteAllByUserID($_SESSION['id_user']);
+			$login->delete()->where('id_user', $_SESSION['id_user'])->execute();
 		}
 		else {
 
-			$login->deleteBySerial($_COOKIE['serial']);
+			$login->delete()->where('serial', $_COOKIE['serial'])->execute();
 		}
 
 		session_destroy();
-		session_regenerate_id(true);
 
 		setcookie("serial", null, 0, "/", "", $config->get('cookie_secure'), true);
 		setcookie("token", null, 0, "/", "", $config->get('cookie_secure'), true);

@@ -1,104 +1,41 @@
-<?php 
+<?php
 
 namespace Clever\Library\Model;
 
-use Clever\Library\Database;
+use Mexenus\Database\Model;
 
-class PersistantLogin
+class PersistantLogin extends Model
 {
-	private $db;
-
-
 	/**
-	 * @param Clever\Library\App\Database
+	 * Table name. Required.
 	 * 
-	 * @return void
+	 * @var string
 	 */
-	public function __construct(Database $database)
-	{
-		$this->db = $database;
-	}
+	protected $table = 'user_persistant_login';
 
 
 	/**
-	 * Get data to linked to serial.
-	 *
-	 * @param string $serial
+	 * Hidden fields on json_encode(). Default: []
 	 * 
-	 * @return array
+	 * @var array
 	 */
-	public function findSerial($serial)
-	{
-		return $this->db->query("SELECT id, id_user, token FROM persistent_login WHERE serial = :serial", ['serial' => $serial])->fetch();
-	}
+	protected $hidden = [
+		'id',
+		'id_user',
+		'serial',
+		'token',
+	];
 
 
 	/**
-	 * Update the token.
-	 *
-	 * @param int $recordID
-	 * @param string $token
+	 * Verify if the serial exist or not.
 	 * 
-	 * @return void
-	 */
-	public function updateToken($recordID, $token)
-	{
-		$this->db->query("UPDATE persistent_login SET token = :token WHERE id = :id", ['token' => $token, 'id' => $recordID]);
-	}
-
-
-	/**
-	 * Delete record associated to serial.
-	 *
-	 * @param string $serial
-	 * 
-	 * @return void
-	 */
-	public function deleteBySerial($serial)
-	{
-		$this->db->query("DELETE FROM persistent_login WHERE serial = :serial", ['serial' => $serial]);
-	}
-
-
-	/**
-	 * Delete all record associated to user.
-	 *
-	 * @param int $userID
-	 * 
-	 * @return void
-	 */
-	public function deleteAllByUserID($userID)
-	{
-		$this->db->query("DELETE FROM persistent_login WHERE id_user = :id", ['id' => $userID]);
-	}
-
-
-	/**
-	 * look if given serial already exist.
-	 *
 	 * @param string $serial
 	 * 
 	 * @return bool
 	 */
 	public function serialExist($serial)
 	{
-		return $this->db->query("SELECT 1 FROM persistent_login WHERE serial = :serial", ['serial' => $serial])->fetch();
+		return $this->select([1])->where('serial', $serial)->execute()->fetch();
 	}
-
-
-
-	/**
-	 * Insert new login.
-	 * 
-	 * @param int $userID
-	 * @param string $serial
-	 * @param string $token
-	 * 
-	 * @return void
-	 */
-	public function new($userID, $serial, $token)
-	{
-		$this->db->query("INSERT INTO persistent_login (id_user, serial, token) VALUES (:id_user, :serial, :token)", ['id_user' => $userID, 'serial' => $serial, 'token' => $token]);
-	}
-
 }

@@ -2,8 +2,9 @@
 
 namespace Clever\Library;
 
+use Mexenus\Database\Database;
+
 use Clever\Library\Config;
-use Clever\Library\Database;
 use Clever\Library\Helper;
 
 use Clever\Library\Model\User;
@@ -36,10 +37,10 @@ class Login
 		if (!isset($_COOKIE['serial'], $_COOKIE['token'])) return false;
 
 
-		$login = new PersistantLogin($database);
-		$serial = $login->findSerial($_COOKIE['serial']);
+		$loginDB = new PersistantLogin($database);
+		$login = $loginDB->find($_COOKIE['serial'], 'serial');
 
-		if (!$serial) return false;
+		if (!$login) return false;
 
 
 		/**
@@ -47,9 +48,9 @@ class Login
 		 * Chances are the user is victim of an xss atack so we log the user out on every device,
 		 * forcing the user to reenter his password to login.
 		 */
-		if (!password_verify($_COOKIE['token'], $serial->token)) {
+		if (!password_verify($_COOKIE['token'], $login->token)) {
 
-			$login->deleteAllByUserID($serial->id_user);
+			$loginDB->delete()->where('id_user', $login->id_user)->execute();
 			return false;
 		}
 
@@ -58,9 +59,9 @@ class Login
 		 * Token match user is login.
 		 */
 		$user = new User($database);
-		$_SESSION['username'] = $user->getUsernameByID($serial->id_user);
+		$_SESSION['username'] = $user->find($login->id_user)->username;
 		
-		$_SESSION['id_user'] = $serial->id_user;
+		$_SESSION['id_user'] = $login->id_user;
 		$_SESSION['remote_ip'] = $_SERVER['REMOTE_ADDR'];
 		$_SESSION['cookie_login'] = true;
 
@@ -69,7 +70,10 @@ class Login
 		 * We update the token so it can't be reused.
 		 */
 		$token = Helper::randomString(64);
-		$login->updateToken($serial->id, password_hash($token, PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]));
+
+		$login->token = password_hash($token, PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
+		$login->save();
+
 		setcookie("token", $token, time()+1814400, "/", "", $config->get('cookie_secure'), true);
 
 		return true;

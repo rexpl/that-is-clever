@@ -2,9 +2,10 @@
 
 namespace Clever\Library\Controller\Login;
 
+use Mexenus\Database\Database;
+
 use Clever\Library\Encryption;
 use Clever\Library\Config;
-use Clever\Library\Database;
 use Clever\Library\Helper;
 
 use Clever\Library\Model\User;
@@ -35,7 +36,7 @@ class Login
 
 
 		$userDB = new User($database);
-		$user = $userDB->getLoginDataByUsername($_POST['username']);
+		$user = $userDB->find($_POST['username'], '= BINARY', 'username');
 
 
 		/**
@@ -53,12 +54,20 @@ class Login
 
 		if (!password_verify($_POST['password'], $user->password)) {
 
-			$userDB ->incrementFailedLoginCountByID($user->id);
+			$user->failed_login_count++;
+			$user->save();
 			
 			return [
 				"succes" => false,
 				"message" => t('login_failed_attempt'),
 			];
+		}
+
+
+		if ($user->failed_login_count > 0) {
+			
+			$user->failed_login_count = 0;
+			$user->save();
 		}
 
 
@@ -79,21 +88,24 @@ class Login
 		 */
 		$login = new PersistantLogin($database);
 
+		$newLogin = $login->new();
+		$newLogin->id_user = $user->id;
+
 		while (true) {
 
 			//serial has to be unique
-			$serial = Helper::randomString(128);
-			if (!$login->serialExist($serial)) break;
+			$newLogin->serial = Helper::randomString(128);
+			if (!$login->serialExist($newLogin->serial)) break;
 		}
 
-		setcookie("serial", $serial, time()+5443200, "/", "", $config->get('cookie_secure'), true);
+		setcookie("serial", $newLogin->serial, time()+5443200, "/", "", $config->get('cookie_secure'), true);
 
 		$token = Helper::randomString(64);
 		setcookie("token", $token, time()+1814400, "/", "", $config->get('cookie_secure'), true);
 
 
-		$login->new($user->id, $serial, password_hash($token, PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]));
-
+		$newLogin->token = password_hash($token, PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
+		$newLogin->save();
 
 		return [
 			"succes" => true,

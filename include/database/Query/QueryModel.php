@@ -243,7 +243,7 @@ class QueryModel implements JsonSerializable
 	{
 		if (!$this->isDirty) return;
 
-		$this->update($this->modifiedFields)->where($this->primary, $this->values[$this->primary])->exec();
+		$this->update($this->modifiedFields)->where($this->primary, $this->values[$this->primary])->execute();
 
 		$this->modifiedFields = [];
 		$this->isDirty = false;
@@ -283,7 +283,7 @@ class QueryModel implements JsonSerializable
 	{
 		if ($this->new) return;
 
-		$this->delete()->where($this->primary, $this->values[$this->primary])->exec();
+		$this->delete()->where($this->primary, $this->values[$this->primary])->execute();
 	}
 
 

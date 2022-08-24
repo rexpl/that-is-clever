@@ -41,7 +41,7 @@ class Insert extends QueryBuilder
 			$this->query->query .= ' (' . implode(', ', array_keys($params)) . ') VALUES (:' . implode(', :', array_keys($params)) . ')';
 			$this->query->param = $params;
 			
-			return $this->exec();
+			return $this->execute();
 		}
 
 		$this->query->query .= ' (' . implode(', ', $params) . ') VALUES (:' . implode(', :', $params) . ')';

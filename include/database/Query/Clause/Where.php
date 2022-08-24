@@ -29,7 +29,7 @@ class Where extends QueryBuilder
 	private $operators = [
 		'=', '<', '>', '<=', '>=', '<>', '!=', '<=>',
 		'like', 'like binary', 'not like', '<<', '>>', 'similar to',
-		'not similar to',
+		'not similar to', '= binary'
 	];
 
 

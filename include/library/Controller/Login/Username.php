@@ -2,7 +2,7 @@
 
 namespace Clever\Library\Controller\Login;
 
-use Clever\Library\Database;
+use Mexenus\Database\Database;
 
 use Clever\Library\Model\User;
 

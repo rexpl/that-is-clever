@@ -2,9 +2,10 @@
 
 namespace Clever\Library\Controller\Login;
 
+use Mexenus\Database\Database;
+
 use Clever\Library\Encryption;
 use Clever\Library\Config;
-use Clever\Library\Database;
 use Clever\Library\Helper;
 
 use Clever\Library\Model\User;
@@ -31,7 +32,7 @@ class Register
 
 		$user = new User($database);
 
-		if ($user->usernameExist($_GET['username'])) {
+		if ($user->usernameExist($_POST['username'])) {
 
 			return [
 				'success' => false,
@@ -55,15 +56,18 @@ class Register
 			];
 		}
 
-		$password = password_hash($_POST['password'], PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
-		$mail_hash = password_hash($_POST['mail'], PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
+		$user = $user->new();
+		$user->username = $_POST['username'];
+
+		$user->password = password_hash($_POST['password'], PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
+		$user->mail_hash = password_hash($_POST['mail'], PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
 
 		$crypto = new Encryption();
 		
-		$protected_key = $crypto->makeProtectedKey($_POST['password']);
-		$mail = $crypto->encryptString($_POST['mail']);
+		$user->protected_key = $crypto->makeProtectedKey($_POST['password']);
+		$user->mail = $crypto->encryptString($_POST['mail']);
 
-		$user->createUser($_POST['username'], $password, $mail_hash, $protected_key, $mail);
+		$user->save();
 
 		return [
 			'success' => true,

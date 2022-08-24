@@ -2,9 +2,10 @@
 
 namespace Clever\Library\Controller\Login;
 
+use Mexenus\Database\Database;
+
 use Clever\Library\Encryption;
 use Clever\Library\Config;
-use Clever\Library\Database;
 use Clever\Library\Helper;
 use Clever\Library\Mail;
 
@@ -31,8 +32,8 @@ class ResetPassword
 			];
 		}
 
-		$userDB = new User($database);
-		$user = $userDB->getMailHashByUsername($_POST['username']);
+		$user = new User($database);
+		$user = $user->find($_POST['username'], '= BINARY', 'username');
 
 		if (!$user || !password_verify($_POST['email'], $user->mail_hash)) {
 

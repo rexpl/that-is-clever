@@ -63,11 +63,11 @@ abstract class Model
 	 * 
 	 * @param string $name
 	 * 
-	 * @return HELP HELP FILL ME
+	 * @return mixed
 	 */
 	private function findByPrimary($param)
 	{
-		return $this->select()->where($this->primary, $param)->exec(true);
+		return $this->select()->where($this->primary, $param)->first();
 	}
 
 
@@ -77,11 +77,13 @@ abstract class Model
 	 * @param mixed $param
 	 * @param string $column
 	 * 
-	 * @return HELP HELP FILL ME
+	 * @return mixed
 	 */
-	private function findByColumn($param, $column)
+	private function findByColumn($param, $operatorORcolumn, $column)
 	{
-		return $this->select()->where($column, $param)->exec(true);
+		if (is_null($column)) return $this->select()->where($operatorORcolumn, $param)->first();
+
+		return $this->select()->where($column, $operatorORcolumn, $param)->first();
 	}
 
 
@@ -93,11 +95,11 @@ abstract class Model
 	 * 
 	 * @return mixed
 	 */
-	public function find($param, $column = null)
+	public function find($param, $operatorORcolumn = null, $column = null)
 	{
-		if (is_null($column)) return $this->findByPrimary($param);
+		if (is_null($operatorORcolumn)) return $this->findByPrimary($param);
 
-		return $this->findByColumn($param, $column);
+		return $this->findByColumn($param, $operatorORcolumn, $column);
 	}
 
 
