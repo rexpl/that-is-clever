@@ -25,6 +25,18 @@ class Database
 
 
 	/**
+	 * @var bool
+	 */
+	public $logLastQueryTime = false;
+
+
+	/**
+	 * @var int
+	 */
+	private $lastQuery = null;
+
+
+	/**
 	 * Mysql host.
 	 * 
 	 * @var string
@@ -141,6 +153,8 @@ class Database
 	 */
 	private function statement($sql, $param = null)
 	{
+		if ($this->logLastQueryTime) $this->lastQuery = time();
+
 		if (!$param) return $this->connection->query($sql);
 
 		$req = $this->connection->prepare($sql);
@@ -225,5 +239,37 @@ class Database
 		$this->connectIfNotConnected();
 		
 		return $this->connection;
+	}
+
+
+	/**
+	 * Calculate number of seconds since last query.
+	 * 
+	 * @return mixed
+	 */
+	public function secondsOfInactivity()
+	{ 
+		if (!$this->isConnected || !$this->logLastQueryTime) return false;
+
+		if (!$this->lastQuery) return null;
+
+		return time() - $this->lastQuery;
+	}
+
+
+	/**
+	 * Close the pdo connection without destroying the class.
+	 * The connection will open on the first interaction with this object.
+	 * 
+	 * @return bool
+	 */
+	public function sleep()
+	{
+		if (!$this->isConnected) return false;
+
+		$this->connection = null;
+		$this->isConnected = true;
+
+		return true;
 	}
 }

@@ -70,8 +70,8 @@ else {
 	 * 
 	 * @return string
 	 */
-	function detect_language($config) {
-
+	function detect_language($config)
+	{
 		foreach (preg_split('/[;,]/', $_SERVER['HTTP_ACCEPT_LANGUAGE']) as $sub) {
 
 			if (substr($sub, 0, 2) == 'q=') continue;
@@ -80,7 +80,6 @@ else {
 		}
 
 		return $config->get('default_lang');
-
 	}
 
 	if (isset($_GET['language'],) && in_array($_GET['language'], $config->get('supported_lang'))) {
@@ -124,8 +123,8 @@ if (isset($_GET['language'], $_COOKIE['lang']) && $_GET['language'] != $_COOKIE[
  * 
  * @return string
  */
-function t($argument) {
-
+function t($argument)
+{
 	if (isset(TEXT[$argument])) return TEXT[$argument];
 
 	return 'translatation.error [' . $argument . ']';

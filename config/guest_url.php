@@ -32,8 +32,6 @@ return [
 
 	"/password-reset-link",
 
-	"/call/game/socket_error",
-
 	"/call/login/login",
 	"/call/login/register",
 	"/call/login/username",

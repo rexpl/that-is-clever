@@ -2,100 +2,42 @@
 
 namespace Clever\Library\Model;
 
-use Clever\Library\Database;
+use Mexenus\Database\Model;
 
-class PasswordResetMail
+class PasswordResetMail extends Model
 {
-	private $db;
-
-
 	/**
-	 * @param Clever\Library\App\Database
+	 * Table name. Required.
 	 * 
-	 * @return void
+	 * @var string
 	 */
-	public function __construct(Database $database)
-	{
-		$this->db = $database;
-	}
+	protected $table = 'mail_password_reset';
 
 
 	/**
-	 * Get the last mail data by user ID.
-	 *
-	 * @param int $userID
+	 * Hidden fields on json_encode(). Default: []
 	 * 
-	 * @return array
+	 * @var array
 	 */
-	public function getLastMailByUserID($userID)
-	{
-		return $this->db->query("SELECT send_time FROM mail_password_reset WHERE id_user = :id_user ORDER BY send_time DESC LIMIT 1", ['id_user' => $userID])->fetch();
-	}
+	protected $hidden = [
+		'id',
+		'id_user',
+		'send_time',
+		'serial',
+		'token',
+		'used_time',
+	];
 
 
 	/**
-	 * Get mail data by serial.
-	 *
-	 * @param string $serial
+	 * Verify if the serial exist or not.
 	 * 
-	 * @return array
-	 */
-	public function getMailBySerial($serial)
-	{
-		return $this->db->query("SELECT * FROM mail_password_reset WHERE serial = :serial", ['serial' => $serial])->fetch();
-	}
-
-
-	/**
-	 * Set mail as used by ID.
-	 *
-	 * @param string $serial
-	 * 
-	 * @return array
-	 */
-	public function setMailUsedByID($mailID)
-	{
-		return $this->db->query("UPDATE mail_password_reset SET serial = null, token = null, used_time = now() WHERE id = :mailID", ['mailID' => $mailID]);
-	}
-
-
-	/**
-	 * Get the last mail data by user ID.
-	 *
-	 * @param int $userID
-	 * 
-	 * @return array
-	 */
-	public function disableAllSerialByUserID($userID)
-	{
-		return $this->db->query("UPDATE mail_password_reset SET serial = null, token = null WHERE id_user = :id_user", ['id_user' => $userID]);
-	}
-
-
-	/**
-	 * Add new mail.
-	 * 
-	 * @param int $userID
-	 * @param string $serial
-	 * @param string $token
-	 * 
-	 * @return array
-	 */
-	public function newMail($userID, $serial, $token)
-	{
-		$this->db->query("INSERT INTO mail_password_reset (id_user, serial, token) VALUES (:id_user, :serial, :token)", ['id_user' => $userID, 'serial' => $serial, 'token' => $token]);
-	}
-
-
-	/**
-	 * Look if given serial already exist.
-	 *
 	 * @param string $serial
 	 * 
 	 * @return bool
 	 */
 	public function serialExist($serial)
 	{
-		return $this->db->query("SELECT 1 FROM mail_password_reset WHERE serial = :serial", ['serial' => $serial])->fetch();
+		return $this->select([1])->where('serial', $serial)->execute()->fetch();
 	}
 }

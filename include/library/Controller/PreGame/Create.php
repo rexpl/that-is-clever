@@ -2,7 +2,8 @@
 
 namespace Clever\Library\Controller\PreGame;
 
-use Clever\Library\Database;
+use Mexenus\Database\Database;
+
 use Clever\Library\Config;
 use Clever\Library\Helper;
 use Clever\Library\Encryption;
@@ -15,7 +16,8 @@ class Create
 	/**
 	 * Create game.
 	 * 
-	 * @param Clever\Library\Database
+	 * @param Mexenus\Database\Database
+	 * @param Clever\Library\Config
 	 * 
 	 * @return callable
 	 */
@@ -38,31 +40,39 @@ class Create
 	/**
 	 * Create solo game.
 	 * 
-	 * @param Clever\Library\Database
+	 * @param Mexenus\Database\Database
+	 * @param Clever\Library\Config
 	 * 
 	 * @return array
 	 */
 	private function solo(Database $database, Config $config) {
 
 		$game = new Game($database);
-		$gameID = $game->createGame();
+		$game = $game->new();
 
-		$playerToken = Helper::randomString(128);
+		$game->type = 3;
 
-		$gamePlayers = new GamePlayers($database);
-		$gamePlayers->addPlayer($_SESSION['id_user'], $gameID, $playerToken);
+		$game->save();
 
-		$_SESSION['game_id'] = $gameID;
+		$player = new GamePlayers($database);
+		$player = $player->new();
+
+		$player->id_user = $_SESSION['id_user'];
+		$player->id_game = $game->id;
+		$player->token_player = Helper::randomString(128);
+
+		$player->save();
+
+		$_SESSION['game_id'] = $game->id;
 		$_SESSION['game_type'] = 'solo';
-		$_SESSION['game_token'] = $playerToken;
+		$_SESSION['game_token'] = $player->token_player;
 
 		$crypto = new Encryption($config->get('ext_key'));
 
-		setcookie("game_id", $crypto->encryptString($gameID), time()+300, "/", "", $config->get('cookie_secure'), true);
+		setcookie("game_id", $crypto->encryptString($game->id), time()+100, "/", "", $config->get('cookie_secure'), true);
 
 		return [
 			'success' => true,
-			'gameID' => $gameID,
 		];
 	}
 
@@ -70,39 +80,48 @@ class Create
 	/**
 	 * Create friend game.
 	 * 
-	 * @param Clever\Library\Database
+	 * @param Mexenus\Database\Database
+	 * @param Clever\Library\Config
 	 * 
 	 * @return array
 	 */
 	private function friend(Database $database, Config $config) {
 
-		$game = new Game($database);
+		$gameDB = new Game($database);
+
+		$game = $gameDb->new();
 
 		while (true) {
 
 			//token has to be unique.
-			$token = strtoupper(Helper::randomString(8));
-			if (!$game->tokenExist($token)) break;
+			$game->token = strtoupper(Helper::randomString(8));
+			if (!$gameDB->tokenExist($game->token)) break;
 		}
 
-		$gameID = $game->createGame($token);
+		$game->type = 2;
 
-		$playerToken = Helper::randomString(128);
+		$game->save();
 
-		$gamePlayers = new GamePlayers($database);
-		$gamePlayers->addPlayer($_SESSION['id_user'], $gameID, $playerToken);
+		$player = new GamePlayers($database);
+		$player = $player->new();
 
-		$_SESSION['game_id'] = $gameID;
-		$_SESSION['game_type'] = 'solo';
-		$_SESSION['game_token'] = $playerToken;
+		$player->id_user = $_SESSION['id_user'];
+		$player->id_game = $game->id;
+		$player->token_player = Helper::randomString(128);
+
+		$player->save();
+
+		$_SESSION['game_id'] = $game->id;
+		$_SESSION['game_type'] = 'friend';
+		$_SESSION['game_token'] = $player->token_player;
 
 		$crypto = new Encryption($config->get('ext_key'));
 
-		setcookie("game_id", $crypto->encryptString($gameID), time()+300, "/", "", $config->get('cookie_secure'), true);
+		setcookie("game_id", $crypto->encryptString($game->id), time()+100, "/", "", $config->get('cookie_secure'), true);
 
 		return [
 			'success' => true,
-			'token' => $token,
+			'token' => $game->token,
 		];
 	}
 }

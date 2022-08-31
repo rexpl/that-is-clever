@@ -1,29 +1,28 @@
 <?php
 
-use Mexenus\Database\Database;
-use Mexenus\Database\Models\Game;
+use Workerman\Worker;
+use Workerman\Connection\AsyncTcpConnection;
 
-require 'vendor/autoload.php';
+require '/var/www/html/that-is-clever/vendor/autoload.php';
 
-$database = new Database('localhost', 'clever', 'sammy', 'password');
+$worker = new Worker();
+$worker->onWorkerStart = function () {
+    // Websocket protocol for client.
+    $ws_connection = new AsyncTcpConnection('ws://127.0.0.1:8000');
 
-$game = new Game($database);
+    $ws_connection->onConnect = function ($connection) {
+        echo "Connected.\n";
+    };
+    $ws_connection->onMessage = function ($connection, $data) {
+        echo "Recv: $data\n";
+    };
+    $ws_connection->onError = function ($connection, $code, $msg) {
+        echo "Error: $msg\n";
+    };
+    $ws_connection->onClose = function ($connection) {
+        echo "Connection closed\n";
+    };
+    $ws_connection->connect();
+};
 
-echo PHP_EOL;
-
-$var = $game->find(1);
-
-$var->status = 3;
-
-$var->save();
-
-
-$test = [
-	'id' => 85,
-	'data' => $var,
-];
-
-echo json_encode($var, JSON_PRETTY_PRINT);
-
-echo PHP_EOL;
-echo PHP_EOL;
+Worker::runAll();

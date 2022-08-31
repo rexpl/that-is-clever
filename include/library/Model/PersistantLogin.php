@@ -11,7 +11,7 @@ class PersistantLogin extends Model
 	 * 
 	 * @var string
 	 */
-	protected $table = 'user_persistant_login';
+	protected $table = 'persistent_login';
 
 
 	/**
@@ -24,6 +24,16 @@ class PersistantLogin extends Model
 		'id_user',
 		'serial',
 		'token',
+	];
+
+
+	/**
+	 * Default values for fields. Default: []
+	 * 
+	 * @var array
+	 */
+	protected $default = [
+		'id_user' => null,
 	];
 
 

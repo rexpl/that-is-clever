@@ -25,6 +25,14 @@ abstract class Model
 	{
 		$this->database = $database;
 
+		if (method_exists($this, 'modelConstructor')) {
+
+			$arguments = func_get_args();
+			unset($arguments[0]);
+
+			call_user_func_array([$this, 'modelConstructor'], $arguments);
+		}
+
 		if (!isset($this->table)) {
 
 			trigger_error("No table defined in " . get_class($this) . ".", E_USER_ERROR);

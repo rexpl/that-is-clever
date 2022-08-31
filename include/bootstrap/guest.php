@@ -7,8 +7,8 @@
  * 
  * @return void
  */
- function hreflang($config) {
-
+ function hreflang($config)
+ {
 	$url = $config->get('url');
 	$page = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 

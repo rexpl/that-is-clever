@@ -2,8 +2,9 @@
 
 namespace Clever\Library\Controller\Login;
 
+use Mexenus\Database\Database;
+
 use Clever\Library\Config;
-use Clever\Library\Database;
 use Clever\Library\Encryption;
 use Clever\Library\Helper;
 
@@ -60,8 +61,8 @@ class UpdateCredentials
 			];
 		}
 
-		$userDB = new User($database);
-		$user = $userDB->getLoginDataByID($_SESSION['id_user']);
+		$user = new User($database);
+		$user = $user->find($_SESSION['id_user']);
 
 		if (!password_verify($_POST['password'], $user->password)) {
 
@@ -73,7 +74,7 @@ class UpdateCredentials
 
 		$crypto = new Encryption($_SESSION['personnal_key']);
 
-		if ($_POST['email'] == $userDB->getMailByID($crypto, $_SESSION['id_user'])) {
+		if ($_POST['email'] == $crypto->decryptString($user->mail)) {
 			
 			return [
 				'success' => false,
@@ -81,8 +82,10 @@ class UpdateCredentials
 			];
 		}
 
-		$mailHash = password_hash($_POST['email'], PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
-		$userDB->updateMailByID($crypto, $mailHash, $_POST['email'], $_SESSION['id_user']);
+		$user->mail = $crypto->encryptString($_POST['email']);
+		$user->mail_hash = password_hash($_POST['email'], PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
+
+		$user->save();
 
 		return [
 			'success' => true,

@@ -2,39 +2,24 @@
 
 namespace Clever\Library\Game;
 
-use Clever\Library\Database;
+use Mexenus\Database\Database;
 
 use Workerman\Connection\TcpConnection;
 
 use Clever\Library\Model\User;
 use Clever\Library\Model\PersistantLogin;
-use Clever\Library\Model\Game;
 use Clever\Library\Model\GamePlayers;
+
+use Clever\Library\Game\Gameplay\SoloGame;
 
 class SoloHandler
 {
-	/**
-	 * Clever\Library\Model\User
-	 * 
-	 * @var User
-	 */
-	private $userDB;
-
-
 	/**
 	 * Clever\Library\Model\PersistantLogin
 	 * 
 	 * @var PersistantLogin
 	 */
-	private $persistantLoginDB;
-
-
-	/**
-	 * Clever\Library\Model\Game
-	 * 
-	 * @var Game
-	 */
-	private $gameDB;
+	private $persistantLogin;
 
 
 	/**
@@ -42,7 +27,7 @@ class SoloHandler
 	 * 
 	 * @var GamePlayers
 	 */
-	private $gamePlayersDB;
+	private $gamePlayers;
 
 
 	/**
@@ -52,11 +37,9 @@ class SoloHandler
 	 */
 	public function __construct(Database $database)
 	{
-		$this->userDB = new User($database);
-		$this->persistantLoginDB = new PersistantLogin($database);
+		$this->persistantLogin = new PersistantLogin($database);
 
-		$this->gameDB = new Game($database);
-		$this->gamePlayersDB = new GamePlayers($database);
+		$this->gamePlayers = new GamePlayers($database);
 	}
 
 
@@ -69,23 +52,33 @@ class SoloHandler
 	 * 
 	 * @return bool|array
 	 */
-	public function newConnection(TcpConnection $connection, $gameData)
+	public function newConnection(TcpConnection $connection, $game)
 	{
-		$userData = $this->persistantLoginDB->findSerial($_COOKIE['serial']);
+		$userID = $this->persistantLogin->find($_COOKIE['serial'], 'serial');
 
-		if (!$userData) return false;
+		if (!$userID) {
+			
+			$connection->destroy();
+			return;
+		}
 
-		$playerData = $this->gamePlayersDB->playerDataByIDs($userData->id, $gameData->id);
+		$player = $this->gamePlayers->select()
+			->where('id_user', $userID->id_user)
+			->where('id_game', $game->id)
+			->first();
 
-		if (!$playerData || $playerData->token_player != $_GET['token']) return false;
+		if (!$player || $player->token_player != $_GET['token']) {
 
-		$this->gameDB->inGame($gameData->id);
-		$this->gamePlayersDB->inGame($playerData->id);
+			$connection->destroy();
+			return;
+		}
 
-		$player = new Player($playerData);
+		$game->status = 4;
+		$game->save();
 
-		$game = new SoloGame($player, $gameData);
-		
+		$player->token_player = null;
+		$player->save();
 
+		return new SoloGame($connection, $game, $player);
 	}
 }

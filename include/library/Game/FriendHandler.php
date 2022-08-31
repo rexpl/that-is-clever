@@ -2,7 +2,7 @@
 
 namespace Clever\Library\Game;
 
-use Clever\Library\Database;
+use Mexenus\Database\Database;
 
 use Workerman\Connection\TcpConnection;
 

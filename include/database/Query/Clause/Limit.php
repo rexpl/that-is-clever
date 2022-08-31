@@ -26,11 +26,11 @@ class Limit extends QueryBuilder
 
 		if (is_null($to)) {
 
-			$this->query->query = ' LIMIT ' . $from;
+			$this->query->query .= ' LIMIT ' . $from;
 		}
 		else {
 
-			$this->query->query = ' LIMIT ' . $from . ', ' . $to;
+			$this->query->query .= ' LIMIT ' . $from . ', ' . $to;
 		}
 	}
 }

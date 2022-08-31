@@ -16,6 +16,6 @@ trait LimitMethods
 	 */
 	public function limit($from, $to = null)
 	{
-		return new OrderBy($this->query, $column, $order);
+		return new Limit($this->query, $from, $to);
 	}
 }

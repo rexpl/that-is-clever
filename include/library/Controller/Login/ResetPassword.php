@@ -43,17 +43,17 @@ class ResetPassword
 			];
 		}
 
-		$crypto = new Encryption($config->get('ext_key'));
-		$email = $crypto->encryptString($_POST['email']);
-		$token = Helper::randomString(64);
 
-		$mail = new PasswordResetMail($database);
+		$passwordMail = new PasswordResetMail($database);
 
 		
-		$lastMail = $mail->getLastMailByUserID($user->id);
+		$lastMail = $passwordMail->select(['send_time'])
+			->where('id_user', $user->id)
+			->orderBy('send_time', 'DESC')
+			->limit(1)
+			->first();
 
-
-		if ((time() - strtotime($lastMail->send_time)) < 300) {
+		if ($lastMail && (time() - strtotime($lastMail->send_time)) < 300) {
 
 			return [
 				'success' => false,
@@ -62,18 +62,43 @@ class ResetPassword
 		}
 
 
+		$mail = $passwordMail->new();
+		$mail->id_user = $user->id;
+
+
 		/**
 		 * We save the mail in db.
 		 */
 		while (true) {
 
 			//serial has to be unique
-			$serial = Helper::randomString(64);
-			if (!$mail->serialExist($serial)) break;
+			$mail->serial = Helper::randomString(64);
+			if (!$passwordMail->serialExist($mail->serial)) break;
 		}
 
-		$mail->disableAllSerialByUserID($user->id);
-		$mail->newMail($user->id, $serial, password_hash($token, PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]));
+
+		if ($lastMail) {
+
+			/**
+			 * We disable the previous emails.
+			 */
+			$passwordMail->update(['serial' => null, 'token' => null])
+				->where('id_user', $user->id)
+				->execute();
+		}
+
+
+		$crypto = new Encryption($config->get('ext_key'));
+		/**
+		 * Variables needed in the email:
+		 */
+		$email = $crypto->encryptString($_POST['email']);
+		$token = Helper::randomString(64);
+		$serial = $mail->serial;
+
+		$mail->token = password_hash($token, PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
+
+		$mail->save();
 
 		require dirname(__DIR__, 3) .'/views/mail_password_reset.php';
 
@@ -119,8 +144,8 @@ class ResetPassword
 			];
 		}
 
-		$mailDB = new PasswordResetMail($database);
-		$mail = $mailDB->getMailBySerial($_POST['serial']);
+		$passwordMail = new PasswordResetMail($database);
+		$mail = $passwordMail->find($_POST['serial'], 'serial');
 
 		if (!$mail || (time() - strtotime($mail->send_time)) > 3600 || !password_verify($_POST['token'], $mail->token)) {
 
@@ -149,8 +174,10 @@ class ResetPassword
 		$cryptoExternal = new Encryption($config->get('ext_key'));
 		$email = $cryptoExternal->decryptString($_POST['email']);
 
-		$userDB = new User($database);
-		if (!password_verify($email, $userDB->getMailHashByID($mail->id_user))) {
+		$user = new User($database);
+		$user = $user->find($mail->id_user);
+
+		if (!password_verify($email, $user->mail_hash)) {
 
 			return [
 				'success' => false,
@@ -158,20 +185,21 @@ class ResetPassword
 			];
 		}
 
-		$mailDB->setMailUsedByID($mail->id);
+		$passwordMail->update(['serial' => null, 'token' => null, 'used_time' => date("Y-m-d H:i:s")])
+			->where('id', $mail->id)
+			->execute();
 
 		$cryptoPersonnal = new Encryption();
 
-		$password = password_hash($_POST['password'], PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
-		$protected_key = $cryptoPersonnal->makeProtectedKey($_POST['password']);
-		$mail_hash = password_hash($email, PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
-		$email = $cryptoPersonnal->encryptString($email);
+		$user->password = password_hash($_POST['password'], PASSWORD_BCRYPT, ['cost' => $config->get('bcrypt')]);
+		$user->protected_key = $cryptoPersonnal->makeProtectedKey($_POST['password']);
+		$user->mail = $cryptoPersonnal->encryptString($email);
 
-		$userDB->resetPasswordByID($password, $mail_hash, $protected_key, $email, $mail->id_user);
+		$user->save();
 		
 		return [
 			'success' => true,
-			'username' => $userDB->getUsernameByID($mail->id_user),
+			'username' => $user->username,
 		];
 	}
 }

@@ -89,7 +89,7 @@ class Login
 		$login = new PersistantLogin($database);
 
 		$newLogin = $login->new();
-		$newLogin->id_user = $user->id;
+		$newLogin->id_user = $_SESSION['id_user'];
 
 		while (true) {
 
