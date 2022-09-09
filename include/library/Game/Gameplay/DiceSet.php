@@ -2,7 +2,9 @@
 
 namespace Clever\Library\Game\Gameplay;
 
-class DiceSet
+use JsonSerializable;
+
+class DiceSet implements JsonSerializable
 {
 	/**
 	 * Last dices wich have been thrown.
@@ -203,5 +205,23 @@ class DiceSet
 	public function blue()
 	{
 		return $this->blue + $this->white;
+	}
+
+
+	/**
+	 * Change the behavior of json_encode()
+	 * 
+	 * @return array
+	 */
+	public function jsonSerialize()
+	{
+		return [
+			'lastThrow' => $this->lastThrow,
+			'blue' => $this->blue,
+			'white' => $this->white,
+			'lastPhase' => $this->lastPhase,
+			'used' => $this->used,
+			'saveLastThrow' => $this->saveLastThrow,
+		];
 	}
 }

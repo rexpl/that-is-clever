@@ -108,14 +108,6 @@ class Handler
 	 */
 	public function onWorkerStart()
 	{
-		$this->file = tmpfile();
-		$this->file2 = tmpfile();
-
-		$data = "#!/usr/bin/env php\n" . file_get_contents('/var/www/html/that-is-clever/test.php');
-
-		fwrite($this->file, $data);
-		fwrite($this->file2, $data);
-
 		$this->database = new Database($this->config->get('db_host'), $this->config->get('db_name'), $this->config->get('db_user'), $this->config->get('db_pass'));
 
 		$this->gameDB = new Game($this->database);
@@ -134,8 +126,8 @@ class Handler
 	 */
 	public function onWebSocketConnect(TcpConnection $connection)
 	{
-		if (!$this->timerID) $this->timerID = Timer::add(3600, [$this, 'clearUnusedObjects']);
-
+		if (!$this->timerID) $this->timerID = Timer::add(15, [$this, 'clearUnusedObjects']);
+		
 
 		if (isset($_GET['bot'])) return $this->incomingBotRequest($connection);
 

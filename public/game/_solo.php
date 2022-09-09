@@ -44,9 +44,6 @@ require dirname(__DIR__, 2) . '/vendor/autoload.php';
 						<h1><?= TEXT['game_new_bonus']; ?></h1>
 					</div>
 					<div id="modal_img"></div>
-					<div class="m-3">
-						<button class="btn btn-secondary" onclick="document.getElementById('myModal').style.display = 'none';">OK</button>
-					</div>
 				</div>
 			</div>
 		</div>

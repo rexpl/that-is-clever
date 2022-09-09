@@ -268,7 +268,7 @@ class Database
 		if (!$this->isConnected) return false;
 
 		$this->connection = null;
-		$this->isConnected = true;
+		$this->isConnected = false;
 
 		return true;
 	}

@@ -4,7 +4,9 @@ namespace Clever\Library\Game\Gameplay;
 
 use Workerman\Connection\TcpConnection;
 
-class Player
+use JsonSerializable;
+
+class Player implements JsonSerializable
 {
 	/**
 	 * Connection of the player.
@@ -23,14 +25,6 @@ class Player
 
 
 	/**
-	 * User model to access user data in game.
-	 * 
-	 * @var object
-	 */
-	public $user;
-
-
-	/**
 	 * Contains the user board.
 	 * 
 	 * @var array
@@ -44,14 +38,6 @@ class Player
 	 * @var array
 	 */
 	public $message = [];
-
-
-	/**
-	 * Game instance.
-	 * 
-	 * @var object
-	 */
-	public $game;
 
 
 	/**
@@ -84,6 +70,7 @@ class Player
 
 	/**
 	 * Combinations to get a bonus in blue.
+	 * bonusID => [position needed to get bonus]
 	 * 
 	 * @var array
 	 */
@@ -100,6 +87,7 @@ class Player
 
 	/**
 	 * Combinations to get a bonus in yellow.
+	 * bonusID => [position needed to get bonus]
 	 * 
 	 * @var array
 	 */
@@ -114,6 +102,7 @@ class Player
 
 	/**
 	 * Positions & IDs of the bonuses in green.
+	 * bonusPosition => bonusID
 	 * 
 	 * @var array
 	 */
@@ -128,6 +117,7 @@ class Player
 
 	/**
 	 * Positions & IDs of the bonuses in orange.
+	 * bonusPosition => bonusID
 	 * 
 	 * @var array
 	 */
@@ -146,6 +136,7 @@ class Player
 
 	/**
 	 * Positions & IDs of the bonuses in purple.
+	 * bonusPosition => bonusID
 	 * 
 	 * @var array
 	 */
@@ -159,6 +150,48 @@ class Player
 		9 => 5,
 		10 => 12,
 		11 => 7,
+	];
+
+
+	/**
+	 * How much points each amount values.
+	 * 
+	 * @var array
+	 */
+	private const pointsPerBlueCase = [
+		0 => 0,
+		1 => 1,
+		2 => 2,
+		3 => 4,
+		4 => 7,
+		5 => 11,
+		6 => 16,
+		7 => 22,
+		8 => 29,
+		9 => 37,
+		10 => 46,
+		11 => 56
+	];
+
+
+	/**
+	 * How much points each amount values.
+	 * 
+	 * @var array
+	 */
+	private const pointsPerGreenCase = [
+		0 => 0,
+		1 => 1,
+		2 => 3,
+		3 => 6,
+		4 => 10,
+		5 => 15,
+		6 => 21,
+		7 => 28,
+		8 => 36,
+		9 => 45,
+		10 => 55,
+		11 => 66
 	];
 
 
@@ -235,12 +268,10 @@ class Player
 	{
 		if ($round == 2) {
 
-			$this->board['p1']++;
-			return 7;
+			return $this->applyBonus(7);
 		}
 
-		$this->board['re']++;
-		return 4;
+		return $this->applyBonus(4);
 	}
 
 
@@ -284,13 +315,15 @@ class Player
 	 */
 	private function applyBonus($bonusID)
 	{
+		echo "Bonus with id: $bonusID, detected." . PHP_EOL;
+
 		switch ($bonusID) {
 			case 1:
 			case 9:
 			case 12:
 
 				$valueToAdd = [];
-				$result = $this->applyOrange($this->board['orange_position'] + 1, self::keyByBonusID[$bonusID]);
+				$result = $this->applyOrange($this->board['orange_position'], self::keyByBonusID[$bonusID]);
 				
 			break;
 			case 3:
@@ -307,7 +340,7 @@ class Player
 			break;
 			case 6:
 
-				$result = $this->applyPurple($this->board['purple_position'] + 1, 6);
+				$result = $this->applyPurple($this->board['purple_position'], 6);
 
 			break;
 			case 10:
@@ -323,7 +356,9 @@ class Player
 			break;
 		}
 
-		if (isset($result) && $result) return array_merge($result, [$bonusID]);
+		if (isset($result)) var_dump('applyBonus->$result', $result);
+
+		if (isset($result) && $result) return array_merge([$bonusID], $result['bonus']);
 		
 		return [$bonusID];
 	}
@@ -353,7 +388,7 @@ class Player
 
 	/**
 	 * Loop through array to detect the presence of a bonus on a new position.
-	 * Works only for blue and yellow. Theis method also applies the bonus.
+	 * Works only for blue and yellow. This method also applies the bonus.
 	 * 
 	 * @param array $bonusPositions 
 	 * @param string $color
@@ -382,8 +417,10 @@ class Player
 
 			if ($i != count($value)) continue;
 
-			array_merge($bonus, $this->applyBonus($key));
+			$bonus = array_merge($bonus, $this->applyBonus($key));
 		}
+
+		var_dump('detectBonusOnLine', $bonus);
 
 		return $bonus;
 	}
@@ -453,6 +490,8 @@ class Player
 	private function detectBonusOnPosition(array $keyPairs, $position)
 	{
 		if (!isset($keyPairs[$position])) return [];
+
+		var_dump('detectBonusOnPosition', $keyPairs[$position]);
 
 		return $this->applyBonus($keyPairs[$position]);
 	}
@@ -549,10 +588,10 @@ class Player
 	 * 
 	 * @return mixed
 	 */
-	private function choice(callable $func, $choice, $blue)
+	private function choice($dices, $choice, $blue)
 	{
 		// If dice is not in list of dices no need to continue
-		if (!isset(call_user_func($func)[$choice['dice']])) return false;
+		if (!isset($dices[$choice['dice']])) return false;
 
 		// Make sure chosen color = color dice, except for white
 		if ($choice['dice'] != $choice['color'] && $choice['dice'] != 'white') return false;
@@ -561,7 +600,7 @@ class Player
 
 		return call_user_func_array(
 			[$this, self::colorMethodNames[$choice['color']]],
-			[$choice['position'], call_user_func($func)[$choice['dice']]],
+			[$choice['position'], $dices[$choice['dice']]],
 		);
 	}
 
@@ -574,9 +613,9 @@ class Player
 	 * 
 	 * @return mixed
 	 */
-	public function activeChoice(DiceSet $diceSet, $choice)
+	public function activeChoice(DiceSet $diceSet, array $choice)
 	{
-		return $this->choice([$diceSet, 'activeDices'], $choice, $diceSet->blue());
+		return $this->choice($diceSet->activeDices(), $choice, $diceSet->blue());
 	}
 
 
@@ -588,9 +627,9 @@ class Player
 	 * 
 	 * @return mixed
 	 */
-	public function passiveChoice(DiceSet $diceSet, $choice)
+	public function passiveChoice(DiceSet $diceSet, array $choice)
 	{
-		return $this->choice([$diceSet, 'passiveDices'], $choice, $diceSet->blue());
+		return $this->choice($diceSet->passiveDices(), $choice, $diceSet->blue());
 	}
 
 
@@ -602,7 +641,7 @@ class Player
 	 * 
 	 * @return mixed
 	 */
-	public function bonusChoice($bonusID, $choice)
+	public function bonusChoice($bonusID, array $choice)
 	{
 		$value = [];
 		$blue = null;
@@ -622,6 +661,8 @@ class Player
 				if ($choice['color'] != 'blue') return false;
 
 				$blue = $choice['position'];
+
+				$value['blue'] = true;
 
 			break;
 			case 13:
@@ -648,6 +689,8 @@ class Player
 			break;
 		}
 
+		$choice['dice'] = $choice['color'];
+
 		return $this->choice($value, $choice, $blue);
 	}
 
@@ -660,8 +703,85 @@ class Player
 	 * 
 	 * @return mixed
 	 */
-	public function plusOneChoice(DiceSet $diceSet, $choice)
+	public function plusOneChoice(DiceSet $diceSet, array $choice)
 	{
-		return $this->choice([$diceSet, 'all'], $choice, $diceSet->blue());
+		return $this->choice($diceSet->all(), $choice, $diceSet->blue());
+	}
+
+
+	/**
+	 * Counts the board points.
+	 * 
+	 * @return array
+	 */
+	public function countPoints()
+	{
+		$blue = count($this->allUsedPosition('blue'));
+		$yellow = $this->allUsedPosition('yellow');
+
+		$points['blue'] = self::pointsPerBlueCase[$blue];
+		$points['yellow'] = 0;
+
+		if (isset($yellow[13], $yellow[12], $yellow[21])) $points['yellow'] += 10;
+		if (isset($yellow[16], $yellow[11], $yellow[23])) $points['yellow'] += 14;
+		if (isset($yellow[15], $yellow[22], $yellow[24])) $points['yellow'] += 16;
+		if (isset($yellow[25], $yellow[14], $yellow[26])) $points['yellow'] += 20;
+
+		$points['green'] = self::pointsPerGreenCase[$this->board['green']];
+
+		$points['orange'] = array_sum($this->board['orange']);
+		$points['purple'] = array_sum($this->board['purple']);
+
+		$points['fox'] = min($points) * $this->board['fox'];
+
+		$points['total'] = array_sum($points);
+
+		return $points;
+	}
+
+
+	/**
+	 * End the game.
+	 * 
+	 * @return void
+	 */
+	public function endGame($abandon = false)
+	{
+		$score = $this->countPoints();
+
+		$this->message = ['finish' => $score];
+		$this->send(true);
+
+		$this->player->status = $abandon ? 0 : 1;
+		$this->player->score = $score['total'];
+		
+		$this->player->data = json_encode([
+			'points' => $score,
+			'board' => $this->board,
+		]);
+
+		$this->player->save();
+
+		$this->connection->onMessage = function() {};
+		$this->connection->onClose = function() {};
+	}
+
+
+	/**
+	 * Change the behavior of json_encode()
+	 * 
+	 * @return array
+	 */
+	public function jsonSerialize()
+	{
+		$message = $this->message;
+
+		if (isset($message['board'])) $message['board'] = '[board]';
+
+		return [
+			'board' => $this->board,
+			'player' => $this->player,
+			'message' => $message,
+		];
 	}
 }
